@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on IOinf</title>
-    <link>https://www.ioinf.com/tags/</link>
+    <link>https://ioinf.com/tags/</link>
     <description>Recent content in Tags on IOinf</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 13 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.ioinf.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ioinf.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活</title>
-      <link>https://www.ioinf.com/tags/%E7%94%9F%E6%B4%BB/</link>
+      <link>https://ioinf.com/tags/%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/tags/%E7%94%9F%E6%B4%BB/</guid>
+      <guid>https://ioinf.com/tags/%E7%94%9F%E6%B4%BB/</guid>
       <description></description>
     </item>
     <item>
       <title>留学</title>
-      <link>https://www.ioinf.com/tags/%E7%95%99%E5%AD%A6/</link>
+      <link>https://ioinf.com/tags/%E7%95%99%E5%AD%A6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/tags/%E7%95%99%E5%AD%A6/</guid>
+      <guid>https://ioinf.com/tags/%E7%95%99%E5%AD%A6/</guid>
       <description></description>
     </item>
   </channel>
