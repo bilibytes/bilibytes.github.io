@@ -1,577 +1,241 @@
-<!doctype html>
-<html lang="en">
-    <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+<!DOCTYPE html>
+<html lang="zh">
 
-<link rel="alternate" type="application/rss+xml" title="RSS Feed for " href="/index.xml" />
-
-<meta name="generator" content="Hugo 0.126.1">
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Bitter&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-<link href="https://www.ioinf.com/css/styles.css" rel="stylesheet">
-
-<title></title>
+<head>
+	<meta name="generator" content="Hugo 0.126.1">
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IOinf - Perosnal Online Archive</title>
+<meta name="title" content="IOinf - Perosnal Online Archive" />
+<meta name="description" content="List of all posts" />
+<meta name="keywords" content="生活,留学," />
 
 
-  
+<meta property="og:url" content="https://www.ioinf.com/">
+  <meta property="og:site_name" content="IOinf - Perosnal Online Archive">
+  <meta property="og:title" content="IOinf - Perosnal Online Archive">
+  <meta property="og:description" content="List of all posts">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="website">
 
 
 
-<meta name="description" content="">
-<meta name="author" content="">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="IOinf - Perosnal Online Archive">
+  <meta name="twitter:description" content="List of all posts">
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Posts" />
-<meta property="og:description" content="" />
-<meta property="og:url" content="https://www.ioinf.com/" />
-<meta property="og:image" content="https://www.ioinf.com/static/open-graph.png">
-<meta property="og:author" content="">
 
 
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="https://www.ioinf.com/">
-<meta property="twitter:url" content="https://www.ioinf.com/">
-<meta name="twitter:title" content="Posts">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://www.ioinf.com/static/open-graph.png">
+  <meta itemprop="name" content="IOinf - Perosnal Online Archive">
+  <meta itemprop="description" content="List of all posts">
+  <meta itemprop="dateModified" content="2024-07-13T00:00:00+00:00">
+  <meta itemprop="wordCount" content="47">
+<meta name="referrer" content="no-referrer-when-downgrade" />
 
-<link rel="icon" type="image/x-icon" href="https://www.ioinf.com/static/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" href="https://www.ioinf.com/index.xml" title="IOinf - Perosnal Online Archive" />
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
 </head>
-    <body>
-        <div class="content">
-            <nav class="blog-navigation">
 
-  <div class="left">
-    
-      <div class="blog-logo">
-        
-        
+<body>
+  <header><a href="/" class="title">
+  <h2>IOinf - Perosnal Online Archive</h2>
+</a>
+<nav><a href="/">Home</a>
 
-        <a href='/' title="">
-          <img src="https://www.ioinf.com/img/logo.png" alt="">
-        </a>
+<a href="/pages/">Pages</a>
 
-      </div>
-    
-      <div class="blog-info">
-          <div class="blog-title">
-            <a href='/' title="">
-              <h1></h1>
-            </a>
-          </div>
-    
-          <div class="blog-description">
-            <a href='/' title="">
-              <h2></h2>
-            </a>
-          </div>
-      </div>
 
-  </div>
-
-  <div class="right">
-
-    <div class="blog-links">
-
-      <ul class="links">
-
-        
-
-          <li class="item page"><a href='/about/' title="About">About</a></li>
-
-        
-        
-        
-
-      </ul>
-
-    </div>
-
-  </div>
-
+<a href="/blog">Blog</a>
 
 </nav>
-            
+</header>
+  <main>
+<p><em>昨天，已经成为历史；明天，仍旧是个谜团；而今天，才是是天赐的礼物。</em></p>
+<p><em>Tomorrow is mystery, but today is a gift, that&rsquo;s why we call it present.</em></p>
+<!-- raw HTML omitted -->
 
 
-
-<div class="index">
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
 
     
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">13 Jul 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>3 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>1401 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-07-13-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-008/">
-          <h1 class="article-title">读博流水账 #008 由AI带来的焦虑 </h2>
-        </a>        
-        
-        <h2 class="article-excerpt">想了这么多，其实还是在暗示自己：要专注于自己的研究领域，不能这山望着那山高。当然，在规划未来研究方向的时候，可以适当向AI领域偏移，或者做一些交叉研究。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">07 Jul 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>2 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>990 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-07-07-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-007/">
-          <h1 class="article-title">读博流水账 #007 慕尼黑一日游 </h2>
-        </a>        
-        
-        <h2 class="article-excerpt">苏黎世周边能去的大城市，而且在4小时车程的大城市好像只有米兰和慕尼黑。米兰我在硕士期间久去过，而慕尼黑一直没有去。于是，这周末就去了慕尼黑一日游。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">30 Jun 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>3 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>1098 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-06-30-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-006/">
-          <h1 class="article-title">读博流水账 #006 回国三亚之旅/ 去北京/ 老去的家人  </h2>
-        </a>        
-        
-        <h2 class="article-excerpt">第一周和爸爸妈妈去了三亚。这次是我们一家三口为数不多的家庭旅行。上一次可能还要追溯到至少10年以前的华山之旅。同时，这也是我自己拿工资之后第一次和家人出去旅行。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">04 Jun 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>3 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>1179 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-06-04-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-005/">
-          <h1 class="article-title">读博流水账 #005 搞好科研，想象力和资源缺一不可 </h2>
-        </a>        
-        
-        <h2 class="article-excerpt">今天看到两篇刚刚投到biorxiv文章，都是关于神经细胞的芯片培养的，感觉对自己冲击比较大。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">31 May 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>3 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>1339 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-05-31-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-004/">
-          <h1 class="article-title">读博流水账 #004 减肥/ 学费涨价/ 喜欢的女明星</h2>
-        </a>        
-        
-        <h2 class="article-excerpt">其实，我自从2015年，也就是上大学之后，都有间隔性的记录体重。仔细看自己的体重变化趋势，基本都是在自己升学、或者焦虑的时候暴涨。但是自己也曾经成功减过两次肥。一次是大一暑假前后，另一次就是刚来瑞士读硕士的那一年。很显然，过去的一年自己还是有很大压力的——实际科研上的，或者是心态情绪上的——这也导致了自己的减肥失败。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">25 May 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>3 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>1353 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-05-25-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-003/">
-          <h1 class="article-title">读博流水账 #003 偷懒的一周/ 买好回国机票了/ 同学陆续博士毕业</h2>
-        </a>        
-        
-        <h2 class="article-excerpt">这周二一大早，我就和教授请假，6月6号到6月29号，半个小时后假期申请就被批准了。之后就是买机票了。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">18 May 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>5 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>2183 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-05-18-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-002/">
-          <h1 class="article-title">读博流水账 #002 论文首投稿/ 准备放假/ 卖二手/ 换成Hugo了</h2>
-        </a>        
-        
-        <h2 class="article-excerpt">5月1号，国内国庆劳动节放假的第一天，也是瑞士的劳动节假期，我还在cleanroom尝试使用干法SF6 release一个三维器件。尝试了一天结果不好后，我决定暂时不要再开展前的工作了，而是转而对已有的成果做一个总结，投一篇小文章出去。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">27 Apr 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>1 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>469 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-04-27-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-001/">
-          <h1 class="article-title">读博流水账 #001 看《死亡笔记》/ Uetliberg Hike</h2>
-        </a>        
-        
-        <h2 class="article-excerpt">这周买了新鲜的菠萝、香蕉和哈密瓜。刷了《死亡笔记》，感觉很过瘾。周末去了Uetliberg徒步，感觉很不错。生活似乎又在渐渐变好起来。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-
-    <article >
-
-      <div class="article-meta">
-        
-    <ul class="article-info">
-        <li class="time" style="">
-            <time class="time">20 Apr 2024</time>
-        </li>
-        <li class="reading-time" style="">
-            <span class="material-icons">timer</span>5 min read
-        </li>
-        <li class="words-count" style="">
-            <span class="material-icons">article</span>2035 words
-        </li>
-    </ul>
-
-    <ul class="article-tags" style="">
-
-        
-            
-                <li>
-                    <a href='/tags/%E7%95%99%E5%AD%A6'>#留学</a>
-                </li>
-            
-                <li>
-                    <a href='/tags/%E7%94%9F%E6%B4%BB'>#生活</a>
-                </li>
-            
-             
-
-    </ul>
-
-</div>
-
-      <div class="article-header">
-        
-        <a href="https://www.ioinf.com/post/2024-04-20-%E8%AF%BB%E5%8D%9A%E6%B5%81%E6%B0%B4%E8%B4%A6-000/">
-          <h1 class="article-title">读博流水账 #000 有了方向，真的很重要 </h2>
-        </a>        
-        
-        <h2 class="article-excerpt">就在两周前，我感觉自己做的器件尽管性能越来越好了，但是不知道这样的器件有什么作用。自己时常会陷入一种迷茫、焦虑、失落的情绪当中。</h2>
-
-      </div>
-      
-      
-    </article>
-    
-    
-    
-</div>
-
-
-
-
-            <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px 'Songti SC'; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">Since 2024 © www.ioinf.com</span></p>
 </body>
-</html>
-
-        </div>
-    </body>
-
-    
 
 </html>
