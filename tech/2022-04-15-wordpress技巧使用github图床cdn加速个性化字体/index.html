@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wordpress技巧：使用Github图床；CDN加速个性化字体 | BiliBytes</title>
+<meta name="title" content="Wordpress技巧：使用Github图床；CDN加速个性化字体" />
+<meta name="description" content="对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。" />
+<meta name="keywords" content="网站," />
+
+
+<meta property="og:url" content="https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/">
+  <meta property="og:site_name" content="BiliBytes">
+  <meta property="og:title" content="Wordpress技巧：使用Github图床；CDN加速个性化字体">
+  <meta property="og:description" content="对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2022-04-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-04-15T00:00:00+00:00">
+    <meta property="article:tag" content="网站">
+
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Wordpress技巧：使用Github图床；CDN加速个性化字体">
+  <meta name="twitter:description" content="对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。">
+
+
+
+
+  <meta itemprop="name" content="Wordpress技巧：使用Github图床；CDN加速个性化字体">
+  <meta itemprop="description" content="对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。">
+  <meta itemprop="datePublished" content="2022-04-15T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2022-04-15T00:00:00+00:00">
+  <meta itemprop="wordCount" content="677">
+  <meta itemprop="keywords" content="网站">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+     
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>BiliBytes</h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/pages/">Pages</a>
+
+
+<a href="/blog">Blog</a>
+
+
+<a href="/writings">Writings</a>
+
+
+<a href="/tech">Tech</a>
+</nav>
+</header>
+  <main>
+
+<content>
+  <h1 id="wordpress技巧使用github图床cdn加速个性化字体">Wordpress技巧：使用Github图床；CDN加速个性化字体</h1>
+<p>对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。</p>
+<p>Github图床：使用PicX工具</p>
+<p>PicX是基于 GitHub API &amp; jsDelivr 开发的具有 CDN 加速功能的图床管理工具。无需下载与安装，网页端在线使用！参考picX的官方介绍文档：<!-- raw HTML omitted --><a href="https://picx-docs.xpoet.cn/tutorial/get-start.html">https://picx-docs.xpoet.cn/tutorial/get-start.html</a><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->1. 首先下载一款自己喜欢的字体，最好是ttf格式。<!-- raw HTML omitted -->例如本网站选择使用飞花宋体。</p>
+<!-- raw HTML omitted -->
+<p><!-- raw HTML omitted -->2.新建一个Github仓库，将下载好的ttf格式文件上传到新建好的仓库中。<!-- raw HTML omitted -->这里推荐使用Github Desktop软件上传文件。上传完成后点击仓库release发布版本，具体操作请参考：<!-- raw HTML omitted --><a href="https://zhuanlan.zhihu.com/p/346643522">https://zhuanlan.zhihu.com/p/346643522</a><!-- raw HTML omitted -->。该步骤完成后，你应该会有一个ttf字体文件的链接,例如：</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>进入Wordpress后台，打开外观-自定义-额外CSS。首先定义个性字体的地址，该地址即为第二步中生成的地址。然后粘贴第三部中得到的代码块，将font-family后的字体名称改为自定义好的名称即可。</p>
+<!-- raw HTML omitted -->
+<p>经过以上步骤后刷新网页，应该就可以看到个性化的字体被应用到了所有文章正文中。值得一提的是，利用同样的操作，也可以对博客标题字体进行自定义。字体的大小，粗细，颜色也可以类比进行设置。</p>
+<p>下图即为本网站重构后的结果。相比系统自带的字体，新的个性化字体让博客典雅了许多。</p>
+<!-- raw HTML omitted -->
+<p> </p>
+
+</content>
+<p>
+  
+  <a href="https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/">#网站</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+    
+</body>
+
+</html>

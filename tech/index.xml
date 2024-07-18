@@ -6,8 +6,15 @@
     <description>Recent content in Teches on BiliBytes</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wordpress技巧：使用Github图床；CDN加速个性化字体</title>
+      <link>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
+      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
+      <description>Wordpress技巧：使用Github图床；CDN加速个性化字体 对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的</description>
+    </item>
     <item>
       <title>使用HTTrack和Github进行网站“硬核备份”</title>
       <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
