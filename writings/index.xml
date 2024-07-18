@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writings on BiliBytes</title>
-    <link>https://www.ioinf.com/writings/</link>
+    <link>https://www.bilibytes.com/writings/</link>
     <description>Recent content in Writings on BiliBytes</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.ioinf.com/writings/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.bilibytes.com/writings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小魔术师</title>
-      <link>https://www.ioinf.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</link>
+      <link>https://www.bilibytes.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</guid>
+      <guid>https://www.bilibytes.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</guid>
       <description>小魔术师 （一） 蓝星危机 “MX911中子星，是恒星坍缩之后，形成的超密度超巨大星体。一旦接近我们，其引力会撕碎蓝星上的万物，我们的文明将会毁于</description>
     </item>
     <item>
       <title>情感芯片</title>
-      <link>https://www.ioinf.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</link>
+      <link>https://www.bilibytes.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</link>
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</guid>
+      <guid>https://www.bilibytes.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</guid>
       <description>情感芯片 随着科技的进步，为机器人添加感情成为了可能。这种新型机器人不仅可以成为人的朋友，谈天说地，无所不能；甚至能成为人的伴侣——这种新型机</description>
     </item>
   </channel>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网站 on BiliBytes</title>
-    <link>https://www.ioinf.com/tags/%E7%BD%91%E7%AB%99/</link>
+    <link>https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/</link>
     <description>Recent content in 网站 on BiliBytes</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 27 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.ioinf.com/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>购得新域名Hao.Ink</title>
-      <link>https://www.ioinf.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</link>
+      <link>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</guid>
+      <guid>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</guid>
       <description>购得新域名Hao.Ink 大概两周前我开始练字，想要建一个网站更新我的练字记录。考虑到常见的域名后缀中“.ink”有墨水的含义，于是就想要注册</description>
     </item>
     <item>
       <title>Wordpress技巧：使用Github图床；CDN加速个性化字体</title>
-      <link>https://www.ioinf.com/blog/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
+      <link>https://www.bilibytes.com/blog/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/blog/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
+      <guid>https://www.bilibytes.com/blog/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
       <description>Wordpress技巧：使用Github图床；CDN加速个性化字体 对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的</description>
     </item>
     <item>
       <title>使用HTTrack和Github进行网站“硬核备份”</title>
-      <link>https://www.ioinf.com/blog/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
+      <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.ioinf.com/blog/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
+      <guid>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
       <description>使用HTTrack和Github进行网站“硬核备份” 网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据</description>
     </item>
   </channel>

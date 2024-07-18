@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teches on BiliBytes</title>
+    <link>https://www.bilibytes.com/tech/</link>
+    <description>Recent content in Teches on BiliBytes</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.bilibytes.com/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用HTTrack和Github进行网站“硬核备份”</title>
+      <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
+      <description>使用HTTrack和Github进行网站“硬核备份” 网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据</description>
+    </item>
+  </channel>
+</rss>
