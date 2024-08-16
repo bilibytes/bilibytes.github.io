@@ -1,73 +1,113 @@
-"use strict";
+/**
+ * Sets up Justified Gallery.
+ */
+if (!!$.prototype.justifiedGallery) {
+  var options = {
+    rowHeight: 140,
+    margins: 4,
+    lastRow: "justify"
+  };
+  $(".article-gallery").justifiedGallery(options);
+}
 
-document.addEventListener('alpine:init', function () {
-  Alpine.store('darkMode', {
-    init: function init() {
-      var _this = this;
-      var isDark = window.localStorage.getItem('hugo-theme-dream-is-dark');
-      if (isDark) {
-        this.on = isDark;
-      } else {
-        this.mql.addEventListener('change', function (event) {
-          _this.on = event.matches ? 'y' : 'n';
-        });
-        this.on = 'auto';
-      }
-      setTimeout(function () {
-        _this.setThemeForUtterances();
-      }, 6000); // Set a bigger timeout to make sure the utterances iframe is loaded.
-    },
-    mql: window.matchMedia('(prefers-color-scheme: dark)'),
-    on: 'n',
-    isDark: function isDark() {
-      return this.on === 'auto' ? this.mql.matches : this.on === 'y';
-    },
-    "class": function _class() {
-      if (this.on === 'auto') {
-        return this.mql.matches ? 'dark' : 'light';
-      } else {
-        return this.on === 'y' ? 'dark' : 'light';
-      }
-    },
-    theme: function theme() {
-      if (this.on === 'auto') {
-        return this.mql.matches ? window.darkTheme : window.lightTheme;
-      } else {
-        return this.on === 'y' ? window.darkTheme : window.lightTheme;
-      }
-    },
-    iconMap: {
-      n: 'sunny',
-      y: 'moon',
-      auto: 'desktop'
-    },
-    icon: function icon() {
-      return this.iconMap[this.on];
-    },
-    toggle: function toggle(status) {
-      this.on = status;
-      if (status === 'auto') {
-        window.localStorage.removeItem('hugo-theme-dream-is-dark');
-      } else {
-        window.localStorage.setItem('hugo-theme-dream-is-dark', status);
-      }
-      this.setThemeForUtterances();
-      this.changeSyntaxHighlightingTheme();
-    },
-    changeSyntaxHighlightingTheme: function changeSyntaxHighlightingTheme() {
-      if (document.querySelector('#dream-single-post-main')) {
-        var customSyntaxHighlightingUrl = this.isDark() ? window.customSyntaxHighlighting.dark : window.customSyntaxHighlighting.light;
-        document.querySelector('link[data-custom-syntax-highlighting]').setAttribute('href', customSyntaxHighlightingUrl);
-      }
-    },
-    setThemeForUtterances: function setThemeForUtterances() {
-      var utterances = document.querySelector('iframe.utterances-frame');
-      if (utterances) {
-        utterances.contentWindow.postMessage({
-          type: 'set-theme',
-          theme: this.isDark() ? 'github-dark' : 'github-light'
-        }, 'https://utteranc.es');
-      }
-    }
+$(document).ready(function() {
+
+  /**
+   * Shows the responsive navigation menu on mobile.
+   */
+  $("#header > #nav > ul > .icon").click(function() {
+    $("#header > #nav > ul").toggleClass("responsive");
   });
+
+
+  /**
+   * Controls the different versions of  the menu in blog post articles 
+   * for Desktop, tablet and mobile.
+   */
+  if ($(".post").length) {
+    var menu = $("#menu");
+    var nav = $("#menu > #nav");
+    var menuIcon = $("#menu-icon, #menu-icon-tablet");
+
+    /**
+     * Display the menu on hi-res laptops and desktops.
+     */
+    if ($(document).width() >= 1440) {
+      menu.css("visibility", "visible");
+      menuIcon.addClass("active");
+    }
+
+    /**
+     * Display the menu if the menu icon is clicked.
+     */
+    menuIcon.click(function() {
+      if (menu.css("visibility") === "hidden") {
+        menu.css("visibility", "visible");
+        menuIcon.addClass("active");
+      } else {
+        menu.css("visibility", "hidden");
+        menuIcon.removeClass("active");
+      }
+      return false;
+    });
+
+    /**
+     * Add a scroll listener to the menu to hide/show the navigation links.
+     */
+    if (menu.length) {
+      $(window).on("scroll", function() {
+        var topDistance = menu.offset().top;
+
+        // hide only the navigation links on desktop
+        if (!nav.is(":visible") && topDistance < 50) {
+          nav.show();
+        } else if (nav.is(":visible") && topDistance > 100) {
+          nav.hide();
+        }
+
+        // on tablet, hide the navigation icon as well and show a "scroll to top
+        // icon" instead
+        if ( ! $( "#menu-icon" ).is(":visible") && topDistance < 50 ) {
+          $("#menu-icon-tablet").show();
+          $("#top-icon-tablet").hide();
+        } else if (! $( "#menu-icon" ).is(":visible") && topDistance > 100) {
+          $("#menu-icon-tablet").hide();
+          $("#top-icon-tablet").show();
+        }
+      });
+    }
+
+    /**
+     * Show mobile navigation menu after scrolling upwards,
+     * hide it again after scrolling downwards.
+     */
+    if ($( "#footer-post").length) {
+      var lastScrollTop = 0;
+      $(window).on("scroll", function() {
+        var topDistance = $(window).scrollTop();
+
+        if (topDistance > lastScrollTop){
+          // downscroll -> show menu
+          $("#footer-post").hide();
+        } else {
+          // upscroll -> hide menu
+          $("#footer-post").show();
+        }
+        lastScrollTop = topDistance;
+
+        // close all submenu"s on scroll
+        $("#nav-footer").hide();
+        $("#toc-footer").hide();
+        $("#share-footer").hide();
+
+        // show a "navigation" icon when close to the top of the page, 
+        // otherwise show a "scroll to the top" icon
+        if (topDistance < 50) {
+          $("#actions-footer > #top").hide();
+        } else if (topDistance > 100) {
+          $("#actions-footer > #top").show();
+        }
+      });
+    }
+  }
 });
