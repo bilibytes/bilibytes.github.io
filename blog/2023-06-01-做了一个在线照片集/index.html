@@ -1,254 +1,24 @@
-<!DOCTYPE html>
-<html lang="zh">
-
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>做了一个在线照片集  | BiliBytes</title>
-<meta name="title" content="做了一个在线照片集 " />
-<meta name="description" content="很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。 但是，忙里偷闲还是应该的，尤其是周末的时候。这不，前几天忍不住买了一台相机，" />
-<meta name="keywords" content="留学,生活," />
-
-
-<meta property="og:url" content="https://www.bilibytes.com/blog/2023-06-01-%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BF%E7%85%A7%E7%89%87%E9%9B%86/">
-  <meta property="og:site_name" content="BiliBytes">
-  <meta property="og:title" content="做了一个在线照片集 ">
-  <meta property="og:description" content="很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。 但是，忙里偷闲还是应该的，尤其是周末的时候。这不，前几天忍不住买了一台相机，">
-  <meta property="og:locale" content="zh">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="blog">
-    <meta property="article:published_time" content="2023-06-01T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-20T00:49:10+02:00">
-    <meta property="article:tag" content="留学">
-    <meta property="article:tag" content="生活">
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="做了一个在线照片集 ">
-  <meta name="twitter:description" content="很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。 但是，忙里偷闲还是应该的，尤其是周末的时候。这不，前几天忍不住买了一台相机，">
-
-
-
-
-  <meta itemprop="name" content="做了一个在线照片集 ">
-  <meta itemprop="description" content="很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。 但是，忙里偷闲还是应该的，尤其是周末的时候。这不，前几天忍不住买了一台相机，">
-  <meta itemprop="datePublished" content="2023-06-01T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-07-20T00:49:10+02:00">
-  <meta itemprop="wordCount" content="344">
-  <meta itemprop="keywords" content="留学,生活">
-<meta name="referrer" content="no-referrer-when-downgrade" />
-
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
-
-  a {
-    color: #3273dc;
-     
-  }
-
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
-
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
-    }
-  }
-
-</style>
-
+	<meta charset="UTF-8">
+	<title>Bili~Bytes~</title>
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" type="text/css" href="https://www.bilibytes.com/css/style.css" />
 </head>
-
 <body>
-  <header><a href="/" class="title">
-  <h2>BiliBytes</h2>
-</a>
-<nav><a href="/">Home</a>
 
-<a href="/pages/">Pages</a>
-
-
-<a href="/blog">Blog</a>
+<h1>
+	<a href="https://www.bilibytes.com/">Bili~Bytes~</a>
+	<label class="last_update">Updated on 2024-08-16 21:28:25</label>
+</h1>
 
 
-<a href="/writings">Writings</a>
-
-
-<a href="/tech">Tech</a>
-</nav>
-</header>
-  <main>
-
-
-<h1>做了一个在线照片集 </h1>
-<p>
-  <i>
-    <time datetime='2023-06-01' pubdate>
-      01 Jun, 2023
-    </time>
-  </i>
-</p>
-
-<content>
-  <p>很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。</p>
+<ol class="timeline">
+	<li class="tl-node">
+		<div class="tl-stamp">2023-06-01 00:00:00</div>
+		<div class="tl-content">做了一个在线照片集 </div>
+			<p>很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。</p>
 <p>但是，忙里偷闲还是应该的，尤其是周末的时候。这不，前几天忍不住买了一台相机，型号松下S5，号称最便宜的全画幅水桶机。</p>
 <p>其实我去年也买过一台相机，性能比较一般，而且对拍照还没什么兴趣，就一直放在角落吃灰了。现在买了一台性能更强大的新相机后，我就迫不及待的拿着新相机在周末四处走走了。</p>
 <p>从照的照片里精选了很多张，做了一个在线照片集，链接已经悄悄藏在博客的侧边栏了哈哈！</p>
@@ -256,32 +26,9 @@
 <p>生活需要一些爱好，那么就继续用相机拍照吧~</p>
 <p>（2023.06.01 苏黎世）</p>
 
-</content>
-<p>
-  
-  <a href="https://www.bilibytes.com/tags/%E7%95%99%E5%AD%A6/">#留学</a>
-  
-  <a href="https://www.bilibytes.com/tags/%E7%94%9F%E6%B4%BB/">#生活</a>
-  
-</p>
-
-  </main>
-  <footer>
+	</li>
+</ol>
 
 
-<font color=gray size=0.5> <u><i>使用Hugo创建<br>最后更新: 2024 Aug 16 20:17:42 CEST </i></u></font>
-
-
-
-
-
-
-
-
-<br> 
-</footer>
-
-    
 </body>
-
 </html>

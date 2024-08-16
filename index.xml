@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BiliBytes</title>
+    <title>Bili~Bytes~</title>
     <link>https://www.bilibytes.com/</link>
-    <description>Recent content on BiliBytes</description>
+    <description>Recent content on Bili~Bytes~</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <atom:link href="https://www.bilibytes.com/index.xml" rel="self" type="application/rss+xml" />
@@ -27,13 +27,6 @@
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2024-07-29-%E7%9C%8B%E5%A5%A5%E8%BF%90%E4%BC%9A%E6%9E%9C%E7%84%B6%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%BE%8E%E5%A5%B3/</guid>
       <description>奥运会果然是四年一度的体育盛会。要不是奥运会，我可能根本不会去看一些项目的比赛。就算是中国的国球乒乓球，我在平常也从来没有看过直播。 所以对于</description>
-    </item>
-    <item>
-      <title>文献总结</title>
-      <link>https://www.bilibytes.com/blog/2024-07-28/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/blog/2024-07-28/</guid>
-      <description>这周超净间的XeF2 etch出了点问题，我的实验有些延后，我也有一些时间阅读文献。 之前在知乎上看到一个做文献总结的“笨办法”——用Word文</description>
     </item>
     <item>
       <title>文献总结的重要性</title>
@@ -708,13 +701,6 @@
       <description>煞有道理的评点，未必隐含着真知；言之凿凿的论据，往往藏着猫腻。真正的说服不是指鼻子的评头品足，应当是自己思想的严谨阐述。 一个人，应当找到属于</description>
     </item>
     <item>
-      <title>Pages</title>
-      <link>https://www.bilibytes.com/pages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/pages/</guid>
-      <description>联系：icecrystals@163.com 旅行足迹 收藏食谱 收藏文字和视频</description>
-    </item>
-    <item>
       <title>友情链接</title>
       <link>https://www.bilibytes.com/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -727,6 +713,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/%E6%94%B6%E8%97%8F%E6%96%87%E5%AD%97%E5%92%8C%E8%A7%86%E9%A2%91/</guid>
       <description>收藏的句子 不断超越别人，你会成为一个优秀的人；不断超越自己，你会变成一个杰出的人。 ——佚名 你患得患失太在意从前又太担心将来。有句话说得好：昨</description>
+    </item>
+    <item>
+      <title>收藏页面</title>
+      <link>https://www.bilibytes.com/pages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.bilibytes.com/pages/</guid>
+      <description>旅行足迹 收藏食谱 收藏文字和视频 联系：icecrystals@163.com</description>
     </item>
     <item>
       <title>旅行</title>
