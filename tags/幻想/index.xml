@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>幻想 on BiliBytes</title>
+    <title>幻想 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E5%B9%BB%E6%83%B3/</link>
-    <description>Recent content in 幻想 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 幻想 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 18 May 2024 13:03:02 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E5%B9%BB%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.bilibytes.com/blog/2022-12-25-%E8%BF%99%E6%98%AF%E5%93%AA%E9%87%8C/</link>
       <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-12-25-%E8%BF%99%E6%98%AF%E5%93%AA%E9%87%8C/</guid>
-      <description>还记得来时的沙漠吗？ 什么是来时的沙漠。 红色的篝火在黑夜中映出两个黑影，一会很小，一会很大。 我们不一直在沙漠里吗？ 我记得我们穿过了一片葱郁的林</description>
+      <description>是啊，这里真的好广阔。抬头就能看到满天的繁星。就是有点冷。四周也满是寂静。</description>
     </item>
   </channel>
 </rss>

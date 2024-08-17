@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>游记 on BiliBytes</title>
+    <title>游记 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E6%B8%B8%E8%AE%B0/</link>
-    <description>Recent content in 游记 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 游记 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 18 Jul 2024 20:58:54 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E6%B8%B8%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://www.bilibytes.com/blog/2018-08-25-%E8%92%99%E5%9F%8E%E7%9A%84%E5%8F%A6%E4%B8%80%E9%9D%A2/</link>
       <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-08-25-%E8%92%99%E5%9F%8E%E7%9A%84%E5%8F%A6%E4%B8%80%E9%9D%A2/</guid>
-      <description>沿木阶缓行十几分钟，穿过几束茂密的树丛，便来到了皇家山顶观景台。这里是皇家山公园的一部分，亦是蒙城的主要景点之一。法兰西的开垦者使蒙城真正开</description>
+      <description>沿木阶缓行十几分钟，穿过几束茂密的树丛，便来到了皇家山顶观景台。这里是皇家山公园的一部分，亦是蒙城的主要景点之一。法兰西的开垦者使蒙城真正开始成为一座大城市，皇家山正是默默注视了几百年的见证者。加上本身并不显眼的海拔，让坐落在城市中央的皇家山与城市融为了一体。山坡上青葱的植被是它的象征，身处城市稍微开阔的角落，你便能望见它的身影。</description>
     </item>
     <item>
       <title>印象重庆</title>
       <link>https://www.bilibytes.com/blog/2017-06-26-%E5%8D%B0%E8%B1%A1%E9%87%8D%E5%BA%86/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-06-26-%E5%8D%B0%E8%B1%A1%E9%87%8D%E5%BA%86/</guid>
-      <description>（1） 火锅 重庆同学告诉我们，“地道的火锅店，总藏在不起眼的小巷里”。得了“真传”的我们，来重庆之前就商量着去某个寻常小巷找寻地道的火锅。但当</description>
+      <description>短短的两天时间，我没有办法对重庆有更加深入的了解，但除了湿热的天气，起伏到令人痛心的地形，我大抵还是非常喜爱这座城市的。就算我生活了5年的西安，我还是“深居简出”，对西安的体会也只是停留在表面——不像随性的一个西安本地妹子对西安可以说是了如执掌；甚至一个来自浙江的“浪子”，也能说出西安哪几家酒吧比较好，那些馆子比较地道——只能停留在“三秦套餐”、兵马俑这样认识的我要说能对重庆有多深的了解未免令人笑话。</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Writings on BiliBytes</title>
+    <title>Writings on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/writings/</link>
-    <description>Recent content in Writings on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Writings on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 28 Jul 2024 02:00:19 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/writings/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>https://www.bilibytes.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</guid>
-      <description>小魔术师 （一） 蓝星危机 “MX911中子星，是恒星坍缩之后，形成的超密度超巨大星体。一旦接近我们，其引力会撕碎蓝星上的万物，我们的文明将会毁于</description>
+      <description>MX911中子星，是恒星坍缩之后，形成的超密度超巨大星体。一旦接近我们，其引力会撕碎蓝星上的万物，我们的文明将会毁于一旦......</description>
     </item>
     <item>
       <title>Z城冬天</title>
       <link>https://www.bilibytes.com/writings/2022-12-31-z%E5%9F%8E%E5%86%AC%E5%A4%A9/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2022-12-31-z%E5%9F%8E%E5%86%AC%E5%A4%A9/</guid>
-      <description>Z城冬天 依旧是Z城的冬天。 远方的钟声，夹杂在时不时的烟火轰鸣声中，似乎变得更加悠长了。就像穿过了一条黑暗的隧道，好不容易站在了出口。 新的一年</description>
+      <description>记得大学时代，我会经常漫步到不远的艺术馆或者是新修建的图书大楼，一驻足就是一下午。但不知道从什么时候，我的生活好像不再那么丰富多彩了。。</description>
     </item>
     <item>
       <title>情感芯片</title>
       <link>https://www.bilibytes.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</link>
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</guid>
-      <description>情感芯片 随着科技的进步，为机器人添加感情成为了可能。这种新型机器人不仅可以成为人的朋友，谈天说地，无所不能；甚至能成为人的伴侣——这种新型机</description>
+      <description>随着科技的进步，为机器人添加感情成为了可能。这种新型机器人不仅可以成为人的朋友，谈天说地，无所不能；甚至能成为人的伴侣——这种新型机器人连外观都和最漂亮的人没有了什么区别。</description>
     </item>
     <item>
       <title>夏天的消失</title>
       <link>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</guid>
-      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。 再次来到这里，我点了一杯最廉价的红茶，悠闲的在藤</description>
+      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。</description>
     </item>
   </channel>
 </rss>

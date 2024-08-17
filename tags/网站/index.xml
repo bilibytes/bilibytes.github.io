@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>网站 on BiliBytes</title>
+    <title>网站 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/</link>
-    <description>Recent content in 网站 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 网站 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 19 Jul 2024 18:35:06 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
@@ -20,28 +20,28 @@
       <link>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</guid>
-      <description>大概两周前我开始练字，想要建一个网站更新我的练字记录。考虑到常见的域名后缀中“.ink”有墨水的含义，于是就想要注册一个&amp;quot;.ink</description>
+      <description>那么接下来我就要用这个新的域名更新我的博客了，主要内容大概就是练字记录和日常分享吧。</description>
     </item>
     <item>
       <title>Wordpress技巧：使用Github图床；CDN加速个性化字体</title>
       <link>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
-      <description>Wordpress技巧：使用Github图床；CDN加速个性化字体 对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的</description>
+      <description>对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。</description>
     </item>
     <item>
       <title>使用HTTrack和Github进行网站“硬核备份”</title>
       <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
-      <description>使用HTTrack和Github进行网站“硬核备份” 网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据</description>
+      <description>网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。</description>
     </item>
     <item>
       <title>这是一个新的起点</title>
       <link>https://www.bilibytes.com/blog/2018-06-11--%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9.md/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-06-11--%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9.md/</guid>
-      <description>现在是2018年6月11日 —— 自我第一次接触网页设计已经一年多了，自我将网站托管到Github Pages, 并使用Jekyll框架已经近两个月。哦对了，</description>
+      <description>但是无论怎样，这个网站总归是上线了。那么，就好好得将其经营下去吧。一段时间，我会将这个网站上的精粹汇总，发布在更加正视的个人主页上，到时也敬请期待。</description>
     </item>
   </channel>
 </rss>

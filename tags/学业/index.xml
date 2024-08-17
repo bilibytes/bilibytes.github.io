@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>学业 on BiliBytes</title>
+    <title>学业 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E5%AD%A6%E4%B8%9A/</link>
-    <description>Recent content in 学业 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 学业 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 18 May 2024 13:04:44 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E5%AD%A6%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.bilibytes.com/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</guid>
-      <description>之前学业忙碌，没怎么考虑回国的事情。昨天晚上，查了查回国的机票。很贵，最便宜的也要将近两万。我不由得又变得有些焦虑，一晚上都没睡好好——要不</description>
+      <description>想到这里，我突然想要给一年后的自己写一封信。一年后的自己，会在哪里，又在干些什么事情呢？这种感觉有点像四年之前在加拿大访学结束前的感觉。那时是自己第一次长时间出国，也是第一次申请季的前夕。面对未来的未知，我有种说不上的感觉。</description>
     </item>
   </channel>
 </rss>

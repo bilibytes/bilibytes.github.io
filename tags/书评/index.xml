@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>书评 on BiliBytes</title>
+    <title>书评 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E4%B9%A6%E8%AF%84/</link>
-    <description>Recent content in 书评 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 书评 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 19 Jul 2024 18:29:45 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E4%B9%A6%E8%AF%84/index.xml" rel="self" type="application/rss+xml" />
@@ -13,63 +13,63 @@
       <link>https://www.bilibytes.com/blog/2019-01-25-%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E5%A6%82%E4%BD%95%E5%90%88%E7%90%86%E7%9A%84%E8%A1%A8%E8%BE%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E9%9C%80%E8%A6%81/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-01-25-%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E5%A6%82%E4%BD%95%E5%90%88%E7%90%86%E7%9A%84%E8%A1%A8%E8%BE%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E9%9C%80%E8%A6%81/</guid>
-      <description>&lt;p&gt;“非暴力沟通”强调人与人之间的沟通要充满爱和理解。它指导着我们转变谈话和聆听的方式。但是在现实中，人们常常难以进行愉悦和高效的交流，甚至因此陷入抱怨和冲突。那么如何有效的和他人进行交流，尤其是表达出自己的需要呢？《非暴力沟通》这本书给出了一种有效的方式。&lt;/p&gt;</description>
+      <description>“非暴力沟通”强调人与人之间的沟通要充满爱和理解。它指导着我们转变谈话和聆听的方式。但是在现实中，人们常常难以进行愉悦和高效的交流，甚至因此陷入抱怨和冲突。那么如何有效的和他人进行交流，尤其是表达出自己的需要呢？《非暴力沟通》这本书给出了一种有效的方式。</description>
     </item>
     <item>
       <title>关于《放学后》</title>
       <link>https://www.bilibytes.com/blog/2018-08-05-%E5%85%B3%E4%BA%8E%E6%94%BE%E5%AD%A6%E5%90%8E/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-08-05-%E5%85%B3%E4%BA%8E%E6%94%BE%E5%AD%A6%E5%90%8E/</guid>
-      <description>在我所读的《东野圭吾作品集》最前面，作者题了一段短短的序，其中极其自我地归结出东野的“四大神作”——《放学后》是其中的最后一本。陆陆续续看完</description>
+      <description>在我所读的《东野圭吾作品集》最前面，作者题了一段短短的序，其中极其自我地归结出东野的“四大神作”——《放学后》是其中的最后一本。陆陆续续看完了很多本东野的著作，要是让我推荐其中一本作为日常的消遣，我会首先推荐《放学后》这部作品。</description>
     </item>
     <item>
       <title>关于《恶意》</title>
       <link>https://www.bilibytes.com/blog/2018-07-27-%E5%85%B3%E4%BA%8E%E6%81%B6%E6%84%8F/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-07-27-%E5%85%B3%E4%BA%8E%E6%81%B6%E6%84%8F/</guid>
-      <description>感谢东野圭吾，总能让我体会到一点内容外的东西：这是我第一次阅读“手记体”式的文章。东野圭吾也让我迷上了真正的“现代文学”，我清晰记得看完《解</description>
+      <description>感谢东野圭吾，总能让我体会到一点内容外的东西：这是我第一次阅读“手记体”式的文章。东野圭吾也让我迷上了真正的“现代文学”，我清晰记得看完《解忧杂货店》后对于那种多线交织的现代写作手法的着迷。</description>
     </item>
     <item>
       <title>关于《江城》</title>
       <link>https://www.bilibytes.com/blog/2018-07-26-%E5%85%B3%E4%BA%8E%E6%B1%9F%E5%9F%8E/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-07-26-%E5%85%B3%E4%BA%8E%E6%B1%9F%E5%9F%8E/</guid>
-      <description>写这篇书记时我只阅读了1/4处左右。虽然文风简洁轻快，又不遗余力的描写着自己所看到的一切，但在我看来依然过于平淡了。初读时对于“外国人独特的</description>
+      <description>掩上书卷，相比一座有声有色的立体城市，作者笔下的涪陵更像是一张水彩画，细节上用色恰如其分，但待不及颜料浸入纸内便干瘪了。如果不是作者外国人的身份，如果不是这本书在海外市场上的热销，这本书应该是很难进入主流的读者圈子的。</description>
     </item>
     <item>
       <title>关于《虚无的十字架》</title>
       <link>https://www.bilibytes.com/blog/2018-07-22-%E5%85%B3%E4%BA%8E%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-07-22-%E5%85%B3%E4%BA%8E%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</guid>
-      <description>“虚无的十字架”到底指的是什么，看完书如果认为“十字架”指的是负担、需要承受的惩罚，那么“虚无”怎么理解呢？这本书大概由三起命案引起，如果说</description>
+      <description>“虚无的十字架”到底指的是什么，看完书如果认为“十字架”指的是负担、需要承受的惩罚，那么“虚无”怎么理解呢？这本书大概由三起命案引起，如果说杀死爱美的罪犯认为死刑“倒也不错”——这个惩罚是“虚无的”，那么另外两起命案的判决（如果有）会是“虚无”的吗？纱织和史也年轻时犯下的罪行，在用不同的方式弥补；花慧父亲为了女儿女婿的幸福生活犯下的罪行，应该会意识到自己可能受到的死刑控诉。这么看来，三起案件中两起里的“十字架”都不是“虚无”的，那么“虚无”的真正含义是什么呢？</description>
     </item>
     <item>
       <title>从《熔炉》到中国社会</title>
       <link>https://www.bilibytes.com/blog/2017-11-25-%E4%BB%8E%E7%86%94%E7%82%89%E5%88%B0%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-11-25-%E4%BB%8E%E7%86%94%E7%82%89%E5%88%B0%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A/</guid>
-      <description>终究逃不出得得失失的小圈子，不断囿于生活中的种种小确幸。回家的地铁上还贪恋一集综艺节目，回首一周无非是沉迷学习，回望暑假则完全宅在了动漫世界</description>
+      <description>终究逃不出得得失失的小圈子，不断囿于生活中的种种小确幸。回家的地铁上还贪恋一集综艺节目，回首一周无非是沉迷学习，回望暑假则完全宅在了动漫世界。阳光下的人看不见阴影，曾经做出的许诺果然被抛之脑后。也许只有在这时才能把握时机深刻反思，纠正一下自己的迂腐和懒散。走向现实，认清前路——这或许是当务之急。</description>
     </item>
     <item>
       <title>关于《天才在左，疯子在右》</title>
       <link>https://www.bilibytes.com/blog/2018-02-02-%E5%85%B3%E4%BA%8E%E5%A4%A9%E6%89%8D%E5%9C%A8%E5%B7%A6%E7%96%AF%E5%AD%90%E5%9C%A8%E5%8F%B3/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-02-02-%E5%85%B3%E4%BA%8E%E5%A4%A9%E6%89%8D%E5%9C%A8%E5%B7%A6%E7%96%AF%E5%AD%90%E5%9C%A8%E5%8F%B3/</guid>
-      <description>如果我告诉你这是一个17岁的少年说出来的话，你会相信吗？如果是一个17岁的精神病患者说出来的呢？ 你也许不会认为一个正常的17岁少年会说出这样</description>
+      <description>你也许不会认为一个正常的17岁少年会说出这样的“胡言乱语”，除非有人不怀好意的整蛊、或是过度沉迷某些科学玄幻作品。但如果他是一个精神患者的话你就会将信将疑——潜意识中你已经将那个少数群体与自己对立，认为他们做出一些难以理解的事情不足为奇。</description>
     </item>
     <item>
       <title>读《我是马拉拉》</title>
       <link>https://www.bilibytes.com/blog/2018-02-02-%E6%88%91%E6%98%AF%E9%A9%AC%E6%8B%89%E6%8B%89/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-02-02-%E6%88%91%E6%98%AF%E9%A9%AC%E6%8B%89%E6%8B%89/</guid>
-      <description>2018-02-02 西安 那年暑假，我拿了三张便利贴，贴在了我的书桌上，上面分别写着“善良”，“智慧”和“勇敢”。 对我来说，这大抵是对一个人的最高评价。一个人始</description>
+      <description>那年暑假，我拿了三张便利贴，贴在了我的书桌上，上面分别写着“善良”，“智慧”和勇敢”。</description>
     </item>
     <item>
       <title>读《泡沫》</title>
       <link>https://www.bilibytes.com/blog/2018-01-09-%E8%AF%BB%E6%B3%A1%E6%B2%AB/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-01-09-%E8%AF%BB%E6%B3%A1%E6%B2%AB/</guid>
-      <description>这是我读的第一部渡边淳一的作品。 舍友看到我读他的作品，发出一阵坏笑。我对渡边并非了解，搜索后才知道舍友坏笑的原因——原来这名作家被称为“情爱</description>
+      <description>舍友看到我读他的作品，发出一阵坏笑。我对渡边并非了解，搜索后才知道舍友坏笑的原因——原来这名作家被称为“情爱大师”。卒读后果然发现这一称号不负其名。</description>
     </item>
   </channel>
 </rss>

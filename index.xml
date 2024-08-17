@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>BiliBytes</title>
+    <title>bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/</link>
-    <description>Recent content on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <atom:link href="https://www.bilibytes.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -124,7 +124,7 @@
       <link>https://www.bilibytes.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2023-12-31-%E5%B0%8F%E9%AD%94%E6%9C%AF%E5%B8%88/</guid>
-      <description>小魔术师 （一） 蓝星危机 “MX911中子星，是恒星坍缩之后，形成的超密度超巨大星体。一旦接近我们，其引力会撕碎蓝星上的万物，我们的文明将会毁于</description>
+      <description>MX911中子星，是恒星坍缩之后，形成的超密度超巨大星体。一旦接近我们，其引力会撕碎蓝星上的万物，我们的文明将会毁于一旦......</description>
     </item>
     <item>
       <title>主机到期，换新主机和域名，并且有了新的开始！ </title>
@@ -166,42 +166,42 @@
       <link>https://www.bilibytes.com/writings/2022-12-31-z%E5%9F%8E%E5%86%AC%E5%A4%A9/</link>
       <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2022-12-31-z%E5%9F%8E%E5%86%AC%E5%A4%A9/</guid>
-      <description>Z城冬天 依旧是Z城的冬天。 远方的钟声，夹杂在时不时的烟火轰鸣声中，似乎变得更加悠长了。就像穿过了一条黑暗的隧道，好不容易站在了出口。 新的一年</description>
+      <description>记得大学时代，我会经常漫步到不远的艺术馆或者是新修建的图书大楼，一驻足就是一下午。但不知道从什么时候，我的生活好像不再那么丰富多彩了。。</description>
     </item>
     <item>
       <title>这是哪里</title>
       <link>https://www.bilibytes.com/blog/2022-12-25-%E8%BF%99%E6%98%AF%E5%93%AA%E9%87%8C/</link>
       <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-12-25-%E8%BF%99%E6%98%AF%E5%93%AA%E9%87%8C/</guid>
-      <description>还记得来时的沙漠吗？ 什么是来时的沙漠。 红色的篝火在黑夜中映出两个黑影，一会很小，一会很大。 我们不一直在沙漠里吗？ 我记得我们穿过了一片葱郁的林</description>
+      <description>是啊，这里真的好广阔。抬头就能看到满天的繁星。就是有点冷。四周也满是寂静。</description>
     </item>
     <item>
       <title>做好决定后的失落感</title>
       <link>https://www.bilibytes.com/blog/2022-09-01-%E5%81%9A%E5%A5%BD%E5%86%B3%E5%AE%9A%E5%90%8E%E7%9A%84%E5%A4%B1%E8%90%BD%E6%84%9F/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-09-01-%E5%81%9A%E5%A5%BD%E5%86%B3%E5%AE%9A%E5%90%8E%E7%9A%84%E5%A4%B1%E8%90%BD%E6%84%9F/</guid>
-      <description>硕士毕业后面试了三个导师，EPFL一个，本校两个。EPFL的导师当即就给了口头offer，本校的硕士导师犹豫了一阵子拒绝了我，申请的另一个中</description>
+      <description>我纠结了一下到底选择哪一个方向。</description>
     </item>
     <item>
       <title>我终于有博士offer了!</title>
       <link>https://www.bilibytes.com/blog/2022-08-17-%E6%88%91%E7%BB%88%E4%BA%8E%E6%9C%89%E5%8D%9A%E5%A3%ABoffer%E4%BA%86/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-08-17-%E6%88%91%E7%BB%88%E4%BA%8E%E6%9C%89%E5%8D%9A%E5%A3%ABoffer%E4%BA%86/</guid>
-      <description>就在今天下午，我结束了EPFL的博士面试，导师已经给我口头Ｏffer了！ 说一下面试的详细经历吧。 我大概中午11点半点从苏黎世到达洛桑。导师正</description>
+      <description>就在今天下午，我结束了EPFL的博士面试，导师已经给我口头Ｏffer了！</description>
     </item>
     <item>
       <title>感染新冠了</title>
       <link>https://www.bilibytes.com/blog/2022-07-28-%E6%84%9F%E6%9F%93%E6%96%B0%E5%86%A0%E4%BA%86/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-07-28-%E6%84%9F%E6%9F%93%E6%96%B0%E5%86%A0%E4%BA%86/</guid>
-      <description>大概7月22日早上起来突然感觉浑身乏力，并且发低烧。起初没在意，吃了连花清瘟胶囊，寻思着好好休息一天睡上一觉就好了。可是第二天还是流鼻涕，咳</description>
+      <description>在外国留学这么长时间，还是中招了！不过我现在已经基本恢复，鼻涕也不留了，但是还是有稍许咳嗽。</description>
     </item>
     <item>
       <title>写给一年后的自己</title>
       <link>https://www.bilibytes.com/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</guid>
-      <description>之前学业忙碌，没怎么考虑回国的事情。昨天晚上，查了查回国的机票。很贵，最便宜的也要将近两万。我不由得又变得有些焦虑，一晚上都没睡好好——要不</description>
+      <description>想到这里，我突然想要给一年后的自己写一封信。一年后的自己，会在哪里，又在干些什么事情呢？这种感觉有点像四年之前在加拿大访学结束前的感觉。那时是自己第一次长时间出国，也是第一次申请季的前夕。面对未来的未知，我有种说不上的感觉。</description>
     </item>
     <item>
       <title>推荐两本书</title>
@@ -222,161 +222,161 @@
       <link>https://www.bilibytes.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</link>
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2022-07-10-%E6%83%85%E6%84%9F%E8%8A%AF%E7%89%87/</guid>
-      <description>情感芯片 随着科技的进步，为机器人添加感情成为了可能。这种新型机器人不仅可以成为人的朋友，谈天说地，无所不能；甚至能成为人的伴侣——这种新型机</description>
+      <description>随着科技的进步，为机器人添加感情成为了可能。这种新型机器人不仅可以成为人的朋友，谈天说地，无所不能；甚至能成为人的伴侣——这种新型机器人连外观都和最漂亮的人没有了什么区别。</description>
     </item>
     <item>
       <title>你身边最早去世的人多少岁</title>
       <link>https://www.bilibytes.com/blog/2022-07-02-%E4%BD%A0%E8%BA%AB%E8%BE%B9%E7%9A%84%E4%BA%BA%E6%9C%80%E6%97%A9%E5%8E%BB%E4%B8%96%E7%9A%84%E5%A4%9A%E5%B0%91%E5%B2%81/</link>
       <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-07-02-%E4%BD%A0%E8%BA%AB%E8%BE%B9%E7%9A%84%E4%BA%BA%E6%9C%80%E6%97%A9%E5%8E%BB%E4%B8%96%E7%9A%84%E5%A4%9A%E5%B0%91%E5%B2%81/</guid>
-      <description>偶然在知乎上看到了这个问题，不免得又激起了一些新的感想。 如果问我这个问题，我的答案可能是16岁吧。那时我还在上高二，同级的一名同学出车祸去世</description>
+      <description>如果问我这个问题，我的答案可能是16岁吧。</description>
     </item>
     <item>
       <title>硕士论文出分了</title>
       <link>https://www.bilibytes.com/blog/2022-06-29-%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%87%BA%E5%88%86%E4%BA%86/</link>
       <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-06-29-%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%87%BA%E5%88%86%E4%BA%86/</guid>
-      <description>就在刚刚，我的硕士论文出成绩了！ 收到成绩已出的通知邮件，我的心情忐忑，甚至有点不太敢登录系统查成绩。说实话，硕士期间我修过远大于培养方案要求</description>
+      <description>就在刚刚，我的硕士论文出成绩了！</description>
     </item>
     <item>
       <title>努力与生活</title>
       <link>https://www.bilibytes.com/blog/2022-06-22-%E5%8A%AA%E5%8A%9B%E4%B8%8E%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-06-22-%E5%8A%AA%E5%8A%9B%E4%B8%8E%E7%94%9F%E6%B4%BB/</guid>
-      <description>偶然在B站看到了一则视频-《台北市长柯文哲给医科生的毕业赠言》，视频如下。 视频分享的很多观点，与我现在的想法出奇的一致。比如“专注的把每件事</description>
+      <description>如果我你最终的目标也是变成一个优秀的人，那么或许就不能因为“不要在意失败”的借口而放松努力或是放纵自己，反而应该加紧拼搏才是。如果选择了安逸，那么或许放松才情有可原。总之，生活需要坦率，我们要勇敢的追求想要的，不能太拧巴。“即想成功，又不想努力这样的事情很少发生”，看来这句“众所皆知”的“俗套”，真的是有其道理。</description>
     </item>
     <item>
       <title>在学校做心里咨询的经历</title>
       <link>https://www.bilibytes.com/blog/2022-06-20-%E5%9C%A8%E5%AD%A6%E6%A0%A1%E5%81%9A%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E7%9A%84%E7%BB%8F%E5%8E%86/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-06-20-%E5%9C%A8%E5%AD%A6%E6%A0%A1%E5%81%9A%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E7%9A%84%E7%BB%8F%E5%8E%86/</guid>
-      <description>大概一年之前，我经历了一段心理最低落的时期。主要原因就是对未来感觉前所未有的迷茫、非常严重的年龄焦虑和同伴竞争压力。为了缓解自己的压力，我选</description>
+      <description>大概一年之前，我经历了一段心理最低落的时期。主要原因就是对未来感觉前所未有的迷茫、非常严重的年龄焦虑和同伴竞争压力。为了缓解自己的压力，我选择学校的相关机构求助。</description>
     </item>
     <item>
       <title>毕业设计答辩结束</title>
       <link>https://www.bilibytes.com/blog/2022-06-03-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9D%9F/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-06-03-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9D%9F/</guid>
-      <description>就在这周二，我成功完成了毕业设计的答辩。说实话，答辩还挺轻松。主要是毕业设计和之前的学期项目不同，完全是自己提出的方案、创新点，实现也是自己</description>
+      <description>就在这周二，我成功完成了毕业设计的答辩。</description>
     </item>
     <item>
       <title>“吃得苦中苦，方为人上人” 是封建余毒吗</title>
       <link>https://www.bilibytes.com/blog/2022-05-15-%E5%90%83%E5%BE%97%E8%8B%A6%E4%B8%AD%E8%8B%A6%E6%96%B9%E4%B8%BA%E4%BA%BA%E4%B8%8A%E4%BA%BA%E6%98%AF%E5%B0%81%E5%BB%BA%E4%BD%99%E6%AF%92%E5%90%97/</link>
       <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-05-15-%E5%90%83%E5%BE%97%E8%8B%A6%E4%B8%AD%E8%8B%A6%E6%96%B9%E4%B8%BA%E4%BA%BA%E4%B8%8A%E4%BA%BA%E6%98%AF%E5%B0%81%E5%BB%BA%E4%BD%99%E6%AF%92%E5%90%97/</guid>
-      <description>这篇小记探讨题目中的问题。 我的观点是：“是的”。 但这句话至少还是有一半的可取之处的。前半句宣扬了人类最优秀的品质之一——吃苦耐劳的精神。而后</description>
+      <description>人为什么要吃苦？我们不妨反问自己——人为什么要享乐？如果享乐——或者我们更加极端的视为放纵——是一种必要的人生体验，那么吃苦是不是也是人生的必要呢？</description>
     </item>
     <item>
       <title>很累、很重要但还是时常偷懒</title>
       <link>https://www.bilibytes.com/blog/2022-05-13-%E5%BE%88%E7%B4%AF%E5%BE%88%E9%87%8D%E8%A6%81%E4%BD%86%E8%BF%98%E6%98%AF%E6%97%B6%E5%B8%B8%E5%81%B7%E6%87%92/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-05-13-%E5%BE%88%E7%B4%AF%E5%BE%88%E9%87%8D%E8%A6%81%E4%BD%86%E8%BF%98%E6%98%AF%E6%97%B6%E5%B8%B8%E5%81%B7%E6%87%92/</guid>
-      <description>连续三周的周工作时长在50小时以上了。 这么忙其实是为了把毕业设计做的项目论文发出来。根据原先确定的方案已经有实验结果了，但最近出了一点问题，</description>
+      <description>连续三周的周工作时长在50小时以上了。</description>
     </item>
     <item>
       <title>我终于也有Google学术主页了</title>
       <link>https://www.bilibytes.com/blog/2022-04-30-%E6%88%91%E7%BB%88%E4%BA%8E%E4%B9%9F%E6%9C%89google%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5%E4%BA%86/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-04-30-%E6%88%91%E7%BB%88%E4%BA%8E%E4%B9%9F%E6%9C%89google%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5%E4%BA%86/</guid>
-      <description>昨天下午我收到了ResearchGate发来的一封邮件，询问某篇文章的作者是不是我。我其实并没太在意，因为我总是收到ResearchGate</description>
+      <description>昨天下午我收到了ResearchGate发来的一封邮件，询问某篇文章的作者是不是我。我其实并没太在意，因为我总是收到ResearchGate的邮件提醒，而提醒的无一例外都不是我本人的文章。但这次我打开邮件，发现竟然是自己为第三作者的那篇文章！看来那篇文章终于上线了。</description>
     </item>
     <item>
       <title>购得新域名Hao.Ink</title>
       <link>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</link>
       <pubDate>Wed, 27 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</guid>
-      <description>大概两周前我开始练字，想要建一个网站更新我的练字记录。考虑到常见的域名后缀中“.ink”有墨水的含义，于是就想要注册一个&amp;quot;.ink</description>
+      <description>那么接下来我就要用这个新的域名更新我的博客了，主要内容大概就是练字记录和日常分享吧。</description>
     </item>
     <item>
       <title>Wordpress技巧：使用Github图床；CDN加速个性化字体</title>
       <link>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
       <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
-      <description>Wordpress技巧：使用Github图床；CDN加速个性化字体 对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的</description>
+      <description>对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。</description>
     </item>
     <item>
       <title>科研项目推进中“由粗到细”的文档记录</title>
       <link>https://www.bilibytes.com/blog/2022-04-01-%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%BF%9B%E4%B8%AD%E7%94%B1%E7%B2%97%E5%88%B0%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-04-01-%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%BF%9B%E4%B8%AD%E7%94%B1%E7%B2%97%E5%88%B0%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</guid>
-      <description>当科研构思和计划书已经初步确定，项目进行到实际推进过程中的时候，我们该如何合理的使用文档记录项目进展呢?这里我初步介绍一下我在硕士毕业论文期</description>
+      <description>当科研构思和计划书已经初步确定，项目进行到实际推进过程中的时候，我们该如何合理的使用文档记录项目进展呢?这里我初步介绍一下我在硕士毕业论文期间采用的策略，希望能和大家交流分享。</description>
     </item>
     <item>
       <title>读博的动机</title>
       <link>https://www.bilibytes.com/blog/2022-03-14-%E8%AF%BB%E5%8D%9A%E7%9A%84%E5%8A%A8%E6%9C%BA/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-03-14-%E8%AF%BB%E5%8D%9A%E7%9A%84%E5%8A%A8%E6%9C%BA/</guid>
-      <description>硕士留学接近尾声，博士位置仍旧没有定下来。原因就是研一的时候换了研究方向，选择了遵循内心的兴趣。所以现在的积累仍旧偏少，无法获得最想去的实验</description>
+      <description>有的时候我在问自己：自己想要读博到底是热爱科研还是一种执念，亦或是其他原因？</description>
     </item>
     <item>
       <title>人生第一次挂科</title>
       <link>https://www.bilibytes.com/blog/2022-02-28-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8C%82%E7%A7%91/</link>
       <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-02-28-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8C%82%E7%A7%91/</guid>
-      <description>周一早上，我收到了ASF课程已经出分的邮件。 怀着忐忑的心情，我登录成绩管理系统查询成绩，令人意外地是，竟然只有3.75/6分！这意味着我挂科</description>
+      <description>周一早上，我收到了ASF课程已经出分的邮件。怀着忐忑的心情，我登录成绩管理系统查询成绩，令人意外地是，竟然只有3.75/6分！这意味着我挂科了！</description>
     </item>
     <item>
       <title>和我做过课程项目的同学去MIT了</title>
       <link>https://www.bilibytes.com/blog/2021-12-01-%E5%92%8C%E6%88%91%E5%81%9A%E8%BF%87%E8%AF%BE%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%8C%E5%AD%A6%E5%8E%BBmit%E4%BA%86/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-12-01-%E5%92%8C%E6%88%91%E5%81%9A%E8%BF%87%E8%AF%BE%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%8C%E5%AD%A6%E5%8E%BBmit%E4%BA%86/</guid>
-      <description>上个学期EEAIC的课程中需要同学之间组队完成一个大的课程设计。我和其他三名同学组队，其中有一个本科来自EPFL的瑞士当地人。今天我偶然在L</description>
+      <description>总之，能认识这些优秀的同学是我的荣幸。希望自己能和他们一样不断的进步。</description>
     </item>
     <item>
       <title>人生第一篇论文问世，尽管是第三作者</title>
       <link>https://www.bilibytes.com/blog/2021-11-01-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E9%97%AE%E4%B8%96%E5%B0%BD%E7%AE%A1%E6%98%AF%E7%AC%AC%E4%B8%89%E4%BD%9C%E8%80%85/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-11-01-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E9%97%AE%E4%B8%96%E5%B0%BD%E7%AE%A1%E6%98%AF%E7%AC%AC%E4%B8%89%E4%BD%9C%E8%80%85/</guid>
-      <description>今天是双十一，原本只是一个平平无奇的一天。我还按往常一样来到实验室，测一测看起来没有什么希望的数据。其实最近的几周我是比较忧郁的，因为实验的</description>
+      <description>不得不说，虽然只是第三作者，但这篇论文作为我人生中第一篇论文，给我最近稍许阴郁的心情带来了一丝阳光。</description>
     </item>
     <item>
       <title>第二个学期项目完成答辩</title>
       <link>https://www.bilibytes.com/blog/2021-10-24-%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E7%AD%94%E8%BE%A9/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-10-24-%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E7%AD%94%E8%BE%A9/</guid>
-      <description>我的硕士项目课程方案其实挺灵活的，课程、实习、实验项目可以自由组合，全部学分达到要求即可毕业。我的大多数同学都会选择“课程+1个实习+2个学</description>
+      <description>我的硕士项目课程方案其实挺灵活的，课程、实习、实验项目可以自由组合，全部学分达到要求即可毕业。我的大多数同学都会选择“课程&#43;1个实习&#43;2个学期项目&#43;毕业设计”的组合，而我也不例外。今天我就完成了第二个学期项目的答辩。</description>
     </item>
     <item>
       <title>老师说我抄袭</title>
       <link>https://www.bilibytes.com/blog/2021-07-10-%E8%80%81%E5%B8%88%E8%AF%B4%E6%88%91%E6%8A%84%E8%A2%AD/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-07-10-%E8%80%81%E5%B8%88%E8%AF%B4%E6%88%91%E6%8A%84%E8%A2%AD/</guid>
-      <description>上周五早上收到一门课程老师通知最后成绩的邮件。其中有一段话： Reports: Your second report was detected by XXX plagiarism software. And not just once, 6 parts of the text are considered as paraphrasing or direct plagiarism. Among these, a paragraph on page 3, first paragraph in Fabrication Challenges, paragraphs after</description>
+      <description>我听到该消息第一感觉就是震惊，没想到这名老师这么严格。说实话的，我确实是参考了很多资料。但这个报告主要就是类似文献综述，而且我也尽可能的用自己的语言进行了总结。但这一份报告的提交比较仓促，其中又几段话我没来得及改就提交了。我的引用也不是很规范，这几段话没有加引用。</description>
     </item>
     <item>
       <title>压迫感</title>
       <link>https://www.bilibytes.com/blog/2021-04-10-%E5%8E%8B%E8%BF%AB%E6%84%9F/</link>
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-04-10-%E5%8E%8B%E8%BF%AB%E6%84%9F/</guid>
-      <description>这学期修的EEAIC课程需要学生之间组队完成一个大作业。我和另外3名外国同学组了队，他们分别来自瑞士、墨西哥和土耳其。 其中来自瑞士和墨西哥的</description>
+      <description>“压迫感”，是压力也是动力。人生没有简单的事。有人说天赋比努力重要，有人说选择比努力重要。可是当大多数普通人度过平凡的生活时，努力或许是唯一的答案。</description>
     </item>
     <item>
       <title>搬出 Student Village</title>
       <link>https://www.bilibytes.com/blog/2021-03-22-%E6%90%AC%E5%87%BAstudentvillage/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-03-22-%E6%90%AC%E5%87%BAstudentvillage/</guid>
-      <description>自从我来苏黎世一直住的都是颇为抢手的学生宿舍 Student Village。这个宿舍是从一个原先的学生手里租的，也就是说我是“二手房客”。租金则沿用之前房</description>
+      <description>搬到新家的第一天，原房客给我介绍了一下房子和周围环境，就启程前往机场了。他的人生即将有新的开始，而我希望自己同样能有个新的开始吧。</description>
     </item>
     <item>
       <title>留学一年半的反思</title>
       <link>https://www.bilibytes.com/blog/2021-02-19-%E7%95%99%E5%AD%A6%E4%B8%80%E5%B9%B4%E5%8D%8A%E7%9A%84%E5%8F%8D%E6%80%9D/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2021-02-19-%E7%95%99%E5%AD%A6%E4%B8%80%E5%B9%B4%E5%8D%8A%E7%9A%84%E5%8F%8D%E6%80%9D/</guid>
-      <description>自己的问题 学习，就是一段不断了解自己，发现自己的过程。留学当中，暴露了自己很多的缺点，导致自己现在的成果处境很不好。自己的缺点大概有以下几点</description>
+      <description>  学习，就是一段不断了解自己，发现自己的过程。留学当中，暴露了自己很多的缺点，导致自己现在的成果处境很不好。</description>
     </item>
     <item>
       <title>985算个屁</title>
       <link>https://www.bilibytes.com/blog/2020-10-01-985%E7%AE%97%E4%B8%AA%E5%B1%81/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2020-10-01-985%E7%AE%97%E4%B8%AA%E5%B1%81/</guid>
-      <description>今天和父母通电话，聊到了曾经的几个同学。他们说，曾经班上考上清华北大的那几个同学，“应该是未来的X长X书记吧”。 父母似乎对学历有些不太实际的</description>
+      <description>中国人对“学历光环”看的有些太重了。如果因为想要去好的学校放弃自己喜欢的专业无疑是一件令人遗憾的事情。过去人们通过好学校无论如何都能找到一份好工作。而随着社会对于“相关经验”的看中，在未来的志愿填报中，“兴趣优先”的准则应该会得到更多的重视。</description>
     </item>
     <item>
       <title>生命在于“creating”还是“finding”</title>
       <link>https://www.bilibytes.com/blog/2020-06-15-%E7%94%9F%E5%91%BD%E5%9C%A8%E4%BA%8Ecreating%E8%BF%98%E6%98%AFfinding/</link>
       <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2020-06-15-%E7%94%9F%E5%91%BD%E5%9C%A8%E4%BA%8Ecreating%E8%BF%98%E6%98%AFfinding/</guid>
-      <description>记得之前看到一个博主的网站个人简介是：“生命在于creating而不是finding”。我觉得这句话很有意思，就记了下来。 现在想一想，生命真</description>
+      <description>记得之前看到一个博主的网站个人简介是：“生命在于creating而不是finding”。我觉得这句话很有意思，就记了下来。</description>
     </item>
     <item>
       <title>小感一则</title>
@@ -390,28 +390,28 @@
       <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
-      <description>使用HTTrack和Github进行网站“硬核备份” 网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据</description>
+      <description>网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。</description>
     </item>
     <item>
       <title>苏村宅记 - 初到苏黎世</title>
       <link>https://www.bilibytes.com/blog/2019-09-30-%E8%8B%8F%E6%9D%91%E5%AE%85%E8%AE%B0%E5%88%9D%E5%88%B0%E8%8B%8F%E9%BB%8E%E4%B8%96/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-09-30-%E8%8B%8F%E6%9D%91%E5%AE%85%E8%AE%B0%E5%88%9D%E5%88%B0%E8%8B%8F%E9%BB%8E%E4%B8%96/</guid>
-      <description>淅淅沥沥的雨中，我们的飞机降落在了苏黎世国际机场。那一天是2019年9月8日，我的苏黎世留学生活正式开始了。 苏黎世机场不算大，加上飞机抵达时</description>
+      <description>淅淅沥沥的雨中，我们的飞机降落在了苏黎世国际机场。那一天是2019年9月8日，我的苏黎世留学生活正式开始了。</description>
     </item>
     <item>
       <title>选择焦虑</title>
       <link>https://www.bilibytes.com/blog/2019-12-11-%E9%80%89%E6%8B%A9%E7%84%A6%E8%99%91/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-12-11-%E9%80%89%E6%8B%A9%E7%84%A6%E8%99%91/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;For options it’s the other way around. As we have just seen, options written on volatile assets are worth more than options written on safe assets. If you can understand and remember that one fact about options, you’ve come a long way.&lt;/p&gt;&#xA;&lt;p&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>我该不该选择神经科学？</description>
     </item>
     <item>
       <title>焦虑的你 — 被时代抛弃了，还是你抛弃了你自己？</title>
       <link>https://www.bilibytes.com/blog/2019-08-31-%E7%84%A6%E8%99%91%E7%9A%84%E4%BD%A0%E8%A2%AB%E6%97%B6%E4%BB%A3%E6%8A%9B%E5%BC%83%E4%BA%86%E8%BF%98%E6%98%AF%E4%BD%A0%E8%87%AA%E5%B7%B1%E6%8A%9B%E5%BC%83%E4%BA%86%E4%BD%A0%E8%87%AA%E5%B7%B1/</link>
       <pubDate>Sat, 31 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-08-31-%E7%84%A6%E8%99%91%E7%9A%84%E4%BD%A0%E8%A2%AB%E6%97%B6%E4%BB%A3%E6%8A%9B%E5%BC%83%E4%BA%86%E8%BF%98%E6%98%AF%E4%BD%A0%E8%87%AA%E5%B7%B1%E6%8A%9B%E5%BC%83%E4%BA%86%E4%BD%A0%E8%87%AA%E5%B7%B1/</guid>
-      <description>2018年初，一篇《摩拜创始人套现15亿，你的同龄人正在抛弃你》的网文刷屏朋友圈。文章内容大致讲述了摩拜单车创始人胡玮炜独居慧眼创业成功的故</description>
+      <description>2018年初，一篇《摩拜创始人套现15亿，你的同龄人正在抛弃你》的网文刷屏朋友圈。文章内容大致讲述了摩拜单车创始人胡玮炜独居慧眼创业成功的故事，不可谓不精彩，令无数拼搏在“平凡”工作岗位上的人既羡慕又焦虑。</description>
     </item>
     <item>
       <title>科目三考试流程和注意事项</title>
@@ -425,168 +425,168 @@
       <link>https://www.bilibytes.com/blog/2019-05-21-%E5%A4%A7%E4%BA%8C%E7%9A%84%E5%B0%8F%E4%BA%8B/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-05-21-%E5%A4%A7%E4%BA%8C%E7%9A%84%E5%B0%8F%E4%BA%8B/</guid>
-      <description>大二某天。 也许大多数同学还在温暖的宿舍睡着懒觉，我却摸着黑早早起来，匆忙地洗漱、吃早餐，然后顶着早冬的寒风奔向东一楼。在路上，我的心里不断念</description>
+      <description>也许大多数同学还在温暖的宿舍睡着懒觉，我却摸着黑早早起来，匆忙地洗漱、吃早餐，然后顶着早冬的寒风奔向东一楼。在路上，我的心里不断念叨着“以后要更仔细一些、要更仔细一些……”</description>
     </item>
     <item>
       <title>夏天的消失</title>
       <link>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</guid>
-      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。 再次来到这里，我点了一杯最廉价的红茶，悠闲的在藤</description>
+      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。</description>
     </item>
     <item>
       <title>走，去欧洲！</title>
       <link>https://www.bilibytes.com/blog/2019-03-12-%E8%B5%B0%E5%8E%BB%E6%AC%A7%E6%B4%B2/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-03-12-%E8%B5%B0%E5%8E%BB%E6%AC%A7%E6%B4%B2/</guid>
-      <description>还记得我之前种的那一颗牛油果吗？很不幸，它并没有活过西安漫长的冬天。 尽管它在寒潮中努力的伸出了芽，尽管它坚持到了我放寒假的那一天。 因为需要浇</description>
+      <description>欧洲，我来了！在硕士阶段，我将继续将电子电路方面的研究应用在相关的生物医疗领域。我会争取继读博并继续进行学术研究。</description>
     </item>
     <item>
       <title>《非暴力沟通》| 如何合理的表达自己的需要</title>
       <link>https://www.bilibytes.com/blog/2019-01-25-%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E5%A6%82%E4%BD%95%E5%90%88%E7%90%86%E7%9A%84%E8%A1%A8%E8%BE%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E9%9C%80%E8%A6%81/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-01-25-%E9%9D%9E%E6%9A%B4%E5%8A%9B%E6%B2%9F%E9%80%9A%E5%A6%82%E4%BD%95%E5%90%88%E7%90%86%E7%9A%84%E8%A1%A8%E8%BE%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E9%9C%80%E8%A6%81/</guid>
-      <description>&lt;p&gt;“非暴力沟通”强调人与人之间的沟通要充满爱和理解。它指导着我们转变谈话和聆听的方式。但是在现实中，人们常常难以进行愉悦和高效的交流，甚至因此陷入抱怨和冲突。那么如何有效的和他人进行交流，尤其是表达出自己的需要呢？《非暴力沟通》这本书给出了一种有效的方式。&lt;/p&gt;</description>
+      <description>“非暴力沟通”强调人与人之间的沟通要充满爱和理解。它指导着我们转变谈话和聆听的方式。但是在现实中，人们常常难以进行愉悦和高效的交流，甚至因此陷入抱怨和冲突。那么如何有效的和他人进行交流，尤其是表达出自己的需要呢？《非暴力沟通》这本书给出了一种有效的方式。</description>
     </item>
     <item>
       <title>黎明前的黑夜，咬咬牙就能过去。</title>
       <link>https://www.bilibytes.com/blog/2019-01-07-%E9%BB%8E%E6%98%8E%E5%89%8D%E7%9A%84%E9%BB%91%E6%9A%97%E5%92%AC%E5%92%AC%E7%89%99%E5%B0%B1%E8%83%BD%E8%BF%87%E5%8E%BB/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-01-07-%E9%BB%8E%E6%98%8E%E5%89%8D%E7%9A%84%E9%BB%91%E6%9A%97%E5%92%AC%E5%92%AC%E7%89%99%E5%B0%B1%E8%83%BD%E8%BF%87%E5%8E%BB/</guid>
-      <description>之前看学长学姐们写的留学日志，他们都说等offer的时候是最令人抓狂的时候。 “日思夜想、恨不得每分钟都盯一盯邮箱、好像随时都能听见新邮件的提</description>
+      <description>黎明前的黑夜，马上就要过去了。咬咬牙，再努力一把。无论如何，是录取还是拒绝最早在二月底都会见分晓。现在能做的，就只有抓紧最后的机会，套套瓷看有没有教授愿意收留我了！</description>
     </item>
     <item>
       <title>偶遇 · 兰州</title>
       <link>https://www.bilibytes.com/blog/2018-10-30-%E5%81%B6%E9%81%87%E5%85%B0%E5%B7%9E/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-10-30-%E5%81%B6%E9%81%87%E5%85%B0%E5%B7%9E/</guid>
-      <description>和兰州偶遇算得上一种缘分吧。各种阴差阳错让我来到了这座城市，主要目的却只有一个——再考一次GRE和TOEFL。 早在一个月前我就有再考一次GR</description>
+      <description>和兰州偶遇算得上一种缘分吧。各种阴差阳错让我来到了这座城市，主要目的却只有一个——再考一次GRE和TOEFL。</description>
     </item>
     <item>
       <title>留加见闻之二 | 实验室生活</title>
       <link>https://www.bilibytes.com/blog/2018-09-18-%E7%95%99%E5%8A%A0%E8%A7%81%E9%97%BB%E4%B9%8B%E4%BA%8C%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-09-18-%E7%95%99%E5%8A%A0%E8%A7%81%E9%97%BB%E4%B9%8B%E4%BA%8C%E5%AE%9E%E9%AA%8C%E5%AE%A4%E7%94%9F%E6%B4%BB/</guid>
-      <description>我参与的是本科生实习科研项目，所以生活的重点当然是作实验。 我的项目挂名在物理系，因此经常出入的就是物理楼了。物理楼又叫卢瑟福楼（Ruther</description>
+      <description>我参与的是本科生实习科研项目，所以生活的重点当然是作实验。</description>
     </item>
     <item>
       <title>留加见闻之一 | 麦基的邮件系统</title>
       <link>https://www.bilibytes.com/blog/2018-09-14-%E7%95%99%E5%8A%A0%E8%A7%81%E9%97%BB%E4%B9%8B%E4%B8%80%E9%BA%A6%E5%9F%BA%E7%9A%84%E9%82%AE%E4%BB%B6%E7%B3%BB%E7%BB%9F/</link>
       <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-09-14-%E7%95%99%E5%8A%A0%E8%A7%81%E9%97%BB%E4%B9%8B%E4%B8%80%E9%BA%A6%E5%9F%BA%E7%9A%84%E9%82%AE%E4%BB%B6%E7%B3%BB%E7%BB%9F/</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;三年前，我来交通大学报到。除去办理住宿，领军训服之外，最早做的一件事情就是办理了一张属于自己的校园卡。这张校园卡伴随了我大学三年，并将陪我到顺利毕业。有了这张校园卡，就可以畅通无阻的进出图书馆，宿舍楼，实验室；就可以用来在学生超市购物，作为身份验证等等。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt;在麦基，校园卡当然也极为重要。但比校园卡更加重要的，可能就是学校的邮件系统了。在领到校园卡之前，Registation Office就首先给我分配了一个用自己名字命名的麦基邮箱。与交大存在感极弱的邮箱相比，麦基邮箱起到了校园生活中极其重要的作用。三个月来，我收到了很多来自麦基的“官方邮件”，他们真实的反映了麦基的校园生活。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+      <description>在麦基，校园卡当然也极为重要。但比校园卡更加重要的，可能就是学校的邮件系统了。</description>
     </item>
     <item>
       <title>搬家</title>
       <link>https://www.bilibytes.com/blog/2018-08-31-%E6%90%AC%E5%AE%B6/</link>
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-08-31-%E6%90%AC%E5%AE%B6/</guid>
-      <description>开学季，我却要搬家了。这个“家”只住了两个月，还是租来的房子。但漂泊在外，这个临时性的住所也几乎是我的所有依托。 收拾东西的时候，不免有些感触</description>
+      <description>搬家，离开了自己稍稍熟悉的场景。和自己同宿的是来自武大的一个哥们，现在俨然已经成为了好友。我们一起考过托福、一起做过饭、一起出去玩，同时也会每周在组会的时候相见。他是利物浦的铁球迷，喜欢物理光学，想要做学术当教授——短短的时间，我们会了解彼此这么多，但也是这短短的时间，让我们不得不很快的分开。</description>
     </item>
     <item>
       <title>蒙城的另一面</title>
       <link>https://www.bilibytes.com/blog/2018-08-25-%E8%92%99%E5%9F%8E%E7%9A%84%E5%8F%A6%E4%B8%80%E9%9D%A2/</link>
       <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-08-25-%E8%92%99%E5%9F%8E%E7%9A%84%E5%8F%A6%E4%B8%80%E9%9D%A2/</guid>
-      <description>沿木阶缓行十几分钟，穿过几束茂密的树丛，便来到了皇家山顶观景台。这里是皇家山公园的一部分，亦是蒙城的主要景点之一。法兰西的开垦者使蒙城真正开</description>
+      <description>沿木阶缓行十几分钟，穿过几束茂密的树丛，便来到了皇家山顶观景台。这里是皇家山公园的一部分，亦是蒙城的主要景点之一。法兰西的开垦者使蒙城真正开始成为一座大城市，皇家山正是默默注视了几百年的见证者。加上本身并不显眼的海拔，让坐落在城市中央的皇家山与城市融为了一体。山坡上青葱的植被是它的象征，身处城市稍微开阔的角落，你便能望见它的身影。</description>
     </item>
     <item>
       <title>关于《放学后》</title>
       <link>https://www.bilibytes.com/blog/2018-08-05-%E5%85%B3%E4%BA%8E%E6%94%BE%E5%AD%A6%E5%90%8E/</link>
       <pubDate>Sun, 05 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-08-05-%E5%85%B3%E4%BA%8E%E6%94%BE%E5%AD%A6%E5%90%8E/</guid>
-      <description>在我所读的《东野圭吾作品集》最前面，作者题了一段短短的序，其中极其自我地归结出东野的“四大神作”——《放学后》是其中的最后一本。陆陆续续看完</description>
+      <description>在我所读的《东野圭吾作品集》最前面，作者题了一段短短的序，其中极其自我地归结出东野的“四大神作”——《放学后》是其中的最后一本。陆陆续续看完了很多本东野的著作，要是让我推荐其中一本作为日常的消遣，我会首先推荐《放学后》这部作品。</description>
     </item>
     <item>
       <title>关于《恶意》</title>
       <link>https://www.bilibytes.com/blog/2018-07-27-%E5%85%B3%E4%BA%8E%E6%81%B6%E6%84%8F/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-07-27-%E5%85%B3%E4%BA%8E%E6%81%B6%E6%84%8F/</guid>
-      <description>感谢东野圭吾，总能让我体会到一点内容外的东西：这是我第一次阅读“手记体”式的文章。东野圭吾也让我迷上了真正的“现代文学”，我清晰记得看完《解</description>
+      <description>感谢东野圭吾，总能让我体会到一点内容外的东西：这是我第一次阅读“手记体”式的文章。东野圭吾也让我迷上了真正的“现代文学”，我清晰记得看完《解忧杂货店》后对于那种多线交织的现代写作手法的着迷。</description>
     </item>
     <item>
       <title>关于《江城》</title>
       <link>https://www.bilibytes.com/blog/2018-07-26-%E5%85%B3%E4%BA%8E%E6%B1%9F%E5%9F%8E/</link>
       <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-07-26-%E5%85%B3%E4%BA%8E%E6%B1%9F%E5%9F%8E/</guid>
-      <description>写这篇书记时我只阅读了1/4处左右。虽然文风简洁轻快，又不遗余力的描写着自己所看到的一切，但在我看来依然过于平淡了。初读时对于“外国人独特的</description>
+      <description>掩上书卷，相比一座有声有色的立体城市，作者笔下的涪陵更像是一张水彩画，细节上用色恰如其分，但待不及颜料浸入纸内便干瘪了。如果不是作者外国人的身份，如果不是这本书在海外市场上的热销，这本书应该是很难进入主流的读者圈子的。</description>
     </item>
     <item>
       <title>关于《虚无的十字架》</title>
       <link>https://www.bilibytes.com/blog/2018-07-22-%E5%85%B3%E4%BA%8E%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</link>
       <pubDate>Sun, 22 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-07-22-%E5%85%B3%E4%BA%8E%E8%99%9A%E6%97%A0%E7%9A%84%E5%8D%81%E5%AD%97%E6%9E%B6/</guid>
-      <description>“虚无的十字架”到底指的是什么，看完书如果认为“十字架”指的是负担、需要承受的惩罚，那么“虚无”怎么理解呢？这本书大概由三起命案引起，如果说</description>
+      <description>“虚无的十字架”到底指的是什么，看完书如果认为“十字架”指的是负担、需要承受的惩罚，那么“虚无”怎么理解呢？这本书大概由三起命案引起，如果说杀死爱美的罪犯认为死刑“倒也不错”——这个惩罚是“虚无的”，那么另外两起命案的判决（如果有）会是“虚无”的吗？纱织和史也年轻时犯下的罪行，在用不同的方式弥补；花慧父亲为了女儿女婿的幸福生活犯下的罪行，应该会意识到自己可能受到的死刑控诉。这么看来，三起案件中两起里的“十字架”都不是“虚无”的，那么“虚无”的真正含义是什么呢？</description>
     </item>
     <item>
       <title>集成电路工艺实验思考题答案参考</title>
       <link>https://www.bilibytes.com/tech/2018-06-12--%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B7%A5%E8%89%BA%E5%AE%9E%E9%AA%8C%E6%80%9D%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88/</link>
       <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/tech/2018-06-12--%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B7%A5%E8%89%BA%E5%AE%9E%E9%AA%8C%E6%80%9D%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88/</guid>
-      <description>尽管大部分答案都可以在课本上找到，不过在紧张的期末复习期间这项工作仍然显得无趣且繁琐，因此在这里为大家整理了一套答案，供大家复习时参考。 工艺</description>
+      <description>尽管大部分答案都可以在课本上找到，不过在紧张的期末复习期间这项工作仍然显得无趣且繁琐，因此在这里为大家整理了一套答案，供大家复习时参考。</description>
     </item>
     <item>
       <title>你与成功或许只差一个早起</title>
       <link>https://www.bilibytes.com/blog/2018-06-12--%E4%BD%A0%E4%B8%8E%E6%88%90%E5%8A%9F%E6%88%96%E8%AE%B8%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E6%97%A9%E8%B5%B7/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-06-12--%E4%BD%A0%E4%B8%8E%E6%88%90%E5%8A%9F%E6%88%96%E8%AE%B8%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E6%97%A9%E8%B5%B7/</guid>
-      <description>有的人以为早起和晚睡没有什么分别，尤其是对那些自以为是的家伙——反正每天的工作时间总是恒定的，那么早起和晚睡起到的效果是一样的啊？可他们不知</description>
+      <description>有的人以为早起和晚睡没有什么分别，尤其是对那些自以为是的家伙——反正每天的工作时间总是恒定的，那么早起和晚睡起到的效果是一样的啊？可他们不知道，早起已经超越了它本身的含义，而更多的是一种象征了。</description>
     </item>
     <item>
       <title>这是一个新的起点</title>
       <link>https://www.bilibytes.com/blog/2018-06-11--%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9.md/</link>
       <pubDate>Mon, 11 Jun 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-06-11--%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84%E8%B5%B7%E7%82%B9.md/</guid>
-      <description>现在是2018年6月11日 —— 自我第一次接触网页设计已经一年多了，自我将网站托管到Github Pages, 并使用Jekyll框架已经近两个月。哦对了，</description>
+      <description>但是无论怎样，这个网站总归是上线了。那么，就好好得将其经营下去吧。一段时间，我会将这个网站上的精粹汇总，发布在更加正视的个人主页上，到时也敬请期待。</description>
     </item>
     <item>
       <title>春寒与野樱</title>
       <link>https://www.bilibytes.com/blog/2018-03-18-%E6%98%A5%E5%AF%92%E4%B8%8E%E9%87%8E%E6%A8%B1/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-03-18-%E6%98%A5%E5%AF%92%E4%B8%8E%E9%87%8E%E6%A8%B1/</guid>
-      <description>一股寒流趁夜入侵了西安，刹那间浇灭了造访废都不久的点点春意。沙尘让天空变得灰霭，细雨伴着寒风散落在来不及披上大衣的行人身上。还没回过神，这座</description>
+      <description>这樱花，这废都，和我。雨中，三者竟然莫名生出了一种共鸣。站在樱花树前，我能够体会到这一团团樱花在经历着怎样的磨难，但转念又突然想到我有什么资格对春寒中的早樱、对饱经沧桑的废都指手画脚呢？</description>
     </item>
     <item>
       <title>看《伊豆的舞女》和《雪国》</title>
       <link>https://www.bilibytes.com/blog/2018-02-03-%E7%9C%8B%E4%BC%8A%E8%B1%86%E7%9A%84%E8%88%9E%E5%A5%B3%E5%92%8C%E9%9B%AA%E5%9B%BD/</link>
       <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-02-03-%E7%9C%8B%E4%BC%8A%E8%B1%86%E7%9A%84%E8%88%9E%E5%A5%B3%E5%92%8C%E9%9B%AA%E5%9B%BD/</guid>
-      <description>《伊豆的舞女》 注：本篇简评还基于山口百惠和三浦友和的电影版本(1974) 我真的是爱极了这个短小的爱情故事。 麻雀虽小，五脏俱全。初识、追随、默</description>
+      <description>麻雀虽小，五脏俱全。初识、追随、默契、别离，在短短几天的伊豆之旅中，一段朦胧的初恋在川端康成的笔下，犹如一块雕琢的美玉让人爱不释手。没有粉饰的文字凸显了高中生和小舞娘之间的单纯甜美，而在在浓浓的日本意象——歌舞伎、乐曲、茶、棋——的衬托下，这个注定没有结局的恋情披上了浓郁的浪漫色彩。</description>
     </item>
     <item>
       <title>从《熔炉》到中国社会</title>
       <link>https://www.bilibytes.com/blog/2017-11-25-%E4%BB%8E%E7%86%94%E7%82%89%E5%88%B0%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-11-25-%E4%BB%8E%E7%86%94%E7%82%89%E5%88%B0%E4%B8%AD%E5%9B%BD%E7%A4%BE%E4%BC%9A/</guid>
-      <description>终究逃不出得得失失的小圈子，不断囿于生活中的种种小确幸。回家的地铁上还贪恋一集综艺节目，回首一周无非是沉迷学习，回望暑假则完全宅在了动漫世界</description>
+      <description>终究逃不出得得失失的小圈子，不断囿于生活中的种种小确幸。回家的地铁上还贪恋一集综艺节目，回首一周无非是沉迷学习，回望暑假则完全宅在了动漫世界。阳光下的人看不见阴影，曾经做出的许诺果然被抛之脑后。也许只有在这时才能把握时机深刻反思，纠正一下自己的迂腐和懒散。走向现实，认清前路——这或许是当务之急。</description>
     </item>
     <item>
       <title>关于《天才在左，疯子在右》</title>
       <link>https://www.bilibytes.com/blog/2018-02-02-%E5%85%B3%E4%BA%8E%E5%A4%A9%E6%89%8D%E5%9C%A8%E5%B7%A6%E7%96%AF%E5%AD%90%E5%9C%A8%E5%8F%B3/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-02-02-%E5%85%B3%E4%BA%8E%E5%A4%A9%E6%89%8D%E5%9C%A8%E5%B7%A6%E7%96%AF%E5%AD%90%E5%9C%A8%E5%8F%B3/</guid>
-      <description>如果我告诉你这是一个17岁的少年说出来的话，你会相信吗？如果是一个17岁的精神病患者说出来的呢？ 你也许不会认为一个正常的17岁少年会说出这样</description>
+      <description>你也许不会认为一个正常的17岁少年会说出这样的“胡言乱语”，除非有人不怀好意的整蛊、或是过度沉迷某些科学玄幻作品。但如果他是一个精神患者的话你就会将信将疑——潜意识中你已经将那个少数群体与自己对立，认为他们做出一些难以理解的事情不足为奇。</description>
     </item>
     <item>
       <title>读《我是马拉拉》</title>
       <link>https://www.bilibytes.com/blog/2018-02-02-%E6%88%91%E6%98%AF%E9%A9%AC%E6%8B%89%E6%8B%89/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-02-02-%E6%88%91%E6%98%AF%E9%A9%AC%E6%8B%89%E6%8B%89/</guid>
-      <description>2018-02-02 西安 那年暑假，我拿了三张便利贴，贴在了我的书桌上，上面分别写着“善良”，“智慧”和“勇敢”。 对我来说，这大抵是对一个人的最高评价。一个人始</description>
+      <description>那年暑假，我拿了三张便利贴，贴在了我的书桌上，上面分别写着“善良”，“智慧”和勇敢”。</description>
     </item>
     <item>
       <title>读《泡沫》</title>
       <link>https://www.bilibytes.com/blog/2018-01-09-%E8%AF%BB%E6%B3%A1%E6%B2%AB/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-01-09-%E8%AF%BB%E6%B3%A1%E6%B2%AB/</guid>
-      <description>这是我读的第一部渡边淳一的作品。 舍友看到我读他的作品，发出一阵坏笑。我对渡边并非了解，搜索后才知道舍友坏笑的原因——原来这名作家被称为“情爱</description>
+      <description>舍友看到我读他的作品，发出一阵坏笑。我对渡边并非了解，搜索后才知道舍友坏笑的原因——原来这名作家被称为“情爱大师”。卒读后果然发现这一称号不负其名。</description>
     </item>
     <item>
       <title>偷得浮生半时闲</title>
       <link>https://www.bilibytes.com/blog/2017-11-01-%E5%81%B7%E5%BE%97%E6%B5%AE%E7%94%9F%E5%8D%8A%E6%97%B6%E9%97%B2/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-11-01-%E5%81%B7%E5%BE%97%E6%B5%AE%E7%94%9F%E5%8D%8A%E6%97%B6%E9%97%B2/</guid>
-      <description>不经意间，古都早已黄叶零落，阴冷绵长的冬天迫近了。人们习惯性地将衣服紧了紧、步伐也愈发紧凑：没有谁愿意在这灰蒙压抑的气氛中驻足。 我大抵也没什</description>
+      <description>这座城市又名长安。几千年时间的纹刻，让这里的每一块青石板、每一面土坯墙都像是世故的老者，肚子里藏着不为人知道的故事。那时秋天的长安是什么样子呢？他们的会不会遥望渭水秋景吟诗作对，还是像现在的我们一样忙忙碌碌无暇顾及呢？他们在夜晚会不会卧在点着蜡烛的房子里说说笑笑？那时长安的某个角落会不会也有一个寒门学子也在夜中埋头苦读呢？</description>
     </item>
     <item>
       <title>My first try on neural network</title>
@@ -600,14 +600,14 @@
       <link>https://www.bilibytes.com/blog/2017-09-21-%E4%B8%91%E9%99%8B%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-09-21-%E4%B8%91%E9%99%8B%E7%9A%84%E4%B8%AD%E5%9B%BD%E4%BA%BA/</guid>
-      <description>床头有两本书，一本是高中时代买的《丑陋的中国人》，另一本是假期借阅的《野火集》。它们已经吃灰很久了，最近又凑巧进入了我的视线。之前略翻一二后</description>
+      <description>床头有两本书，一本是高中时代买的《丑陋的中国人》，另一本是假期借阅的《野火集》。它们已经吃灰很久了，最近又凑巧进入了我的视线。之前略翻一二后只觉得想法过分激进，但这次真真实实看完了全本后，却发现自己的很多想法与其不谋而合、很多感受与其无出左右。</description>
     </item>
     <item>
       <title>写作共振</title>
       <link>https://www.bilibytes.com/blog/2017-10-04-%E5%86%99%E4%BD%9C%E5%85%B1%E6%8C%AF/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-10-04-%E5%86%99%E4%BD%9C%E5%85%B1%E6%8C%AF/</guid>
-      <description>我时常为自己喜欢写作而感到庆幸，并“自夸”地将其称为一种爱好。它不像学习或其他那些功利性的活动&amp;ndash;非要挣个出人头地，而是只要弄出些</description>
+      <description>我时常为自己喜欢写作而感到庆幸，并“自夸”地将其称为一种爱好。它不像学习或其他那些功利性的活动--非要挣个出人头地，而是只要弄出些笔墨就可以自我满足。钟表的时针滴滴答答地迈过了一点--现在依然算是中秋之夜。就着写字台上台灯发出的微黄灯光，我不自觉地敲击着电脑键盘，一种写作的欲望便冲上心头。</description>
     </item>
     <item>
       <title>返校</title>
@@ -621,28 +621,28 @@
       <link>https://www.bilibytes.com/blog/2017-07-24-%E5%8F%98%E5%BD%A2%E4%B8%AD%E7%9A%84%E5%BF%AB%E4%B9%90%E8%A7%82/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-07-24-%E5%8F%98%E5%BD%A2%E4%B8%AD%E7%9A%84%E5%BF%AB%E4%B9%90%E8%A7%82/</guid>
-      <description>最近在B站上看了两部番，着实令我“畅快”了一次。 在晚上，抱着Pad，一口气看完12集的番剧。因为剧情，因为弹幕，因为自身产生的共鸣，我频频“</description>
+      <description>我逐渐意识到，这种看剧的快乐，和K歌、运动、玩游戏带来的快乐没有任何区别，和通过长久努力获取的学业优秀、事业成功也没有什么分别。</description>
     </item>
     <item>
       <title>生死不管你的苦</title>
       <link>https://www.bilibytes.com/blog/2017-07-09-%E7%94%9F%E6%AD%BB%E4%B8%8D%E7%AE%A1%E4%BD%A0%E7%9A%84%E8%8B%A6/</link>
       <pubDate>Sun, 09 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-07-09-%E7%94%9F%E6%AD%BB%E4%B8%8D%E7%AE%A1%E4%BD%A0%E7%9A%84%E8%8B%A6/</guid>
-      <description>一个月前的今天，章莹颖失踪了。 中山大学本科毕业，国家奖学金获得者，北京大学硕士毕业，美国伊利诺伊大学厄巴纳香槟分校博士研究生…… 只有经历过的</description>
+      <description>我不会在这里提出关于她失踪调查的质疑——我不了解相关体制的运行方法，自己说不清也道不明。但我宁愿相信，面对这样一个善良美丽的亚洲女孩，相关搜救人员一定尽了全力——失踪中的章莹颖一定也在这样想吧。 章莹颖的努力，大家的努力我们都看到了，但我们现在又能做些什么呢？ </description>
     </item>
     <item>
       <title>印象重庆</title>
       <link>https://www.bilibytes.com/blog/2017-06-26-%E5%8D%B0%E8%B1%A1%E9%87%8D%E5%BA%86/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-06-26-%E5%8D%B0%E8%B1%A1%E9%87%8D%E5%BA%86/</guid>
-      <description>（1） 火锅 重庆同学告诉我们，“地道的火锅店，总藏在不起眼的小巷里”。得了“真传”的我们，来重庆之前就商量着去某个寻常小巷找寻地道的火锅。但当</description>
+      <description>短短的两天时间，我没有办法对重庆有更加深入的了解，但除了湿热的天气，起伏到令人痛心的地形，我大抵还是非常喜爱这座城市的。就算我生活了5年的西安，我还是“深居简出”，对西安的体会也只是停留在表面——不像随性的一个西安本地妹子对西安可以说是了如执掌；甚至一个来自浙江的“浪子”，也能说出西安哪几家酒吧比较好，那些馆子比较地道——只能停留在“三秦套餐”、兵马俑这样认识的我要说能对重庆有多深的了解未免令人笑话。</description>
     </item>
     <item>
       <title>看完《爱乐之城》想要说的事</title>
       <link>https://www.bilibytes.com/blog/2017-06-21-%E7%9C%8B%E5%AE%8C%E7%88%B1%E4%B9%90%E4%B9%8B%E5%9F%8E%E6%83%B3%E8%A6%81%E8%AF%B4%E7%9A%84%E4%BA%8B/</link>
       <pubDate>Wed, 21 Jun 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-06-21-%E7%9C%8B%E5%AE%8C%E7%88%B1%E4%B9%90%E4%B9%8B%E5%9F%8E%E6%83%B3%E8%A6%81%E8%AF%B4%E7%9A%84%E4%BA%8B/</guid>
-      <description>看完电影，我坚持要写些什么，但却久久难以下笔，甚至想要放弃。但我知道，如果现在不写点什么，之后就更无可写了&amp;ndash;如果现在所写的只能是</description>
+      <description>看完《爱乐之城》想要说的事</description>
     </item>
     <item>
       <title>失落的诗</title>
@@ -663,28 +663,28 @@
       <link>https://www.bilibytes.com/blog/2016-08-04-%E6%8C%BA%E8%BF%91%E8%8E%AB%E6%96%AF%E7%A7%91/</link>
       <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2016-08-04-%E6%8C%BA%E8%BF%91%E8%8E%AB%E6%96%AF%E7%A7%91/</guid>
-      <description>清晨5点半，在驶向莫斯科列宁格勒火车站的火车包厢中，我再次睁开双眼。一夜的颠簸，加之同包厢的一对夫妻凌晨的吵动，刚刚睡醒的我依然累觉困乏。手</description>
+      <description>莫斯科！我们正在挺近莫斯科！</description>
     </item>
     <item>
       <title>天鹅湖</title>
       <link>https://www.bilibytes.com/blog/2016-07-29-%E5%A4%A9%E9%B9%85%E6%B9%96/</link>
       <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2016-07-29-%E5%A4%A9%E9%B9%85%E6%B9%96/</guid>
-      <description>有人将圣彼得堡比作“披着贵裳的乞丐”，那么他一定没有在马林斯基看过芭蕾舞演出。 走过铺着红绸地毯的三层旋梯，沿着回廊走到尽头。推开15号包厢厚</description>
+      <description>没有艾尔米塔什博物馆琳琅的艺术珍品、不像彼得大帝夏宫那般金碧辉煌、也没有叶卡捷琳娜宫那样的典雅精致，马林斯基剧院的装饰是恰到好处的。像一个年老持重的贵族，绝不贪恋似国王贝阙珠宫中的声色犬马，只想静静望着庭院中的一株草、一棵树。他大多时候都矜持的坐在椅上，但当乐器鸣响、舞者悦动时，就会兴奋的挺直腰板，向前望去。</description>
     </item>
     <item>
       <title>云想</title>
       <link>https://www.bilibytes.com/blog/2016-07-22-%E4%BA%91%E6%83%B3/</link>
       <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2016-07-22-%E4%BA%91%E6%83%B3/</guid>
-      <description>阳光下的云朵竟如此美丽。浓的云像山像林，淡的云似水似雾，像极了一幅写意的山水画。一座座漂浮的“山岛”将你带入虚幻缥缈的仙境，在云中穿梭的你不</description>
+      <description>闭上眼，感觉到轰隆的震动，北京时间2016年7月23日凌晨，我的脚通过飞机，第一次串联到了前所未有的、陌生却神奇的土地。</description>
     </item>
     <item>
       <title>珍存你的图画</title>
       <link>https://www.bilibytes.com/blog/2015-10-24-%E7%8F%8D%E5%AD%98%E4%BD%A0%E7%9A%84%E5%9B%BE%E7%94%BB/</link>
       <pubDate>Sat, 24 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2015-10-24-%E7%8F%8D%E5%AD%98%E4%BD%A0%E7%9A%84%E5%9B%BE%E7%94%BB/</guid>
-      <description>我本是没有资格在这个时间、这个地方，在我这个年龄时总结出这样悲壮的结论的，我的反对者有一千种理由驳倒我，让我无话可说、无可奈何。他们告诉我，</description>
+      <description>我本是没有资格在这个时间、这个地方，在我这个年龄时总结出这样悲壮的结论的，我的反对者有一千种理由驳倒我，让我无话可说、无可奈何。他们告诉我，人最宝贵的是生命，生命就像图画一样多姿多彩••••••我想澄清的是，在此之前，我从来不算聪慧的大脑同样没有告诉过我这一点，甚至是毫无意识。这一切都来源于一次突然的感悟，我只是把它写出来，和大家分享而已。也许我们一直没有对过呢？</description>
     </item>
     <item>
       <title>我有一个星球</title>
@@ -698,7 +698,7 @@
       <link>https://www.bilibytes.com/blog/2015-10-13-%E4%B8%8D%E8%A6%81%E5%81%9A%E6%8C%87%E6%8C%87%E7%82%B9%E7%82%B9%E7%9A%84%E8%B7%AF%E4%BA%BA/</link>
       <pubDate>Tue, 13 Oct 2015 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2015-10-13-%E4%B8%8D%E8%A6%81%E5%81%9A%E6%8C%87%E6%8C%87%E7%82%B9%E7%82%B9%E7%9A%84%E8%B7%AF%E4%BA%BA/</guid>
-      <description>煞有道理的评点，未必隐含着真知；言之凿凿的论据，往往藏着猫腻。真正的说服不是指鼻子的评头品足，应当是自己思想的严谨阐述。 一个人，应当找到属于</description>
+      <description>煞有道理的评点，未必隐含着真知；言之凿凿的论据，往往藏着猫腻。真正的说服不是指鼻子的评头品足，应当是自己思想的严谨阐述。</description>
     </item>
     <item>
       <title>Pages</title>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>努力 on BiliBytes</title>
+    <title>努力 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E5%8A%AA%E5%8A%9B/</link>
-    <description>Recent content in 努力 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 努力 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 18 Jul 2024 22:47:30 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E5%8A%AA%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.bilibytes.com/blog/2022-06-22-%E5%8A%AA%E5%8A%9B%E4%B8%8E%E7%94%9F%E6%B4%BB/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2022-06-22-%E5%8A%AA%E5%8A%9B%E4%B8%8E%E7%94%9F%E6%B4%BB/</guid>
-      <description>偶然在B站看到了一则视频-《台北市长柯文哲给医科生的毕业赠言》，视频如下。 视频分享的很多观点，与我现在的想法出奇的一致。比如“专注的把每件事</description>
+      <description>如果我你最终的目标也是变成一个优秀的人，那么或许就不能因为“不要在意失败”的借口而放松努力或是放纵自己，反而应该加紧拼搏才是。如果选择了安逸，那么或许放松才情有可原。总之，生活需要坦率，我们要勇敢的追求想要的，不能太拧巴。“即想成功，又不想努力这样的事情很少发生”，看来这句“众所皆知”的“俗套”，真的是有其道理。</description>
     </item>
   </channel>
 </rss>

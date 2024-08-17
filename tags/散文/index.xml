@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>散文 on BiliBytes</title>
+    <title>散文 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E6%95%A3%E6%96%87/</link>
-    <description>Recent content in 散文 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 散文 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 18 Jul 2024 20:59:09 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E6%95%A3%E6%96%87/index.xml" rel="self" type="application/rss+xml" />
@@ -13,56 +13,56 @@
       <link>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</link>
       <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</guid>
-      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。 再次来到这里，我点了一杯最廉价的红茶，悠闲的在藤</description>
+      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。</description>
     </item>
     <item>
       <title>蒙城的另一面</title>
       <link>https://www.bilibytes.com/blog/2018-08-25-%E8%92%99%E5%9F%8E%E7%9A%84%E5%8F%A6%E4%B8%80%E9%9D%A2/</link>
       <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-08-25-%E8%92%99%E5%9F%8E%E7%9A%84%E5%8F%A6%E4%B8%80%E9%9D%A2/</guid>
-      <description>沿木阶缓行十几分钟，穿过几束茂密的树丛，便来到了皇家山顶观景台。这里是皇家山公园的一部分，亦是蒙城的主要景点之一。法兰西的开垦者使蒙城真正开</description>
+      <description>沿木阶缓行十几分钟，穿过几束茂密的树丛，便来到了皇家山顶观景台。这里是皇家山公园的一部分，亦是蒙城的主要景点之一。法兰西的开垦者使蒙城真正开始成为一座大城市，皇家山正是默默注视了几百年的见证者。加上本身并不显眼的海拔，让坐落在城市中央的皇家山与城市融为了一体。山坡上青葱的植被是它的象征，身处城市稍微开阔的角落，你便能望见它的身影。</description>
     </item>
     <item>
       <title>春寒与野樱</title>
       <link>https://www.bilibytes.com/blog/2018-03-18-%E6%98%A5%E5%AF%92%E4%B8%8E%E9%87%8E%E6%A8%B1/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2018-03-18-%E6%98%A5%E5%AF%92%E4%B8%8E%E9%87%8E%E6%A8%B1/</guid>
-      <description>一股寒流趁夜入侵了西安，刹那间浇灭了造访废都不久的点点春意。沙尘让天空变得灰霭，细雨伴着寒风散落在来不及披上大衣的行人身上。还没回过神，这座</description>
+      <description>这樱花，这废都，和我。雨中，三者竟然莫名生出了一种共鸣。站在樱花树前，我能够体会到这一团团樱花在经历着怎样的磨难，但转念又突然想到我有什么资格对春寒中的早樱、对饱经沧桑的废都指手画脚呢？</description>
     </item>
     <item>
       <title>偷得浮生半时闲</title>
       <link>https://www.bilibytes.com/blog/2017-11-01-%E5%81%B7%E5%BE%97%E6%B5%AE%E7%94%9F%E5%8D%8A%E6%97%B6%E9%97%B2/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-11-01-%E5%81%B7%E5%BE%97%E6%B5%AE%E7%94%9F%E5%8D%8A%E6%97%B6%E9%97%B2/</guid>
-      <description>不经意间，古都早已黄叶零落，阴冷绵长的冬天迫近了。人们习惯性地将衣服紧了紧、步伐也愈发紧凑：没有谁愿意在这灰蒙压抑的气氛中驻足。 我大抵也没什</description>
+      <description>这座城市又名长安。几千年时间的纹刻，让这里的每一块青石板、每一面土坯墙都像是世故的老者，肚子里藏着不为人知道的故事。那时秋天的长安是什么样子呢？他们的会不会遥望渭水秋景吟诗作对，还是像现在的我们一样忙忙碌碌无暇顾及呢？他们在夜晚会不会卧在点着蜡烛的房子里说说笑笑？那时长安的某个角落会不会也有一个寒门学子也在夜中埋头苦读呢？</description>
     </item>
     <item>
       <title>写作共振</title>
       <link>https://www.bilibytes.com/blog/2017-10-04-%E5%86%99%E4%BD%9C%E5%85%B1%E6%8C%AF/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2017-10-04-%E5%86%99%E4%BD%9C%E5%85%B1%E6%8C%AF/</guid>
-      <description>我时常为自己喜欢写作而感到庆幸，并“自夸”地将其称为一种爱好。它不像学习或其他那些功利性的活动&amp;ndash;非要挣个出人头地，而是只要弄出些</description>
+      <description>我时常为自己喜欢写作而感到庆幸，并“自夸”地将其称为一种爱好。它不像学习或其他那些功利性的活动--非要挣个出人头地，而是只要弄出些笔墨就可以自我满足。钟表的时针滴滴答答地迈过了一点--现在依然算是中秋之夜。就着写字台上台灯发出的微黄灯光，我不自觉地敲击着电脑键盘，一种写作的欲望便冲上心头。</description>
     </item>
     <item>
       <title>挺近莫斯科</title>
       <link>https://www.bilibytes.com/blog/2016-08-04-%E6%8C%BA%E8%BF%91%E8%8E%AB%E6%96%AF%E7%A7%91/</link>
       <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2016-08-04-%E6%8C%BA%E8%BF%91%E8%8E%AB%E6%96%AF%E7%A7%91/</guid>
-      <description>清晨5点半，在驶向莫斯科列宁格勒火车站的火车包厢中，我再次睁开双眼。一夜的颠簸，加之同包厢的一对夫妻凌晨的吵动，刚刚睡醒的我依然累觉困乏。手</description>
+      <description>莫斯科！我们正在挺近莫斯科！</description>
     </item>
     <item>
       <title>天鹅湖</title>
       <link>https://www.bilibytes.com/blog/2016-07-29-%E5%A4%A9%E9%B9%85%E6%B9%96/</link>
       <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2016-07-29-%E5%A4%A9%E9%B9%85%E6%B9%96/</guid>
-      <description>有人将圣彼得堡比作“披着贵裳的乞丐”，那么他一定没有在马林斯基看过芭蕾舞演出。 走过铺着红绸地毯的三层旋梯，沿着回廊走到尽头。推开15号包厢厚</description>
+      <description>没有艾尔米塔什博物馆琳琅的艺术珍品、不像彼得大帝夏宫那般金碧辉煌、也没有叶卡捷琳娜宫那样的典雅精致，马林斯基剧院的装饰是恰到好处的。像一个年老持重的贵族，绝不贪恋似国王贝阙珠宫中的声色犬马，只想静静望着庭院中的一株草、一棵树。他大多时候都矜持的坐在椅上，但当乐器鸣响、舞者悦动时，就会兴奋的挺直腰板，向前望去。</description>
     </item>
     <item>
       <title>云想</title>
       <link>https://www.bilibytes.com/blog/2016-07-22-%E4%BA%91%E6%83%B3/</link>
       <pubDate>Fri, 22 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2016-07-22-%E4%BA%91%E6%83%B3/</guid>
-      <description>阳光下的云朵竟如此美丽。浓的云像山像林，淡的云似水似雾，像极了一幅写意的山水画。一座座漂浮的“山岛”将你带入虚幻缥缈的仙境，在云中穿梭的你不</description>
+      <description>闭上眼，感觉到轰隆的震动，北京时间2016年7月23日凌晨，我的脚通过飞机，第一次串联到了前所未有的、陌生却神奇的土地。</description>
     </item>
   </channel>
 </rss>

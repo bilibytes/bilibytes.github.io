@@ -1,288 +1,345 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en" dir="auto">
 
-<head>
-  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>My first try on neural network | BiliBytes</title>
-<meta name="title" content="My first try on neural network" />
-<meta name="description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems." />
-<meta name="keywords" content="" />
-
-
-<meta property="og:url" content="https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/">
-  <meta property="og:site_name" content="BiliBytes">
-  <meta property="og:title" content="My first try on neural network">
-  <meta property="og:description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.">
-  <meta property="og:locale" content="zh">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="tech">
-    <meta property="article:published_time" content="2017-10-28T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-07-20T01:09:19+02:00">
-
-
-
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="My first try on neural network">
-  <meta name="twitter:description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>My first try on neural network | bilibytes.com/blog</title>
+<meta name="keywords" content="">
+<meta name="description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.">
+<meta name="author" content="">
+<link rel="canonical" href="https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://www.bilibytes.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.bilibytes.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.bilibytes.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://www.bilibytes.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://www.bilibytes.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/">
+<noscript>
 
 
 
 
-  <meta itemprop="name" content="My first try on neural network">
-  <meta itemprop="description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.">
-  <meta itemprop="datePublished" content="2017-10-28T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2024-07-20T01:09:19+02:00">
-  <meta itemprop="wordCount" content="1721">
-<meta name="referrer" content="no-referrer-when-downgrade" />
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-  <style>
-  body {
-    font-family: Verdana, sans-serif;
-    margin: auto;
-    padding: 20px;
-    max-width: 720px;
-    text-align: left;
-    background-color: #fff;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: #444;
-  }
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+    
+            .list {
+                background: var(--theme);
+            }
+    
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+    
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+    
+    </style>
+</noscript>
+  
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #222;
-  }
+<meta property="og:title" content="My first try on neural network" />
+<meta property="og:description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/" /><meta property="article:section" content="tech" />
+<meta property="article:published_time" content="2017-10-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-20T01:09:19+02:00" />
 
-  a {
-    color: #3273dc;
-     
-  }
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="My first try on neural network"/>
+<meta name="twitter:description" content="Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C&#43;&#43; or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems."/>
 
-  .title {
-    text-decoration: none;
-    border: 0;
-  }
 
-  .title span {
-    font-weight: 400;
-  }
-
-  nav a {
-    margin-right: 10px;
-  }
-
-  textarea {
-    width: 100%;
-    font-size: 16px;
-  }
-
-  input {
-    font-size: 16px;
-  }
-
-  content {
-    line-height: 1.6;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  code {
-    padding: 2px 5px;
-    background-color: #f2f2f2;
-  }
-
-  pre code {
-    color: #222;
-    display: block;
-    padding: 20px;
-    white-space: pre-wrap;
-    font-size: 14px;
-    overflow-x: auto;
-  }
-
-  div.highlight pre {
-    background-color: initial;
-    color: initial;
-  }
-
-  div.highlight code {
-    background-color: unset;
-    color: unset;
-  }
-
-  blockquote {
-    border-left: 1px solid #999;
-    color: #222;
-    padding-left: 20px;
-    font-style: italic;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  .helptext {
-    color: #777;
-    font-size: small;
-  }
-
-  .errorlist {
-    color: #eba613;
-    font-size: small;
-  }
-
-   
-  ul.blog-posts {
-    list-style-type: none;
-    padding: unset;
-  }
-
-  ul.blog-posts li {
-    display: flex;
-  }
-
-  ul.blog-posts li span {
-    flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-    color: #8b6fcb;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #333;
-      color: #ddd;
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teches",
+      "item": "https://www.bilibytes.com/tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "My first try on neural network",
+      "item": "https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/"
     }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    strong,
-    b {
-      color: #eee;
-    }
-
-    a {
-      color: #8cc2dd;
-    }
-
-    code {
-      background-color: #777;
-    }
-
-    pre code {
-      color: #ddd;
-    }
-
-    blockquote {
-      color: #ccc;
-    }
-
-    textarea,
-    input {
-      background-color: #252525;
-      color: #ddd;
-    }
-
-    .helptext {
-      color: #aaa;
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "My first try on neural network",
+  "name": "My first try on neural network",
+  "description": "Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C++ or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C++ or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.\nInstallation Procedures If your computer is equipped with a NVIDIA graphics card that is not too old, it is almost sure for running CUDA. To double check whether your GPU satisfies the CUDA running condition, visit this site https://developer.nvidia.com/cuda-gpus. Download CUDA Toolkit from NVIDIA official website (see:https://developer.nvidia.com/cuda-toolkit). A reference choice is as follows: Install the CUDA as instructions. Step 2 Installation of CUDNN What is CUDNN? CUDNN is a computing package provided by NVIDIA CUDA Toolkit to speed up the computation of convolutional neural network by converting common computation to GPU-friendly one.\nInstallation Procedures You can visit the NVIDIA official website to freely download the latest edition of th cuDNN computing package after filling some basic information required, or you can directly search package through search engine and download it to local computer. Install it as instructions. Step 3 Installation of Anaconda and TensorFlow package Q: What is Anaconda, and why do we use it? Anaconda is an integrated Python environment equipped with Python main programme, IDE, IPython and other third-party packages. And conda is used as a attached tool to manage packages as well as programming environments. You can directly run the conda command in command lines for conda have been defaultly added to system environment varibies during the Anaconda installation process.\nInstallation Procedures Add CDUA bin and NVIDIA Computing Toolkit to system path. Download the installation package of Anaconda from https://www.continuum.io/downloads. If the downloading process is too slow, you can also download the mirror file from domestic mirror ware, for example: http://mirrors.ustc.edu.cn/ . After the Anaconda installation, open the Anaconda Navigator to add a new environment in local computer, note that to choose a python 3.5 version (because some new features are not supported in python 3.6 ). Use the Anaconda to install TensorFlow package. Open Anaconda Prompt and type in anaconda search -t conda tensorflow command to check the tensorflow avaliable for current system. Then use command anaconda show dhirschfeld/tensorflow+‘version’ to download and install the package. Well down! Enjoy the convenience from TensorFlow by open Jupyter Notebook. Implementation of Neural Network Based on MNIST (Basic level) Fundamental Principles Logistic Regression Logistic regression is a method helping you implement binary classification by outputing a specific probility of being “1” after mathematical operations. Two steps are needed to finish a single logistic regression:\nThe first step can be thought to combine all input factors together, you need two parameters - vector W and b, both of which have same dimension as inputs and after doing the operation “W^T*X+b” you get a new variable denoted as “z” that reflects compositive influence of all inputs.\nThe second step is to apply an activation function to new earned variable “z”. The most common activation function is Sigmoid function whose expression is “1/(1+e^(-z))\".Two main reasons of applying activation are by doing so you can get a probility within the range from 0 to 1, and making deeper neural network have more complexity.\nLoss Function and Cost Function It is essential to make judagement of how well your predictation goes by defining Loss Function to a single example and Cost Function that can be thought to be a combined Loss Function to a dataset with more than more examples.\nIn logistic regression, we have a stereotype defined Loss Function as “L(y,y_hat)=-[y*log(y_hat)+(1-y)*log(1-y_hat)]”. The smaller L is, the more presice your prediction is. Similarly, we define cost function as “J(W,b)=(1/m)*Sigma(1,m)(y(i)*log(y_hat(i))+(1-y(i))*log(1-y_hat(i)))”. W and b here are two vectors with same dimension as dataset example.\nLogistic Regression Gradient Descent in Common Programming Mindset Logisic regression gradient descent is a method to find the minimum target function(Cost Function) value. The simplest representation of regression gradient decent pseudocode is as follows:\nRepeat{ w := w - a*(d(J(w,b))/dw) b := b - b*(d(J(w,b))/db) } From the above pseudocode we know that the essence of regression gradient descent method is to constantly refresh the parameters so that the target function (J(w,b)) can have steepest drop till the minimus value is found(or the gradient of target function remains so small that can be seen as 0).\nTo a dataset with many examples, the logistic regression gradient descent pseudocode is as follows(let number of examples be 2):\nJ = 0, dw1 = 0, dw2 = 0, db = 0 For i = 1 to m z(i) = w^T*x(i) + b a(i) = sigmoid(z(i)) J += -[y(i)log(a(i)) + (1-y(i))log(1-a(i))] dz(i) = a(i) - y(i) dw1(i) += x1(i)dz(i) % dw1 refers to d(J(w1,w2,b))/dw1 dw2(i) += x2(i)dz(i) % dw2 refers to d(J(w1,w2,b))/dw2 db += dz(i) J/=m, dw1/=m, dw2/=m, db/=m w1 := w1 - a*(d(J(w1,w2,b))/dw1) w2 := w2 - a*(d(J(w1,w2,b))/dw2) b := b - b*(d(J(w1,w2,b))/db) Vectorization for speeding up We can see there are two explict “for” loop in above code, however the “for” loop runs so slowly in computer that it makes impossible to implement deep neural network. Therefore, we use vectorization method to avoid explict “for” loop in our code to speed up the neural network training.\nBy using packages provided with python such as numpy we can process vectorized calculation easily, for example, the “np.dot(A,B)” function in numpy calculate the two vectors’ multiplcation without using explict “for loop” that makes our code run more efficiently.\nThe vectorized version code of the logistic regression gradient descent is shown as follows:\nfor iter in range(number_of_examples): Z = np.dot(W,T,X) + b A = sigmoid(Z) dZ = A - Y dW = (1/m)*X*dZ^T db = (1/m)*np.sum(dZ) W := W - a*dW b := b - a*db There are some notes to do vectorized programming in python, you’d better to do the vector definition by clearly pointing the dimension of the vector. For example, “a = np.random.randn(5,1)” instead of difining like “a = np.random.rand(5)” because there is a special wired data structure called “rank 1 array” in python that may causes really confusing bugs if you don’t clearly clarify the dimension of the vector.\nFundamentals of Neural Network After figuring out the basic knowledge of logistic regression and its gradient descent method it will be easy to know the bassic principle of neural network because we can see neural work as iteration of logistic regression for many times through different layers of the network. Take vectorized logistic regression as reference, we get four baisc step to implement a neural network as follows(let the layer of the network be 2):\nz[1] = W[1]*x + b[1] a[1] = activation(z[i]) z[2] = W[2]*a[i] + b[2] a[2] = activation(z[2]) Note that the symbol we use here is slightly different from that in logistic regression. For example, in “z[1]”, “1” refer to the 1st layer of the neural network, commonly it refers to the hidden layer but not the input layer as we usually think, and the “activation” means activation function, its impact is similar to “Sigmoid” function as we mentioned before, but we have to utilize more efficient activation function in neural network, the most frequently used activation function is ReLU function. There are many other forms of activation functions in different application of neural network.\nThe reason we use activation function is to make neural network have more complexities so that the network can get ideal result. Note that unless being used in output layer in some “rare” occasions such as binary classification, we do not use “Sigmoid” Function, and we usually set ReLU function as default.\nImplementation of Neural Network based on MNSIT What is MNSIT The MNIST database of handwritten digits has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.\nTo import MNSIT database in python with this command:\nimport tensorflow.examples.tutorials.mnist.input_data as input_data mnist = input_data.read_data_sets(\"MNIST_data/\",one_hot=True) Define the Training Cost Function and Implement Gradient Descent Algorithm We use cross-entropy to be cost function( but not the Cost Function we implement in logistic regression ). You can think cross-entropy as a degree of confusion, the less confusion a system is, the better the prediction we get. Then we have to use gradient descent descent algorithm to minimize the target function so that we get the optimized parameters. TensorFlow can do the optimiztation very essily. The relevant codes are as follows:\ny_ = tf.placeholder(\"float\",[None,10]) cross_entropy = -tf.reduce_sum(y_*tf.log(y)) train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy) Iteration and Result Judgement To my notebook, it;s impossible to do the training with all range of the dataset, therefore we use “batch” function to randomly choose 100 data to do the training. To test how precise our model is we use “tf.argmax” function to compare the predictation and the true value and then get the mean number of the boolen array we get to represent the accuracy our neural network. There are some other notices, for example, we have to initialize all parameters first. The code is as follows:\ninit = tf.global_variables_initializer() sess = tf.Session() sess.run(init) for i in range(1000): batch_xs, batch_ys =mnist.train.next_batch(100) sess.run(train_step,feed_dict={x:batch_xs, y_:batch_ys}) correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1)) accuracy = tf.reduce_mean(tf.cast(correct_prediction,\"float\")) Result of Our First Neural Network The full version of the project is as follows:\nimport tensorflow as tf import tensorflow.examples.tutorials.mnist.input_data as input_data mnist = input_data.read_data_sets(\"MNIST_data/\",one_hot=True) x = tf.placeholder(\"float\", [None, 784]) W = tf.Variable(tf.zeros([784,10])) b = tf.Variable(tf.zeros([10])) y = tf.nn.softmax(tf.matmul(x,W) + b) y_ = tf.placeholder(\"float\",[None,10]) cross_entropy = -tf.reduce_sum(y_*tf.log(y)) train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy) init = tf.global_variables_initializer() sess = tf.Session() sess.run(init) for i in range(1000): batch_xs, batch_ys =mnist.train.next_batch(100) sess.run(train_step,feed_dict={x:batch_xs, y_:batch_ys}) correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1)) accuracy = tf.reduce_mean(tf.cast(correct_prediction,\"float\")) print (sess.run(accuracy, feed_dict={x:mnist.test.images, y_:mnist.test.labels})) Run the model many times we find that the accuracy of the neural network is around 91%, it is not a satisfying result because our neural network only have 2 layers - single hidden layer and a output layer. We will improve and perfect our model in next tutorials.\nCopyright clarification: any copying or propagation behaviour without author’s permission is forbidden.\n",
+  "wordCount" : "1721",
+  "inLanguage": "en",
+  "datePublished": "2017-10-28T00:00:00Z",
+  "dateModified": "2024-07-20T01:09:19.491494914+02:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "bilibytes.com/blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.bilibytes.com/favicon.ico"
     }
   }
-
-</style>
-
+}
+</script>
 </head>
 
-<body>
-  <header><a href="/" class="title">
-  <h2>BiliBytes</h2>
-</a>
-<nav><a href="/">Home</a>
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
 
-<a href="/pages/">Pages</a>
+</script>
 
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://www.bilibytes.com/" accesskey="h" title="bilibytes.com/blog (Alt + H)">bilibytes.com/blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://www.bilibytes.com/tech/" title="Tech">
+                    <span>Tech</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bilibytes.com/writings/" title="Writings">
+                    <span>Writings</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bilibytes.com/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bilibytes.com/pages/" title="Pages">
+                    <span>Pages</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-<a href="/blog">Blog</a>
+ <style>
+img {
+    width: 50%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 20px;
+}
 
+	</style>
 
-<a href="/writings">Writings</a>
-
-
-<a href="/tech">Tech</a>
-</nav>
-
-<style>
-  img {
-      width: 50%;  
-      display: block;
-      margin-left: auto;
-      margin-right: auto;  
-      border-radius:20px;
-  }
-</style>
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
+    
+    
+    
+    
 </header>
-  <main>
+<main class="main">
 
-<content>
-  <h1 id="install-tensorflow-on-windows">Install Tensorflow on Windows</h1>
-<h2 id="step-1-installation-of-cuda">Step 1 Installation of CUDA</h2>
-<h5 id="what-is-cuda-and-why-do-we-use-it">What is CUDA, and why do we use it?</h5>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      My first try on neural network
+    </h1>
+    <div class="post-meta"><span title='2017-10-28 00:00:00 +0000 UTC'>October 28, 2017</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#install-tensorflow-on-windows" aria-label="Install Tensorflow on Windows">Install Tensorflow on Windows</a><ul>
+                        
+                <li>
+                    <a href="#step-1-installation-of-cuda" aria-label="Step 1 Installation of CUDA">Step 1 Installation of CUDA</a><ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#what-is-cuda-and-why-do-we-use-it" aria-label="What is CUDA, and why do we use it?">What is CUDA, and why do we use it?</a></li>
+                <li>
+                    <a href="#installation-procedures" aria-label="Installation Procedures">Installation Procedures</a></li></ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#step-2-installation-of-cudnn" aria-label="Step 2 Installation of CUDNN">Step 2 Installation of CUDNN</a><ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#what-is-cudnn" aria-label="What is CUDNN?">What is CUDNN?</a></li>
+                <li>
+                    <a href="#installation-procedures-1" aria-label="Installation Procedures">Installation Procedures</a></li></ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#step-3-installation-of-anaconda-and-tensorflow-package" aria-label="Step 3 Installation of Anaconda and TensorFlow package">Step 3 Installation of Anaconda and TensorFlow package</a><ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#q-what-is-anaconda-and-why-do-we-use-it" aria-label="Q: What is Anaconda, and why do we use it?">Q: What is Anaconda, and why do we use it?</a></li>
+                <li>
+                    <a href="#installation-procedures-2" aria-label="Installation Procedures">Installation Procedures</a></li>
+                <li>
+                    <a href="#well-down-enjoy-the-convenience-from-tensorflow-by-open-jupyter-notebook" aria-label="Well down! Enjoy the convenience from TensorFlow by open Jupyter Notebook.">Well down! Enjoy the convenience from TensorFlow by open Jupyter Notebook.</a></li></ul>
+                    </ul>
+                    </ul>
+                </li></ul>
+                </li>
+                <li>
+                    <a href="#implementation-of-neural-network-based-on-mnist-basic-level" aria-label="Implementation of Neural Network Based on MNIST (Basic level)">Implementation of Neural Network Based on MNIST (Basic level)</a><ul>
+                        
+                <li>
+                    <a href="#fundamental-principles" aria-label="Fundamental Principles">Fundamental Principles</a><ul>
+                        
+                <li>
+                    <a href="#logistic-regression" aria-label="Logistic Regression">Logistic Regression</a></li>
+                <li>
+                    <a href="#loss-function-and-cost-function" aria-label="Loss Function and Cost Function">Loss Function and Cost Function</a></li>
+                <li>
+                    <a href="#logistic-regression-gradient-descent-in-common-programming-mindset" aria-label="Logistic Regression Gradient Descent in Common Programming Mindset">Logistic Regression Gradient Descent in Common Programming Mindset</a></li>
+                <li>
+                    <a href="#vectorization-for-speeding-up" aria-label="Vectorization for speeding up">Vectorization for speeding up</a></li>
+                <li>
+                    <a href="#fundamentals-of-neural-network" aria-label="Fundamentals of Neural Network">Fundamentals of Neural Network</a></li></ul>
+                </li>
+                <li>
+                    <a href="#implementation-of-neural-network-based-on-mnsit" aria-label="Implementation of Neural Network based on MNSIT">Implementation of Neural Network based on MNSIT</a><ul>
+                        
+                <li>
+                    <a href="#what-is-mnsit" aria-label="What is MNSIT">What is MNSIT</a></li>
+                <li>
+                    <a href="#define-the-training-cost-function-and-implement-gradient-descent-algorithm" aria-label="Define the Training Cost Function and Implement Gradient Descent Algorithm">Define the Training Cost Function and Implement Gradient Descent Algorithm</a></li>
+                <li>
+                    <a href="#iteration-and-result-judgement" aria-label="Iteration and Result Judgement">Iteration and Result Judgement</a></li>
+                <li>
+                    <a href="#result-of-our-first-neural-network" aria-label="Result of Our First Neural Network">Result of Our First Neural Network</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="install-tensorflow-on-windows">Install Tensorflow on Windows<a hidden class="anchor" aria-hidden="true" href="#install-tensorflow-on-windows">#</a></h1>
+<h2 id="step-1-installation-of-cuda">Step 1 Installation of CUDA<a hidden class="anchor" aria-hidden="true" href="#step-1-installation-of-cuda">#</a></h2>
+<h5 id="what-is-cuda-and-why-do-we-use-it">What is CUDA, and why do we use it?<a hidden class="anchor" aria-hidden="true" href="#what-is-cuda-and-why-do-we-use-it">#</a></h5>
 <p>　　CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C++ or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.</p>
-<h5 id="installation-procedures">Installation Procedures</h5>
+<h5 id="installation-procedures">Installation Procedures<a hidden class="anchor" aria-hidden="true" href="#installation-procedures">#</a></h5>
 <ol>
 <li>If your computer is equipped with a NVIDIA graphics card that is not too <em>old</em>, it is almost sure for running CUDA. To double check whether your GPU satisfies the CUDA running condition, visit this site <a href="https://developer.nvidia.com/cuda-gpus" title="https://developer.nvidia.com/cuda-gpus">https://developer.nvidia.com/cuda-gpus</a>.</li>
 <li>Download CUDA Toolkit from NVIDIA official website (see:<a href="https://developer.nvidia.com/cuda-toolkit" title="https://developer.nvidia.com/cuda-toolkit">https://developer.nvidia.com/cuda-toolkit</a>). A reference choice is as follows:</li>
 <li>Install the CUDA as instructions.</li>
 </ol>
-<h2 id="step-2-installation-of-cudnn">Step 2 Installation of CUDNN</h2>
-<h5 id="what-is-cudnn">What is CUDNN?</h5>
+<h2 id="step-2-installation-of-cudnn">Step 2 Installation of CUDNN<a hidden class="anchor" aria-hidden="true" href="#step-2-installation-of-cudnn">#</a></h2>
+<h5 id="what-is-cudnn">What is CUDNN?<a hidden class="anchor" aria-hidden="true" href="#what-is-cudnn">#</a></h5>
 <p>　　CUDNN is a computing package provided by NVIDIA CUDA Toolkit to speed up the computation of convolutional neural network by converting common computation to GPU-friendly one.</p>
-<h5 id="installation-procedures-1">Installation Procedures</h5>
+<h5 id="installation-procedures-1">Installation Procedures<a hidden class="anchor" aria-hidden="true" href="#installation-procedures-1">#</a></h5>
 <ol>
 <li>You can visit the NVIDIA official website to freely download the latest edition of th cuDNN computing package after filling some basic information required, or you can directly search package through search engine and download it to local computer.</li>
 <li>Install it as instructions.</li>
 </ol>
-<h2 id="step-3-installation-of-anaconda-and-tensorflow-package">Step 3 Installation of Anaconda and TensorFlow package</h2>
-<h5 id="q-what-is-anaconda-and-why-do-we-use-it">Q: What is Anaconda, and why do we use it?</h5>
+<h2 id="step-3-installation-of-anaconda-and-tensorflow-package">Step 3 Installation of Anaconda and TensorFlow package<a hidden class="anchor" aria-hidden="true" href="#step-3-installation-of-anaconda-and-tensorflow-package">#</a></h2>
+<h5 id="q-what-is-anaconda-and-why-do-we-use-it">Q: What is Anaconda, and why do we use it?<a hidden class="anchor" aria-hidden="true" href="#q-what-is-anaconda-and-why-do-we-use-it">#</a></h5>
 <p>　　Anaconda is an integrated Python environment equipped with Python main programme, IDE, IPython and other third-party packages. And conda is used as a attached tool to manage packages as well as programming environments. You can directly run the conda command in command lines for conda have been defaultly added to system environment varibies during the Anaconda installation process.</p>
-<h5 id="installation-procedures-2">Installation Procedures</h5>
+<h5 id="installation-procedures-2">Installation Procedures<a hidden class="anchor" aria-hidden="true" href="#installation-procedures-2">#</a></h5>
 <ol>
 <li>Add <em>CDUA bin</em> and <em>NVIDIA Computing Toolkit</em> to system path.</li>
 <li>Download the installation package of Anaconda from <a href="https://www.continuum.io/downloads" title="https://www.continuum.io/downloads">https://www.continuum.io/downloads</a>. If the downloading process is too slow, you can also download the mirror file from domestic mirror ware, for example: <a href="http://mirrors.ustc.edu.cn/" title="http://mirrors.ustc.edu.cn/">http://mirrors.ustc.edu.cn/</a> .</li>
 <li>After the Anaconda installation, open the Anaconda Navigator to add a new environment in local computer, note that to choose a python 3.5 version (because some new features are not supported in python 3.6 ).</li>
 <li>Use the Anaconda to install TensorFlow package. Open Anaconda Prompt and type in <em>anaconda search -t conda tensorflow</em> command to check the tensorflow avaliable for current system. Then use command <em>anaconda show dhirschfeld/tensorflow+&lsquo;version&rsquo;</em> to download and install the package.</li>
 </ol>
-<h5 id="well-down-enjoy-the-convenience-from-tensorflow-by-open-jupyter-notebook">Well down! Enjoy the convenience from TensorFlow by open Jupyter Notebook.</h5>
-<h1 id="implementation-of-neural-network-based-on-mnist-basic-level">Implementation of Neural Network Based on MNIST (Basic level)</h1>
-<h2 id="fundamental-principles">Fundamental Principles</h2>
-<h3 id="logistic-regression">Logistic Regression</h3>
+<h5 id="well-down-enjoy-the-convenience-from-tensorflow-by-open-jupyter-notebook">Well down! Enjoy the convenience from TensorFlow by open Jupyter Notebook.<a hidden class="anchor" aria-hidden="true" href="#well-down-enjoy-the-convenience-from-tensorflow-by-open-jupyter-notebook">#</a></h5>
+<h1 id="implementation-of-neural-network-based-on-mnist-basic-level">Implementation of Neural Network Based on MNIST (Basic level)<a hidden class="anchor" aria-hidden="true" href="#implementation-of-neural-network-based-on-mnist-basic-level">#</a></h1>
+<h2 id="fundamental-principles">Fundamental Principles<a hidden class="anchor" aria-hidden="true" href="#fundamental-principles">#</a></h2>
+<h3 id="logistic-regression">Logistic Regression<a hidden class="anchor" aria-hidden="true" href="#logistic-regression">#</a></h3>
 <p>　　Logistic regression is a method helping you implement binary classification by outputing a specific probility of being &ldquo;1&rdquo; after mathematical operations. Two steps are needed to finish a single logistic regression:</p>
 <ul>
 <li>
@@ -292,10 +349,10 @@
 <p>The second step is to apply an activation function to new earned variable &ldquo;z&rdquo;. The most common activation function is Sigmoid function whose expression is &ldquo;1/(1+e^(-z))&quot;.Two main reasons of applying activation are by doing so you can get a probility within the range from 0 to 1, and making deeper neural network have more complexity.</p>
 </li>
 </ul>
-<h3 id="loss-function-and-cost-function">Loss Function and Cost Function</h3>
+<h3 id="loss-function-and-cost-function">Loss Function and Cost Function<a hidden class="anchor" aria-hidden="true" href="#loss-function-and-cost-function">#</a></h3>
 <p>　　It is essential to make judagement of how well your predictation goes by defining Loss Function to a single example and Cost Function that can be thought to be a combined Loss Function to a dataset with more than more examples.</p>
 <p>　　In logistic regression, we have a stereotype defined Loss Function as &ldquo;L(y,y_hat)=-[y*log(y_hat)+(1-y)*log(1-y_hat)]&rdquo;. The smaller L is, the more presice your prediction is. Similarly, we define cost function as &ldquo;J(W,b)=(1/m)*Sigma(1,m)(y(i)*log(y_hat(i))+(1-y(i))*log(1-y_hat(i)))&rdquo;. W and b here are two vectors with same dimension as dataset example.</p>
-<h3 id="logistic-regression-gradient-descent-in-common-programming-mindset">Logistic Regression Gradient Descent in Common Programming Mindset</h3>
+<h3 id="logistic-regression-gradient-descent-in-common-programming-mindset">Logistic Regression Gradient Descent in Common Programming Mindset<a hidden class="anchor" aria-hidden="true" href="#logistic-regression-gradient-descent-in-common-programming-mindset">#</a></h3>
 <p>　　Logisic regression gradient descent is a method to find the minimum target function(Cost Function) value. The simplest representation of regression gradient decent pseudocode is as follows:</p>
 <pre><code>Repeat{
  w := w - a*(d(J(w,b))/dw)
@@ -322,7 +379,7 @@ w1 := w1 - a*(d(J(w1,w2,b))/dw1)
 w2 := w2 - a*(d(J(w1,w2,b))/dw2)
 b := b - b*(d(J(w1,w2,b))/db)
 </code></pre>
-<h3 id="vectorization-for-speeding-up">Vectorization for speeding up</h3>
+<h3 id="vectorization-for-speeding-up">Vectorization for speeding up<a hidden class="anchor" aria-hidden="true" href="#vectorization-for-speeding-up">#</a></h3>
 <p>　　We can see there are two explict &ldquo;for&rdquo; loop in above code, however the &ldquo;for&rdquo; loop runs so slowly in computer that it makes impossible to implement deep neural network. Therefore, we use vectorization method to avoid explict &ldquo;for&rdquo; loop in our code to speed up the neural network training.</p>
 <p>　　By using packages provided with python such as numpy we can process vectorized calculation easily, for example, the &ldquo;np.dot(A,B)&rdquo; function in numpy calculate the two vectors&rsquo; multiplcation without using explict &ldquo;for loop&rdquo; that makes our code run more efficiently.</p>
 <p>　　The vectorized version code of the logistic regression gradient descent is shown as follows:</p>
@@ -336,7 +393,7 @@ b := b - b*(d(J(w1,w2,b))/db)
  	b := b - a*db
 </code></pre>
 <p>　　There are some notes to do vectorized programming in python, you&rsquo;d better to do the vector definition by clearly pointing the dimension of the vector. For example, &ldquo;a = np.random.randn(5,1)&rdquo; instead of difining like &ldquo;a = np.random.rand(5)&rdquo; because there is a special wired data structure called &ldquo;rank 1 array&rdquo; in python that may causes really confusing bugs if you don&rsquo;t clearly clarify the dimension of the vector.</p>
-<h3 id="fundamentals-of-neural-network">Fundamentals of Neural Network</h3>
+<h3 id="fundamentals-of-neural-network">Fundamentals of Neural Network<a hidden class="anchor" aria-hidden="true" href="#fundamentals-of-neural-network">#</a></h3>
 <p>　　After figuring out the basic knowledge of logistic regression and its gradient descent method it will be easy to know the bassic principle of neural network because we can see neural work as iteration of logistic regression for many times through different layers of the network. Take vectorized logistic regression as reference, we get four baisc step to implement a neural network as follows(let the layer of the network be 2):</p>
 <pre><code>z[1] = W[1]*x + b[1]
 a[1] = activation(z[i])
@@ -345,20 +402,20 @@ a[2] = activation(z[2])
 </code></pre>
 <p>　　Note that the symbol we use here is slightly different from that in logistic regression. For example, in &ldquo;z[1]&rdquo;, &ldquo;1&rdquo; refer to the 1st layer of the neural network, commonly it refers to the hidden layer but not the input layer as we usually think, and the &ldquo;activation&rdquo; means activation function, its impact is similar to &ldquo;Sigmoid&rdquo; function as we mentioned before, but we have to utilize more efficient activation function in neural network, the most frequently used activation function is ReLU function. There are many other forms of activation functions in different application of neural network.</p>
 <p>　　The reason we use activation function is to make neural network have more complexities so that the network can get ideal result. Note that unless being used in output layer in some &ldquo;rare&rdquo; occasions such as binary classification, we do not use &ldquo;Sigmoid&rdquo; Function, and we usually set ReLU function as default.</p>
-<h2 id="implementation-of-neural-network-based-on-mnsit">Implementation of Neural Network based on MNSIT</h2>
-<h3 id="what-is-mnsit">What is MNSIT</h3>
+<h2 id="implementation-of-neural-network-based-on-mnsit">Implementation of Neural Network based on MNSIT<a hidden class="anchor" aria-hidden="true" href="#implementation-of-neural-network-based-on-mnsit">#</a></h2>
+<h3 id="what-is-mnsit">What is MNSIT<a hidden class="anchor" aria-hidden="true" href="#what-is-mnsit">#</a></h3>
 <p>　　The MNIST database of handwritten digits has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.</p>
 <p>　　To import MNSIT database in python with this command:</p>
 <pre><code>import tensorflow.examples.tutorials.mnist.input_data as input_data
 mnist = input_data.read_data_sets(&quot;MNIST_data/&quot;,one_hot=True)
 </code></pre>
-<h3 id="define-the-training-cost-function-and-implement-gradient-descent-algorithm">Define the Training Cost Function and Implement Gradient Descent Algorithm</h3>
+<h3 id="define-the-training-cost-function-and-implement-gradient-descent-algorithm">Define the Training Cost Function and Implement Gradient Descent Algorithm<a hidden class="anchor" aria-hidden="true" href="#define-the-training-cost-function-and-implement-gradient-descent-algorithm">#</a></h3>
 <p>　　We use cross-entropy to be cost function( but not the Cost Function we implement in logistic regression ). You can think cross-entropy as a degree of confusion, the less confusion a system is, the better the prediction we get. Then we have to use gradient descent descent algorithm to minimize the target function so that we get the optimized parameters. TensorFlow can do the optimiztation very essily. The relevant codes are as follows:</p>
 <pre><code>y_ = tf.placeholder(&quot;float&quot;,[None,10])
 cross_entropy = -tf.reduce_sum(y_*tf.log(y))
 train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
 </code></pre>
-<h3 id="iteration-and-result-judgement">Iteration and Result Judgement</h3>
+<h3 id="iteration-and-result-judgement">Iteration and Result Judgement<a hidden class="anchor" aria-hidden="true" href="#iteration-and-result-judgement">#</a></h3>
 <p>　　To my notebook, it;s impossible to do the training with all range of the dataset, therefore we use &ldquo;batch&rdquo; function to randomly choose 100 data to do the training. To test how precise our model is we use &ldquo;tf.argmax&rdquo; function to compare the predictation and the true value and then get the mean number of the boolen array we get to represent the accuracy our neural network. There are some other notices, for example, we have to initialize all parameters first. The code is as follows:</p>
 <pre><code>init = tf.global_variables_initializer()
 sess = tf.Session()
@@ -371,7 +428,7 @@ for i in range(1000):
 correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction,&quot;float&quot;))
 </code></pre>
-<h3 id="result-of-our-first-neural-network">Result of Our First Neural Network</h3>
+<h3 id="result-of-our-first-neural-network">Result of Our First Neural Network<a hidden class="anchor" aria-hidden="true" href="#result-of-our-first-neural-network">#</a></h3>
 <p>　　The full version of the project is as follows:</p>
 <pre><code>import tensorflow as tf
 import tensorflow.examples.tutorials.mnist.input_data as input_data
@@ -403,28 +460,85 @@ print (sess.run(accuracy, feed_dict={x:mnist.test.images, y_:mnist.test.labels})
 <hr>
 <p>Copyright clarification:  any copying or propagation behaviour without author&rsquo;s permission is forbidden.</p>
 
-</content>
-<p>
-  
-</p>
 
-  </main>
-  <footer>
+  </div>
 
-
-<font color=gray size=0.5> <u><i>使用Hugo创建<br>最后更新: 2024 Aug 17 01:52:52 CEST </i></u></font>
-
-
-
-
-
-
-
-
-<br> 
-</footer>
-
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
     
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://www.bilibytes.com/">bilibytes.com/blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
 </body>
 
 </html>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>申请 on BiliBytes</title>
+    <title>申请 on bilibytes.com/blog</title>
     <link>https://www.bilibytes.com/tags/%E7%94%B3%E8%AF%B7/</link>
-    <description>Recent content in 申请 on BiliBytes</description>
-    <generator>Hugo</generator>
+    <description>Recent content in 申请 on bilibytes.com/blog</description>
+    <generator>Hugo -- 0.126.1</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 18 Jul 2024 20:57:43 +0200</lastBuildDate>
     <atom:link href="https://www.bilibytes.com/tags/%E7%94%B3%E8%AF%B7/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://www.bilibytes.com/blog/2019-03-12-%E8%B5%B0%E5%8E%BB%E6%AC%A7%E6%B4%B2/</link>
       <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-03-12-%E8%B5%B0%E5%8E%BB%E6%AC%A7%E6%B4%B2/</guid>
-      <description>还记得我之前种的那一颗牛油果吗？很不幸，它并没有活过西安漫长的冬天。 尽管它在寒潮中努力的伸出了芽，尽管它坚持到了我放寒假的那一天。 因为需要浇</description>
+      <description>欧洲，我来了！在硕士阶段，我将继续将电子电路方面的研究应用在相关的生物医疗领域。我会争取继读博并继续进行学术研究。</description>
     </item>
     <item>
       <title>黎明前的黑夜，咬咬牙就能过去。</title>
       <link>https://www.bilibytes.com/blog/2019-01-07-%E9%BB%8E%E6%98%8E%E5%89%8D%E7%9A%84%E9%BB%91%E6%9A%97%E5%92%AC%E5%92%AC%E7%89%99%E5%B0%B1%E8%83%BD%E8%BF%87%E5%8E%BB/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://www.bilibytes.com/blog/2019-01-07-%E9%BB%8E%E6%98%8E%E5%89%8D%E7%9A%84%E9%BB%91%E6%9A%97%E5%92%AC%E5%92%AC%E7%89%99%E5%B0%B1%E8%83%BD%E8%BF%87%E5%8E%BB/</guid>
-      <description>之前看学长学姐们写的留学日志，他们都说等offer的时候是最令人抓狂的时候。 “日思夜想、恨不得每分钟都盯一盯邮箱、好像随时都能听见新邮件的提</description>
+      <description>黎明前的黑夜，马上就要过去了。咬咬牙，再努力一把。无论如何，是录取还是拒绝最早在二月底都会见分晓。现在能做的，就只有抓紧最后的机会，套套瓷看有没有教授愿意收留我了！</description>
     </item>
   </channel>
 </rss>
