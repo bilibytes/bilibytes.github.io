@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>爱情 on bilibytes.com</title>
     <link>https://www.bilibytes.com/tags/%E7%88%B1%E6%83%85/</link>
     <description>Recent content in 爱情 on bilibytes.com</description>
-    <generator>Hugo -- 0.126.1</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 28 Jul 2024 02:00:19 +0200</lastBuildDate>
-    <atom:link href="https://www.bilibytes.com/tags/%E7%88%B1%E6%83%85/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Z城冬天</title>
-      <link>https://www.bilibytes.com/writings/2022-12-31-z%E5%9F%8E%E5%86%AC%E5%A4%A9/</link>
-      <pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/writings/2022-12-31-z%E5%9F%8E%E5%86%AC%E5%A4%A9/</guid>
-      <description>记得大学时代，我会经常漫步到不远的艺术馆或者是新修建的图书大楼，一驻足就是一下午。但不知道从什么时候，我的生活好像不再那么丰富多彩了。。</description>
-    </item>
-    <item>
-      <title>夏天的消失</title>
-      <link>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</link>
-      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/writings/2019-05-11-%E5%A4%8F%E5%A4%A9%E7%9A%84%E6%B6%88%E5%A4%B1/</guid>
-      <description>我们大学东南门边的一个转角处，藏着一家小巧精致的饮品店。这里，曾经是我和夏天常常约会的地方。</description>
-    </item>
+    <lastBuildDate>Sat, 31 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E7%88%B1%E6%83%85/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

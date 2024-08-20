@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teches on bilibytes.com</title>
     <link>https://www.bilibytes.com/tech/</link>
     <description>Recent content in Teches on bilibytes.com</description>
-    <generator>Hugo -- 0.126.1</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 20 Jul 2024 01:09:19 +0200</lastBuildDate>
-    <atom:link href="https://www.bilibytes.com/tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Wordpress技巧：使用Github图床；CDN加速个性化字体</title>
-      <link>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
-      <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
-      <description>对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。</description>
-    </item>
-    <item>
-      <title>使用HTTrack和Github进行网站“硬核备份”</title>
-      <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
-      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
-      <description>网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。</description>
-    </item>
-    <item>
-      <title>集成电路工艺实验思考题答案参考</title>
-      <link>https://www.bilibytes.com/tech/2018-06-12--%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B7%A5%E8%89%BA%E5%AE%9E%E9%AA%8C%E6%80%9D%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88/</link>
-      <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/tech/2018-06-12--%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B7%A5%E8%89%BA%E5%AE%9E%E9%AA%8C%E6%80%9D%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88/</guid>
-      <description>尽管大部分答案都可以在课本上找到，不过在紧张的期末复习期间这项工作仍然显得无趣且繁琐，因此在这里为大家整理了一套答案，供大家复习时参考。</description>
-    </item>
-    <item>
-      <title>My first try on neural network</title>
-      <link>https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/</link>
-      <pubDate>Sat, 28 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/</guid>
-      <description>Install Tensorflow on Windows Step 1 Installation of CUDA What is CUDA, and why do we use it? CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C++ or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.</description>
-    </item>
+    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tech/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
