@@ -1,11 +1,391 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Teches on bilibytes.com</title>
-    <link>https://www.bilibytes.com/tech/</link>
-    <description>Recent content in Teches on bilibytes.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
-    <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tech/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+    <channel>
+        <title>Teches on BiliBytes</title>
+        <link>https://www.bilibytes.com/tech/</link>
+        <description>Recent content in Teches on BiliBytes</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>www.bilibytes.com</copyright>
+        <lastBuildDate>Fri, 15 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tech/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Wordpress技巧：使用Github图床；CDN加速个性化字体</title>
+        <link>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</link>
+        <pubDate>Fri, 15 Apr 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</guid>
+        <description>&lt;h1 id=&#34;wordpress技巧使用github图床cdn加速个性化字体&#34;&gt;Wordpress技巧：使用Github图床；CDN加速个性化字体
+&lt;/h1&gt;&lt;p&gt;对于主机带宽和容量有限的个人网站站长，我们可以使用Github免费为自己的网站提供图床和CDN加速。鉴于Github已经是世界上最大的代码托管网站，这样的图床和CDN亦相对可靠。&lt;/p&gt;
+&lt;p&gt;Github图床：使用PicX工具&lt;/p&gt;
+&lt;p&gt;PicX是基于 GitHub API &amp;amp; jsDelivr 开发的具有 CDN 加速功能的图床管理工具。无需下载与安装，网页端在线使用！参考picX的官方介绍文档：&lt;a href=&#34;https://picx-docs.xpoet.cn/tutorial/get-start.html&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://picx-docs.xpoet.cn/tutorial/get-start.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://picx-docs.xpoet.cn/tutorial/get-start.html&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Github CDN加速字体文件&lt;/h2&gt;
+Wordpress对中文字体的支持很差，如果我们想要个性化网站字体该怎么做呢？
+&lt;p&gt;&lt;strong&gt;1. 首先下载一款自己喜欢的字体，最好是ttf格式。&lt;/strong&gt;例如本网站选择使用飞花宋体。&lt;/p&gt;
+&lt;img class=&#34;alignnone size-medium&#34; src=&#34;https://raw.githubusercontent.com/iDayDayPlus/image-hosting/master/20220312/Snipaste_2022-03-12_16-08-17.us15100ycz4.webp&#34; width=&#34;239&#34; height=&#34;74&#34; /&gt;
+&lt;p&gt;&lt;strong&gt;2.新建一个Github仓库，将下载好的ttf格式文件上传到新建好的仓库中。&lt;/strong&gt;这里推荐使用Github Desktop软件上传文件。上传完成后点击仓库release发布版本，具体操作请参考：&lt;a href=&#34;https://zhuanlan.zhihu.com/p/346643522&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/346643522&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://zhuanlan.zhihu.com/p/346643522&lt;/a&gt;&lt;/a&gt;。该步骤完成后，你应该会有一个ttf字体文件的链接,例如：&lt;/p&gt;
+&lt;blockquote&gt;https://cdn.jsdelivr.net/gh/iDayDayPlus/myCDN/FeiHuaSongTi-2.ttf&lt;/blockquote&gt;
+&lt;strong&gt;3.利用Firefox浏览器检查元素，拷贝有关font-family的代码段。&lt;/strong&gt;
+&lt;img class=&#34;alignnone size-medium&#34; src=&#34;https://raw.githubusercontent.com/iDayDayPlus/image-hosting/master/20220312/Snipaste_2022-03-12_16-14-59.6bbk19p97qs0.webp&#34; width=&#34;646&#34; height=&#34;344&#34; /&gt;
+&lt;img class=&#34;alignnone size-medium&#34; src=&#34;https://raw.githubusercontent.com/iDayDayPlus/image-hosting/master/20220312/Snipaste_2022-03-12_16-17-22.7pondtld4tw.webp&#34; width=&#34;1362&#34; height=&#34;479&#34; /&gt;
+&lt;blockquote&gt;body, button, input, select, textarea {
+font-family: &#34;ChineseFont&#34;;
+font-weight: 400;
+font-size: 14px;
+}&lt;/blockquote&gt;
+&lt;strong&gt;4. 在Wordpress中配置自定义字体。&lt;/strong&gt;
+&lt;p&gt;进入Wordpress后台，打开外观-自定义-额外CSS。首先定义个性字体的地址，该地址即为第二步中生成的地址。然后粘贴第三部中得到的代码块，将font-family后的字体名称改为自定义好的名称即可。&lt;/p&gt;
+&lt;img class=&#34;alignnone size-medium&#34; src=&#34;https://raw.githubusercontent.com/iDayDayPlus/image-hosting/master/20220312/Snipaste_2022-03-12_16-24-46.6sr5z9gnino0.webp&#34; width=&#34;300&#34; height=&#34;327&#34; /&gt;
+&lt;p&gt;经过以上步骤后刷新网页，应该就可以看到个性化的字体被应用到了所有文章正文中。值得一提的是，利用同样的操作，也可以对博客标题字体进行自定义。字体的大小，粗细，颜色也可以类比进行设置。&lt;/p&gt;
+&lt;p&gt;下图即为本网站重构后的结果。相比系统自带的字体，新的个性化字体让博客典雅了许多。&lt;/p&gt;
+&lt;img class=&#34;alignnone size-medium&#34; src=&#34;https://raw.githubusercontent.com/iDayDayPlus/image-hosting/master/20220312/Snipaste_2022-03-12_16-30-12.6f2cqgvof7k0.webp&#34; width=&#34;1345&#34; height=&#34;692&#34; /&gt;
+&lt;p&gt; &lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>使用HTTrack和Github进行网站“硬核备份”</title>
+        <link>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</link>
+        <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.bilibytes.com/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/</guid>
+        <description>&lt;h1 id=&#34;使用httrack和github进行网站硬核备份&#34;&gt;使用HTTrack和Github进行网站“硬核备份”
+&lt;/h1&gt;&lt;p&gt;网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;首先，这是我的网站原始地址：&lt;strong&gt;&lt;a href=&#34;https://dayday.plus/&#34;&gt;原网页&lt;/a&gt;&lt;/strong&gt; ，这是我的网站备份地址：&lt;strong&gt;&lt;a href=&#34;https://world-fantasy.github.io/dayday.plus/index.html&#34;&gt;备份地址&lt;/a&gt;&lt;/strong&gt; 。可见这种网站备份方式完整保留了网站的外观、评论、插件、外部链接等。&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;1  &lt;strong&gt;下载并安装HTTrack&lt;/strong&gt; (&lt;a href=&#34;https://www.httrack.com/&#34;&gt;下载地址&lt;/a&gt;)&lt;/p&gt;&lt;/p&gt;
+&lt;img class=&#34;aligncenter size-medium&#34; src=&#34;https://i.loli.net/2019/12/15/OnHGy1uUlWZCKQ9.png&#34; width=&#34;1044&#34; height=&#34;561&#34; /&gt;
+2&lt;strong&gt; 新建工程，填写网站链接，下载网站。&lt;/strong&gt;下载完毕后即可以在本地浏览自己的网站。&lt;/p&gt;
+&lt;img class=&#34;aligncenter size-medium&#34; src=&#34;https://i.loli.net/2019/12/15/u42mKSf9BRpChtk.png&#34; width=&#34;1012&#34; height=&#34;643&#34; /&gt;
+&lt;img class=&#34;aligncenter size-medium&#34; src=&#34;https://i.loli.net/2019/12/15/C8Ve3DfnkMPvg6y.png&#34; width=&#34;1008&#34; height=&#34;642&#34; /&gt;
+&lt;p&gt;3 &lt;strong&gt;上传至Github。&lt;/strong&gt;使用Github Desktop软件将HTTrack下载的网站文件夹完整的上传至一个新的repository，并将这个repository命名为your-github-username.github.io的形式。&lt;/p&gt;&lt;/p&gt;
+&lt;img class=&#34;aligncenter size-medium&#34; src=&#34;https://i.loli.net/2019/12/15/SpQxUG4bsdJwr7K.png&#34; width=&#34;960&#34; height=&#34;660&#34; /&gt;
+&lt;p&gt;4 &lt;strong&gt;开启Github Pages。&lt;/strong&gt;进入repository的设置页面，确认该仓库为&amp;quot;Public&amp;quot;，然后打开Github Pages，这样就可以在网站上浏览自己的备份网站了。&lt;/p&gt;
+&lt;img class=&#34;aligncenter size-medium&#34; src=&#34;https://i.loli.net/2019/12/15/wQh6oG7rCcgmRqs.png&#34; width=&#34;1031&#34; height=&#34;461&#34; /&gt;&lt;/p&gt;
+&lt;img class=&#34;aligncenter size-medium&#34; src=&#34;https://i.loli.net/2019/12/15/l6pJsnbTGOf54aW.png&#34; width=&#34;687&#34; height=&#34;735&#34; /&gt;
+&lt;p&gt;我为什么喜欢这种备份方式呢？最重要的原因是可以完整的保留网站的原貌。我的网站所有图片都是免费托放在外部的图床上的，主机也没有使用的可靠的大企业的主机（如阿里云、微软github等），这让我一直很没有安全感。通过这种方式将网站完整的保存在本地，并上传到Github上，即便未来某天图床或者主机商挂掉，我依然可以将自己的网站完美的展示出来。&lt;/p&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+ 	&lt;li&gt;[1] &lt;a href=&#34;https://www.wpbeginner.com/plugins/7-best-wordpress-backup-plugins-compared-pros-and-cons/&#34;&gt;7 Best WordPress Backup Plugins Compared (Pros and Cons)&lt;/a&gt; , 2019-12-15&lt;/li&gt;
+ 	&lt;li&gt;[2] &lt;a href=&#34;https://www.seoimo.com/wordpress-backup/&#34;&gt;WordPress备份: 整站备份+MySQL导出+还原/恢复+FTP迁移【自动脚本】&lt;/a&gt; , 2019-12-15&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>集成电路工艺实验思考题答案参考</title>
+        <link>https://www.bilibytes.com/tech/2018-06-12--%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B7%A5%E8%89%BA%E5%AE%9E%E9%AA%8C%E6%80%9D%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88/</link>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.bilibytes.com/tech/2018-06-12--%E8%A5%BF%E5%AE%89%E4%BA%A4%E5%A4%A7%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E5%B7%A5%E8%89%BA%E5%AE%9E%E9%AA%8C%E6%80%9D%E8%80%83%E9%A2%98%E7%AD%94%E6%A1%88/</guid>
+        <description>&lt;p&gt;　　尽管大部分答案都可以在课本上找到，不过在紧张的期末复习期间这项工作仍然显得无趣且繁琐，因此在这里为大家整理了一套答案，供大家复习时参考。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;工艺实验思考题&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;1.理想恒定电场按比例缩小的优势是什么？&lt;/p&gt;
+&lt;p&gt;　　优势：全收缩时功率按收缩因子的平方减小；栅氧电容和各种寄生电容按收缩因子减小，充电、放电时间得到改善；芯片面积减小，集成度提高。&lt;/p&gt;
+&lt;p&gt;2.理想恒定电场按比例缩小有什么问题？如何解决？&lt;/p&gt;
+&lt;p&gt;　　问题：要求所有端点电压也随尺寸减小，并不实际；器件尺寸过小，收到物理的限制越来越大；尺寸缩小会产生各种二级效应如段沟道效应等。&lt;/p&gt;
+&lt;p&gt;　　解决方法：采用新型的器件结构来抵消产生的不良影响，采用恒定电压比例缩小。&lt;/p&gt;
+&lt;p&gt;3.什么是亚阈值斜率？优化器件性能对亚阈值斜率有什么要求？&lt;/p&gt;
+&lt;p&gt;　　实际上，当栅压小于阈值电压时，仍然存在弱的反型层，并有一些漏源电流，这些漏源电流与栅压呈指数关系。将栅压和漏源电流的对数绘成曲线，该曲线在阈值电压下的那一段的斜率叫做亚阈值斜率。为了优化器件性能，亚阈值斜率应该越大越好，这样在亚阈值区的电流就会快速衰减为零。&lt;/p&gt;
+&lt;p&gt;4.同一晶片沟道长度很小时，为什么阈值电压会随沟长减小而降低？&lt;/p&gt;
+&lt;p&gt;　　因为沟长尺度很小时，会产生小尺寸效应，如短沟效应、窄沟效应等。短沟效应就是源漏会辅助栅下区域耗尽，即栅下耗尽区电荷很大一部分被源漏pn结电荷平衡，因此只要较少的栅电荷就可以达到反型。&lt;/p&gt;
+&lt;p&gt;5.什么是漏致势垒降低（DIBL）？对器件和电路性能有什么影响？&lt;/p&gt;
+&lt;p&gt;　　DIBL即漏端电压使源和沟道之间的势垒降低，导致阈值电压随漏端电压的增加而减小的现象。由于DIBL效应，使得短沟道器件亚阈值电流对漏源电压有强烈的依赖关系，它随漏源电压的增加而增加。因此会是器件的关态电流增加，降低器件的性能。同样会使得饱和区的输出电导不再恒定。&lt;/p&gt;
+&lt;p&gt;6.垂直电场为什么会引起迁移率变化？&lt;/p&gt;
+&lt;p&gt;　　因为垂直电场会使得载流子向表面加速，因此，反省层载流子除了受到晶格和离化杂质散射之外，还会与硅发生碰撞，造成迁移率降低、并使载流子被限制在表面附近。&lt;/p&gt;
+&lt;p&gt;7.垂直电场引起的迁移退化，对跨导有什么影响？&lt;/p&gt;
+&lt;p&gt;　　垂直电场引起的迁移退化，会使得跨导减小。&lt;/p&gt;
+&lt;p&gt;8.什么是速度饱和现象？&lt;/p&gt;
+&lt;p&gt;　　速度饱和是指沟道中载流子漂移速度随电场的增加而最终饱和的现象。&lt;/p&gt;
+&lt;p&gt;9.速度饱和现象对器件和电路的性能有什么影响？&lt;/p&gt;
+&lt;p&gt;　　由于存在速度饱和效应，电流和饱和电压都小于长沟道理论的预期值。同时，速度饱和会造成沟道的夹断现象。&lt;/p&gt;
+&lt;p&gt;10.什么是热载流子效应？&lt;/p&gt;
+&lt;p&gt;　　热载流子诱生的MOS器件退化是由于高能量的电子和空穴注入栅氧化层引起的，注入的过程中会产生界面态和氧化层陷落电荷，造成氧化层的损伤。随着损伤程度的增加，器件的电流电压特性就会发生改变。当器件参数改变超过一定限度后，器件就会失效，器件损伤的程度和机理取决于器件的工作条件。&lt;/p&gt;
+&lt;p&gt;11.热载流子效应对电路性能有什么影响？&lt;/p&gt;
+&lt;p&gt;　　对器件的影响：热载流子效应会引起碰撞电离，产生衬底电流，造成寄生BJT导通；热载流子及其产生的二次电子越过硅-二氧化硅势垒，进入栅氧化层，产生界面态和栅电流。
+对电路的影响：使得饱和区的电流不完全饱和。&lt;/p&gt;
+&lt;p&gt;12.漏源电压和输出阻抗的关系是什么？&lt;/p&gt;
+&lt;p&gt;　　随着漏源电压的增大，输出阻抗的变化呈现三个阶段。第一阶段：随着漏源电压的增大，夹断点向源端移动，沟道调制作用减弱，输出阻抗增大；第二阶段：随着漏源电压的增大，漏致势垒降低（DIBL）效应增大，使得阻抗有变小的趋势，抵消了调制作用减弱的影响，输出阻抗近似保持不变；第三阶段：漏源电压进一步增大，碰撞电离作用使得输出阻抗快速降低。&lt;/p&gt;
+&lt;p&gt;13.什么是工艺角？&lt;/p&gt;
+&lt;p&gt;　　工艺角指的是MOS晶体管的SPICE模型覆盖所有可能的工艺、温度、电源电压变化造成的器件行为偏差。采用改变模型参数的方法，把晶体管模型分为Normal, Fast和Slow不同的情况。&lt;/p&gt;
+&lt;p&gt;14.什么是薄层电阻？晶片的电阻率和厚度一般在什么数量级？&lt;/p&gt;
+&lt;p&gt;　　半导体膜或薄金属膜单位面积上的电阻叫薄层电阻。晶片的电阻率为0.05Ω·cm到0.1Ω·cm，厚度约为500到1000μm。&lt;/p&gt;
+&lt;p&gt;15.什么是切克劳斯基法？晶片有什么预处理措施？&lt;/p&gt;
+&lt;p&gt;　　切克劳斯基法也叫直拉法，是将一块单晶硅的籽晶进入熔融硅中，然后在旋转籽晶的同时逐渐地将其从熔融硅中拉出，形成单晶棒的技术。
+晶片的预处理措施有清洗和腐蚀多晶硅，去除表面的污物和氧化层。如使用有机溶剂（丙酮、甲醇）等去除油污，使用HF等化学试剂去除氧化层等。&lt;/p&gt;
+&lt;p&gt;16.氧化层有哪些用途？&lt;/p&gt;
+&lt;p&gt;　　氧化层有多种用途：1.作为掩膜：可以阻挡杂质离子向衬底中的扩散；2.作为芯片的钝化和保护膜：避免器件的玷污和化学腐蚀；3.作为电离隔膜；4.作为元器件的组成部分：如MOS场效应晶体管的绝缘栅材料。&lt;/p&gt;
+&lt;p&gt;17.什么是浅槽隔离技术？有哪些用途？&lt;/p&gt;
+&lt;p&gt;　　浅槽隔离，即STI。通常用于0.25um以下工艺，通过利用氮化硅掩膜经过淀积、图形化、刻蚀硅后形成槽，并在槽中填充淀积氧化物，用于实现器件之间的隔离。&lt;/p&gt;
+&lt;p&gt;18.影响二氧化硅层生长速度的因素有哪些？&lt;/p&gt;
+&lt;p&gt;　　氧化气氛的类型和压强、生长的温度以及硅片的掺杂浓度。&lt;/p&gt;
+&lt;p&gt;19.栅氧化层制备时为什么对精度要求很高？&lt;/p&gt;
+&lt;p&gt;　　因为氧化层的厚度决定了晶体管的电流驱动能力和可靠性；而且，氧化层硅下面的“清洁程度”也会影响沟道中载流子的迁移率，并因此影响晶体管的电流驱动能力、跨导和噪声。&lt;/p&gt;
+&lt;p&gt;20.离子注入的离子束能量很高导致掺杂浓度反常分布，会带来什么影响？&lt;/p&gt;
+&lt;p&gt;　　这种分布对n阱来说是理想的，因为他使n阱底部的电阻率较低，可降低对于闩锁效应的灵敏度。又使n阱表面的掺杂浓度较低，从而减小PMOS器件的S/D电容。&lt;/p&gt;
+&lt;p&gt;21.什么是沟道阻断注入？有什么用途？&lt;/p&gt;
+&lt;p&gt;　　沟道阻断注入指的是在场氧化区下面增加掺杂浓度。其作用势用来提高场氧晶体管的阈值电压。&lt;/p&gt;
+&lt;p&gt;22.退火有什么作用？会产生什么影响？&lt;/p&gt;
+&lt;p&gt;　　因为离子注入会严重地破坏硅的晶格，因此，注入后通常将硅片在大约1000℃下加热15到30分钟，以使晶格键再次生成，这个工艺称作退火。&lt;/p&gt;
+&lt;p&gt;　　退火工艺会导致杂质再分布，使得杂质分布展宽，造成不良影响，因此一般在所有的注入完成之后，对硅片仅退火一次。&lt;/p&gt;
+&lt;p&gt;23.什么是离子注入的沟道效应？有什么应对措施？应对措施有什么缺点？&lt;/p&gt;
+&lt;p&gt;　　离子注入的沟道效应是指，如果注入离子束对准晶轴方向，离子就会在晶片中渗透很深。应对措施：将注入（或晶片）倾斜7-9°，以避免这种对准，确保形成预期的杂志分布。但这种注入会影响晶体管的匹配，因此有必要在版图设计中加以考虑。&lt;/p&gt;
+&lt;p&gt;24.刻蚀有哪些方法？不同方法有什么优点或缺点？&lt;/p&gt;
+&lt;p&gt;　　刻蚀的方法有：1.湿法刻蚀，即将硅片置于化学溶液中腐蚀（精度较低）；2.等离子体刻蚀：即用等离子体鸿基晶片（精确度高）；3.反应离子刻蚀：用反应气体中产生的离子轰击晶片。&lt;/p&gt;
+&lt;p&gt;25.什么是阈值电压调节？有什么作用？&lt;/p&gt;
+&lt;p&gt;　　因为“自然”形成的晶体管阈值电压通常与期望相差较大，因此有必要进行阈值电压的调整注入。这种注入是在栅氧化层生长后进行的，从而会在表面附近形成一个杂质薄层。&lt;/p&gt;
+&lt;p&gt;26.栅极使用多晶硅的原因是什么？多晶硅层电阻率有什么控制方法？&lt;/p&gt;
+&lt;p&gt;　　栅极使用多晶硅的原因主要有：1.MOSFET的阈值电压主要由栅极与通道材料的功函数差决定，而因为多晶硅本质上是半导体，因此可以藉由掺杂不同极性的杂质来改变其功函数，进而方便地改变MOSFET的阈值电压；2.硅-二氧化硅接触面经过多年的研究，已经证实这两种材料之间的缺陷蚀相对而言比较少的；3.多晶硅的融点比大多数金属高，适用的制造工艺更为广泛。&lt;/p&gt;
+&lt;p&gt;27.什么是自对准工艺？有什么好处？&lt;/p&gt;
+&lt;p&gt;　　自对准工艺指的是不使用标记源和漏的掩膜版，直接利用先前定义的栅极进行离子注入，自动形成源漏区掺杂的工艺。其好处是可以精确的在栅极两侧进行源漏区注入，使得器件的尺寸更容易按比例缩小。&lt;/p&gt;
+&lt;p&gt;28.为什么需要制作金属硅化物？金属硅化物怎么制作？&lt;/p&gt;
+&lt;p&gt;　　制作金属硅化物是因为掺杂多晶硅和源/漏区方块电阻通常较大，需要将他们的电阻值减小约一个数量级。金属硅化物可以通过在多晶硅层和有源区覆盖一薄层高电导材料来生成。&lt;/p&gt;
+&lt;p&gt;29.接触孔和通孔有哪些工艺要求？&lt;/p&gt;
+&lt;p&gt;30.什么是接触穿刺？如何避免？&lt;/p&gt;
+&lt;p&gt;　　金属穿刺是当金属与有源区大面积连接时，金属可能会“吃掉”和透过掺杂区，并最终穿过pn结，将二极管短路。避免接触穿刺主要方法是减小接触孔的尺寸，即使用很多小的接触窗口而不是用一个大窗口。&lt;/p&gt;
+&lt;p&gt;31.电阻有哪些类型？电阻需要关心的参数有哪些？&lt;/p&gt;
+&lt;p&gt;　　电阻用N阱电阻、源/漏P+或N+材料电阻、硅化的多晶硅电阻、金属电阻等。电阻需要关心的参数有电阻的方块电阻、精确度等。&lt;/p&gt;
+&lt;p&gt;32.非硅化多晶硅电阻（加硅化阻挡层）的优缺点有哪些？&lt;/p&gt;
+&lt;p&gt;　　优：电阻阻值大；
+　　缺：稳定性差，制版成本高，工艺较复杂。&lt;/p&gt;
+&lt;p&gt;33.N阱电阻的优缺点和用途有哪些？&lt;/p&gt;
+&lt;p&gt;　　阻值较大，但受其工艺影响较大。用途有：共源级放大电路中隔离信号通路和源阻抗，适合做大电阻。&lt;/p&gt;
+&lt;p&gt;34.P+和N+源漏区电阻的特点和用途有哪些？&lt;/p&gt;
+&lt;p&gt;　　特点是仅适合做小电阻，其随工艺变化范围很大，与衬底形成结电容。&lt;/p&gt;
+&lt;p&gt;35.硅化多晶硅电阻的特点有哪些？&lt;/p&gt;
+&lt;p&gt;　　电阻较小，方阻的变化范围很大，仅用在对电阻绝对值要求不高的场合。&lt;/p&gt;
+&lt;p&gt;36.金属电阻的特点有哪些？&lt;/p&gt;
+&lt;p&gt;　　电阻很小。&lt;/p&gt;
+&lt;p&gt;37.电容有哪些类型？电容需要关心的参数有哪些？&lt;/p&gt;
+&lt;p&gt;　　电容的类型：多晶硅-扩散层电容、多晶硅-多晶硅电容、金属-多晶硅电容、MOS电容器。关心的参数：非线性、对衬底的寄生电容、串联电阻和每单位面积电容密度等。&lt;/p&gt;
+&lt;p&gt;38.电容的下极板寄生电容与电容值的比例一般是多少？&lt;/p&gt;
+&lt;p&gt;　　对于多晶硅-扩散层电容，下极板寄生电容越是极板间电容的20%；对于多晶硅-多晶硅电容，下极板寄生电容与电容的数值大致相同；对于金属-多晶硅电容，下极板寄生电容大约是板间电容的10%-20%；对于MOS电容该比例为10%-20%.&lt;/p&gt;
+&lt;p&gt;39.金属-多晶硅电容的特点有哪些？&lt;/p&gt;
+&lt;p&gt;　　金属多晶硅电容的线性特性最好、寄生电容最小，但也最昂贵。&lt;/p&gt;
+&lt;p&gt;40．MOS电容的特点有哪些？&lt;/p&gt;
+&lt;p&gt;　　实现的方法最为简单；点位面积电容非常大，可以节省相当大的面积；下极板寄生电容对于栅电容的比率较小；但其电容即使在强反型状态下也与电压有关，使其不能用于精确的电荷传输。&lt;/p&gt;
+&lt;p&gt;41.减小MOS电容互联电阻的措施有哪些？&lt;/p&gt;
+&lt;p&gt;　　为了减小MOS电容的串联电阻，L必须最小化。因此，MOS电容器通常设计成一些又宽又短的器件并联，而不设计成正方形块。&lt;/p&gt;
+&lt;p&gt;42.互联线对电路性能的影响表现在哪些方面？&lt;/p&gt;
+&lt;p&gt;　　互联线与串联电阻和并联电容密切相关。而电源线和地线的串联电阻会产生直流和瞬态的压降。对于长的传输线，连线的分布电阻和电容会引起显著的信号延时。&lt;/p&gt;
+&lt;p&gt;43.什么是电迁移现象？对互联线宽度有什么限制？&lt;/p&gt;
+&lt;p&gt;　　在高电流密度下，连线中的铝原子容易“迁移”，其留下的空位最终会造成连线断开的现象称为电迁移。因此，必须将互联线宽度设计的大一些，避免电流密度过大造成过早的电迁移。&lt;/p&gt;
+&lt;p&gt;44.什么是闩锁效应？有哪些预防措施？&lt;/p&gt;
+&lt;p&gt;　　闩锁效应是由NMOS的有源区、P衬底、N阱、PMOS的有源区构成的n-p-n-p结构产生的，当其中一个三极管正偏时，就会构成正反馈形成闩锁。造成电流的不断增大，进而晒会晶体管。&lt;/p&gt;
+&lt;p&gt;　　预防措施：使等效电路的环路增益保持小于1；合理设计版图，使得衬底接触空和n阱接触空的接触电阻尽可能小，减小寄生电阻等。&lt;/p&gt;
+&lt;p&gt;45.N阱环绕器件为什么需要再N阱和器件之间留有余量？&lt;/p&gt;
+&lt;p&gt;　　因为存在对准偏差。&lt;/p&gt;
+&lt;p&gt;46.多晶硅层和金属线为什么会有最小宽度限制？&lt;/p&gt;
+&lt;p&gt;　　因为如果宽度太窄，由于光刻和制造水平的影响，可能会导致金属和多晶硅层断开。&lt;/p&gt;
+&lt;p&gt;47.同层连线之间为什么有最小宽度限制？&lt;/p&gt;
+&lt;p&gt;　　因为如果宽度太窄，可能会造成连线的交叠短路。&lt;/p&gt;
+&lt;p&gt;48.为什么阱或有源区有最小包围的限制？&lt;/p&gt;
+&lt;p&gt;　　因为要确保在出现制造偏差时期间部分始终在N井和P+注入区里面。&lt;/p&gt;
+&lt;p&gt;49.为什么多晶硅栅极在有源区以外有最小延伸的限制？&lt;/p&gt;
+&lt;p&gt;　　因为要确保晶体管在有源区边缘能正常工作。&lt;/p&gt;
+&lt;p&gt;50.为什么长金属线最小宽度比短金属线最小宽度大？&lt;/p&gt;
+&lt;p&gt;　　因为要避免“起皮”问题。&lt;/p&gt;
+&lt;p&gt;51.什么是天线效应？有什么影响和应对措施？&lt;/p&gt;
+&lt;p&gt;　　在芯片生产过程中，暴露的金属线或者多晶硅(polysilicon)等导体，就象是一根根天线，会收集电荷（如等离子刻蚀产生的带电粒子）导致电位升高。天线越长，收集的电荷也就越多，电压就越高。若这片导体碰巧只接了MOS 的栅，那么高电压就可能把薄栅氧化层击穿，使电路失效，这种现象我们称之为“天线效应”。&lt;/p&gt;
+&lt;p&gt;　　应对措施就是尽可能减小导电材料和多晶硅的几何面积。&lt;/p&gt;
+&lt;p&gt;52.插指结构晶体管的单指宽度一般如何选取？&lt;/p&gt;
+&lt;p&gt;　　根据经验，每一个指状晶体管的宽度的选取要保证该晶体管的栅电阻小于其跨导的导数。&lt;/p&gt;
+&lt;ol start=&#34;53&#34;&gt;
+&lt;li&gt;插指结构的优缺点有哪些？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;　　优：减少栅电阻。&lt;/p&gt;
+&lt;p&gt;　　缺：使得源/漏区的周边电容增大了。&lt;/p&gt;
+&lt;p&gt;54.电路版图对称有什么好处？&lt;/p&gt;
+&lt;p&gt;　　对称性的设计可以尽可能的避免由不匹配造成的失调电压；同时还可以抑制共模噪声和偶次非线性效应。&lt;/p&gt;
+&lt;p&gt;55.什么是栅阴影效应？栅阴影效应有什么应对措施？&lt;/p&gt;
+&lt;p&gt;　　栅阴影是由于在离子注入是为了避免沟道效应，将注入方向小角度偏移造成栅对注入产生阻挡，从而产生阴影的效应。&lt;/p&gt;
+&lt;p&gt;56.共中心布局方法有什么好处？&lt;/p&gt;
+&lt;p&gt;　　共中心布局提升了版图的对称性。&lt;/p&gt;
+&lt;p&gt;57.基准电源如何分配？&lt;/p&gt;
+&lt;p&gt;　　参考源可以按电流（而不是电压）进行分配。其思路就是将参考电流走线连到临近的模块，并且就地生成镜像电流。&lt;/p&gt;
+&lt;p&gt;58.电流镜匹配需要注意哪些问题？&lt;/p&gt;
+&lt;p&gt;　　要注意电流源的取向；为了减小布线难度，可以多采用几个局部的带隙参考电路。&lt;/p&gt;
+&lt;p&gt;59.提高电阻匹配程度的方法有哪些？&lt;/p&gt;
+&lt;p&gt;　　对于大数值的电阻，通常将其分为较短的电阻单位，平行放置并串联在一起。&lt;/p&gt;
+&lt;p&gt;60.提高电容匹配程度的方法有哪些？&lt;/p&gt;
+&lt;p&gt;　　采用多晶硅覆盖扩散区、多晶硅覆盖多晶硅或金属覆盖多晶硅的结构。&lt;/p&gt;
+&lt;p&gt;61.衬底上实现的二极管有什么问题？&lt;/p&gt;
+&lt;p&gt;　　必须保持反向偏压，只能做为随电压变化的电容器。&lt;/p&gt;
+&lt;p&gt;62.N阱中实现的二极管有什么问题？&lt;/p&gt;
+&lt;p&gt;　　在正偏时面临许多困难，即正偏时会有很大的衬底电流，不能简单地看做为两端悬浮的二极管。&lt;/p&gt;
+&lt;p&gt;63.减小信号串扰的措施有哪些？&lt;/p&gt;
+&lt;p&gt;　　措施：1.利用差动信号将大多数串扰转换成共模干扰；2.在版图中“屏蔽”敏感信号。&lt;/p&gt;
+&lt;p&gt;64.减小衬底噪声影响有哪些措施？&lt;/p&gt;
+&lt;p&gt;　　措施：1.在整个电路中都采用差动电路，以降低模拟电路部分对共模噪声的敏感度。2.数字信号与时钟应该以互补形式分布，从而减小净噪声耦合。3.采用更精确的工作模式，比如信号采样或电容间的电荷转移应在时钟跳变以后进行。4.使与衬底相连的内引线电感最小。5.使用“保护环”将敏感模块与衬底噪声隔离等。&lt;/p&gt;
+&lt;p&gt;65.模拟地与数字地如何分开？&lt;/p&gt;
+&lt;p&gt;　　低频电路：加粗和缩短地线，电路各部分采用一点接地。
+　　高频电路：应采取分开接地和一点接地相结合的方式。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My first try on neural network</title>
+        <link>https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/</link>
+        <pubDate>Sat, 28 Oct 2017 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.bilibytes.com/tech/2017-10-28-my-first-try-on-nn/</guid>
+        <description>&lt;h1 id=&#34;install-tensorflow-on-windows&#34;&gt;Install Tensorflow on Windows
+&lt;/h1&gt;&lt;h2 id=&#34;step-1-installation-of-cuda&#34;&gt;Step 1 Installation of CUDA
+&lt;/h2&gt;&lt;h5 id=&#34;what-is-cuda-and-why-do-we-use-it&#34;&gt;What is CUDA, and why do we use it?
+&lt;/h5&gt;&lt;p&gt;　　CUDA is short for Compute Unified Device, and it is a production of NVIDIA corporation that aims to solve the complicated computing problems with GPU within a parallel computing architecture. Developers can process programming with C, C++ or FORTRAN under a standard, mature environment (CUDA environment) to control GPU to solve problems.&lt;/p&gt;
+&lt;h5 id=&#34;installation-procedures&#34;&gt;Installation Procedures
+&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;If your computer is equipped with a NVIDIA graphics card that is not too &lt;em&gt;old&lt;/em&gt;, it is almost sure for running CUDA. To double check whether your GPU satisfies the CUDA running condition, visit this site &lt;a class=&#34;link&#34; href=&#34;https://developer.nvidia.com/cuda-gpus&#34;  title=&#34;https://developer.nvidia.com/cuda-gpus&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developer.nvidia.com/cuda-gpus&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Download CUDA Toolkit from NVIDIA official website (see:&lt;a class=&#34;link&#34; href=&#34;https://developer.nvidia.com/cuda-toolkit&#34;  title=&#34;https://developer.nvidia.com/cuda-toolkit&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developer.nvidia.com/cuda-toolkit&lt;/a&gt;). A reference choice is as follows:&lt;/li&gt;
+&lt;li&gt;Install the CUDA as instructions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;step-2-installation-of-cudnn&#34;&gt;Step 2 Installation of CUDNN
+&lt;/h2&gt;&lt;h5 id=&#34;what-is-cudnn&#34;&gt;What is CUDNN?
+&lt;/h5&gt;&lt;p&gt;　　CUDNN is a computing package provided by NVIDIA CUDA Toolkit to speed up the computation of convolutional neural network by converting common computation to GPU-friendly one.&lt;/p&gt;
+&lt;h5 id=&#34;installation-procedures-1&#34;&gt;Installation Procedures
+&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;You can visit the NVIDIA official website to freely download the latest edition of th cuDNN computing package after filling some basic information required, or you can directly search package through search engine and download it to local computer.&lt;/li&gt;
+&lt;li&gt;Install it as instructions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;step-3-installation-of-anaconda-and-tensorflow-package&#34;&gt;Step 3 Installation of Anaconda and TensorFlow package
+&lt;/h2&gt;&lt;h5 id=&#34;q-what-is-anaconda-and-why-do-we-use-it&#34;&gt;Q: What is Anaconda, and why do we use it?
+&lt;/h5&gt;&lt;p&gt;　　Anaconda is an integrated Python environment equipped with Python main programme, IDE, IPython and other third-party packages. And conda is used as a attached tool to manage packages as well as programming environments. You can directly run the conda command in command lines for conda have been defaultly added to system environment varibies during the Anaconda installation process.&lt;/p&gt;
+&lt;h5 id=&#34;installation-procedures-2&#34;&gt;Installation Procedures
+&lt;/h5&gt;&lt;ol&gt;
+&lt;li&gt;Add &lt;em&gt;CDUA bin&lt;/em&gt; and &lt;em&gt;NVIDIA Computing Toolkit&lt;/em&gt; to system path.&lt;/li&gt;
+&lt;li&gt;Download the installation package of Anaconda from &lt;a class=&#34;link&#34; href=&#34;https://www.continuum.io/downloads&#34;  title=&#34;https://www.continuum.io/downloads&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.continuum.io/downloads&lt;/a&gt;. If the downloading process is too slow, you can also download the mirror file from domestic mirror ware, for example: &lt;a class=&#34;link&#34; href=&#34;http://mirrors.ustc.edu.cn/&#34;  title=&#34;http://mirrors.ustc.edu.cn/&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;http://mirrors.ustc.edu.cn/&lt;/a&gt; .&lt;/li&gt;
+&lt;li&gt;After the Anaconda installation, open the Anaconda Navigator to add a new environment in local computer, note that to choose a python 3.5 version (because some new features are not supported in python 3.6 ).&lt;/li&gt;
+&lt;li&gt;Use the Anaconda to install TensorFlow package. Open Anaconda Prompt and type in &lt;em&gt;anaconda search -t conda tensorflow&lt;/em&gt; command to check the tensorflow avaliable for current system. Then use command &lt;em&gt;anaconda show dhirschfeld/tensorflow+&amp;lsquo;version&amp;rsquo;&lt;/em&gt; to download and install the package.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h5 id=&#34;well-down-enjoy-the-convenience-from-tensorflow-by-open-jupyter-notebook&#34;&gt;Well down! Enjoy the convenience from TensorFlow by open Jupyter Notebook.
+&lt;/h5&gt;&lt;h1 id=&#34;implementation-of-neural-network-based-on-mnist-basic-level&#34;&gt;Implementation of Neural Network Based on MNIST (Basic level)
+&lt;/h1&gt;&lt;h2 id=&#34;fundamental-principles&#34;&gt;Fundamental Principles
+&lt;/h2&gt;&lt;h3 id=&#34;logistic-regression&#34;&gt;Logistic Regression
+&lt;/h3&gt;&lt;p&gt;　　Logistic regression is a method helping you implement binary classification by outputing a specific probility of being &amp;ldquo;1&amp;rdquo; after mathematical operations. Two steps are needed to finish a single logistic regression:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The first step can be thought to combine all input factors together, you need two   parameters - vector W and b, both of which have same dimension as inputs and after doing the operation &amp;ldquo;W^T*X+b&amp;rdquo; you get a new variable denoted as &amp;ldquo;z&amp;rdquo; that reflects  compositive influence of all inputs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The second step is to apply an activation function to new earned variable &amp;ldquo;z&amp;rdquo;. The most common activation function is Sigmoid function whose expression is &amp;ldquo;1/(1+e^(-z))&amp;quot;.Two main reasons of applying activation are by doing so you can get a probility within the range from 0 to 1, and making deeper neural network have more complexity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;loss-function-and-cost-function&#34;&gt;Loss Function and Cost Function
+&lt;/h3&gt;&lt;p&gt;　　It is essential to make judagement of how well your predictation goes by defining Loss Function to a single example and Cost Function that can be thought to be a combined Loss Function to a dataset with more than more examples.&lt;/p&gt;
+&lt;p&gt;　　In logistic regression, we have a stereotype defined Loss Function as &amp;ldquo;L(y,y_hat)=-[y*log(y_hat)+(1-y)*log(1-y_hat)]&amp;rdquo;. The smaller L is, the more presice your prediction is. Similarly, we define cost function as &amp;ldquo;J(W,b)=(1/m)*Sigma(1,m)(y(i)*log(y_hat(i))+(1-y(i))*log(1-y_hat(i)))&amp;rdquo;. W and b here are two vectors with same dimension as dataset example.&lt;/p&gt;
+&lt;h3 id=&#34;logistic-regression-gradient-descent-in-common-programming-mindset&#34;&gt;Logistic Regression Gradient Descent in Common Programming Mindset
+&lt;/h3&gt;&lt;p&gt;　　Logisic regression gradient descent is a method to find the minimum target function(Cost Function) value. The simplest representation of regression gradient decent pseudocode is as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Repeat{
+ w := w - a*(d(J(w,b))/dw)
+ b := b - b*(d(J(w,b))/db)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　	From the above pseudocode we know that the essence of regression gradient descent method is to constantly refresh the parameters so that the target function (J(w,b)) can have steepest drop till the minimus value is found(or the gradient of target function remains so small that can be seen as 0).&lt;/p&gt;
+&lt;p&gt;　　To a dataset with many examples, the logistic regression gradient descent pseudocode is as follows(let number of examples be 2):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;J = 0, dw1 = 0, dw2 = 0, db = 0
+
+For i = 1 to m
+
+	z(i) = w^T*x(i) + b
+	a(i) = sigmoid(z(i))
+	J += -[y(i)log(a(i)) + (1-y(i))log(1-a(i))]
+	
+	dz(i) = a(i) - y(i)
+	dw1(i) += x1(i)dz(i)  % dw1 refers to d(J(w1,w2,b))/dw1
+	dw2(i) += x2(i)dz(i)  % dw2 refers to d(J(w1,w2,b))/dw2
+	db += dz(i)
+
+J/=m, dw1/=m, dw2/=m, db/=m
+w1 := w1 - a*(d(J(w1,w2,b))/dw1)
+w2 := w2 - a*(d(J(w1,w2,b))/dw2)
+b := b - b*(d(J(w1,w2,b))/db)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;vectorization-for-speeding-up&#34;&gt;Vectorization for speeding up
+&lt;/h3&gt;&lt;p&gt;　　We can see there are two explict &amp;ldquo;for&amp;rdquo; loop in above code, however the &amp;ldquo;for&amp;rdquo; loop runs so slowly in computer that it makes impossible to implement deep neural network. Therefore, we use vectorization method to avoid explict &amp;ldquo;for&amp;rdquo; loop in our code to speed up the neural network training.&lt;/p&gt;
+&lt;p&gt;　　By using packages provided with python such as numpy we can process vectorized calculation easily, for example, the &amp;ldquo;np.dot(A,B)&amp;rdquo; function in numpy calculate the two vectors&amp;rsquo; multiplcation without using explict &amp;ldquo;for loop&amp;rdquo; that makes our code run more efficiently.&lt;/p&gt;
+&lt;p&gt;　　The vectorized version code of the logistic regression gradient descent is shown as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;for iter in range(number_of_examples):
+	Z = np.dot(W,T,X) + b
+	A = sigmoid(Z)
+	dZ = A - Y
+	dW = (1/m)*X*dZ^T
+	db = (1/m)*np.sum(dZ)
+	W := W - a*dW
+ 	b := b - a*db
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　There are some notes to do vectorized programming in python, you&amp;rsquo;d better to do the vector definition by clearly pointing the dimension of the vector. For example, &amp;ldquo;a = np.random.randn(5,1)&amp;rdquo; instead of difining like &amp;ldquo;a = np.random.rand(5)&amp;rdquo; because there is a special wired data structure called &amp;ldquo;rank 1 array&amp;rdquo; in python that may causes really confusing bugs if you don&amp;rsquo;t clearly clarify the dimension of the vector.&lt;/p&gt;
+&lt;h3 id=&#34;fundamentals-of-neural-network&#34;&gt;Fundamentals of Neural Network
+&lt;/h3&gt;&lt;p&gt;　　After figuring out the basic knowledge of logistic regression and its gradient descent method it will be easy to know the bassic principle of neural network because we can see neural work as iteration of logistic regression for many times through different layers of the network. Take vectorized logistic regression as reference, we get four baisc step to implement a neural network as follows(let the layer of the network be 2):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;z[1] = W[1]*x + b[1]
+a[1] = activation(z[i])
+z[2] = W[2]*a[i] + b[2]
+a[2] = activation(z[2])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　Note that the symbol we use here is slightly different from that in logistic regression. For example, in &amp;ldquo;z[1]&amp;rdquo;, &amp;ldquo;1&amp;rdquo; refer to the 1st layer of the neural network, commonly it refers to the hidden layer but not the input layer as we usually think, and the &amp;ldquo;activation&amp;rdquo; means activation function, its impact is similar to &amp;ldquo;Sigmoid&amp;rdquo; function as we mentioned before, but we have to utilize more efficient activation function in neural network, the most frequently used activation function is ReLU function. There are many other forms of activation functions in different application of neural network.&lt;/p&gt;
+&lt;p&gt;　　The reason we use activation function is to make neural network have more complexities so that the network can get ideal result. Note that unless being used in output layer in some &amp;ldquo;rare&amp;rdquo; occasions such as binary classification, we do not use &amp;ldquo;Sigmoid&amp;rdquo; Function, and we usually set ReLU function as default.&lt;/p&gt;
+&lt;h2 id=&#34;implementation-of-neural-network-based-on-mnsit&#34;&gt;Implementation of Neural Network based on MNSIT
+&lt;/h2&gt;&lt;h3 id=&#34;what-is-mnsit&#34;&gt;What is MNSIT
+&lt;/h3&gt;&lt;p&gt;　　The MNIST database of handwritten digits has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.It is a good database for people who want to try learning techniques and pattern recognition methods on real-world data while spending minimal efforts on preprocessing and formatting.&lt;/p&gt;
+&lt;p&gt;　　To import MNSIT database in python with this command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import tensorflow.examples.tutorials.mnist.input_data as input_data
+mnist = input_data.read_data_sets(&amp;quot;MNIST_data/&amp;quot;,one_hot=True)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;define-the-training-cost-function-and-implement-gradient-descent-algorithm&#34;&gt;Define the Training Cost Function and Implement Gradient Descent Algorithm
+&lt;/h3&gt;&lt;p&gt;　　We use cross-entropy to be cost function( but not the Cost Function we implement in logistic regression ). You can think cross-entropy as a degree of confusion, the less confusion a system is, the better the prediction we get. Then we have to use gradient descent descent algorithm to minimize the target function so that we get the optimized parameters. TensorFlow can do the optimiztation very essily. The relevant codes are as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;y_ = tf.placeholder(&amp;quot;float&amp;quot;,[None,10])
+cross_entropy = -tf.reduce_sum(y_*tf.log(y))
+train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;iteration-and-result-judgement&#34;&gt;Iteration and Result Judgement
+&lt;/h3&gt;&lt;p&gt;　　To my notebook, it;s impossible to do the training with all range of the dataset, therefore we use &amp;ldquo;batch&amp;rdquo; function to randomly choose 100 data to do the training. To test how precise our model is we use &amp;ldquo;tf.argmax&amp;rdquo; function to compare the predictation and the true value and then get the mean number of the boolen array we get to represent the accuracy our neural network. There are some other notices, for example, we have to initialize all parameters first. The code is as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;init = tf.global_variables_initializer()
+sess = tf.Session()
+sess.run(init)
+
+for i in range(1000):
+	batch_xs, batch_ys =mnist.train.next_batch(100)
+	sess.run(train_step,feed_dict={x:batch_xs, y_:batch_ys})
+
+correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
+accuracy = tf.reduce_mean(tf.cast(correct_prediction,&amp;quot;float&amp;quot;))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;result-of-our-first-neural-network&#34;&gt;Result of Our First Neural Network
+&lt;/h3&gt;&lt;p&gt;　　The full version of the project is as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import tensorflow as tf
+import tensorflow.examples.tutorials.mnist.input_data as input_data
+mnist = input_data.read_data_sets(&amp;quot;MNIST_data/&amp;quot;,one_hot=True)
+
+x = tf.placeholder(&amp;quot;float&amp;quot;, [None, 784])
+W = tf.Variable(tf.zeros([784,10]))
+b = tf.Variable(tf.zeros([10]))
+y = tf.nn.softmax(tf.matmul(x,W) + b)
+
+y_ = tf.placeholder(&amp;quot;float&amp;quot;,[None,10])
+cross_entropy = -tf.reduce_sum(y_*tf.log(y))
+train_step = tf.train.GradientDescentOptimizer(0.01).minimize(cross_entropy)
+
+init = tf.global_variables_initializer()
+sess = tf.Session()
+sess.run(init)
+
+for i in range(1000):
+	batch_xs, batch_ys =mnist.train.next_batch(100)
+	sess.run(train_step,feed_dict={x:batch_xs, y_:batch_ys})
+
+correct_prediction = tf.equal(tf.argmax(y,1),tf.argmax(y_,1))
+accuracy = tf.reduce_mean(tf.cast(correct_prediction,&amp;quot;float&amp;quot;))
+
+print (sess.run(accuracy, feed_dict={x:mnist.test.images, y_:mnist.test.labels}))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;　　Run the model many times we find that the accuracy of the neural network is around 91%, it is not a satisfying result because our neural network only have 2 layers - single hidden layer and a output layer. We will improve and perfect our model in next tutorials.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Copyright clarification:  any copying or propagation behaviour without author&amp;rsquo;s permission is forbidden.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>

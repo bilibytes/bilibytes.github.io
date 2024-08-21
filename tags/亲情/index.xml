@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>亲情 on bilibytes.com</title>
-    <link>https://www.bilibytes.com/tags/%E4%BA%B2%E6%83%85/</link>
-    <description>Recent content in 亲情 on bilibytes.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E4%BA%B2%E6%83%85/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title> 你好，27岁</title>
-      <link>https://www.bilibytes.com/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bilibytes.com/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</guid>
-      <description>&lt;p&gt;我迎来了我的27岁生日！&lt;/p&gt;
+    <channel>
+        <title>亲情 on BiliBytes</title>
+        <link>https://www.bilibytes.com/tags/%E4%BA%B2%E6%83%85/</link>
+        <description>Recent content in 亲情 on BiliBytes</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>www.bilibytes.com</copyright>
+        <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E4%BA%B2%E6%83%85/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title> 你好，27岁</title>
+        <link>https://www.bilibytes.com/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</link>
+        <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.bilibytes.com/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</guid>
+        <description>&lt;p&gt;我迎来了我的27岁生日！&lt;/p&gt;
 &lt;p&gt;没有张罗生日的习惯，这次也是如此。但是在生日这天收到的生日祝福依然让人无比开心。&lt;/p&gt;
 &lt;p&gt;22号一大早，爸爸妈妈就在微信里给我发了“生日快乐”的红包。我高兴的回复了“谢谢爸爸妈妈”！&lt;/p&gt;
 &lt;p&gt;之后，老朋友瓜瑞也给我发了微信祝我生日快乐。很感动，一起从小玩到大的小伙伴，希望我们的友谊能够地久天长。&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;p&gt;27岁，希望自己能够继续幸运的走下去。&lt;/p&gt;
 &lt;p&gt;（2024.07.23 苏黎世）&lt;/p&gt;
 </description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>

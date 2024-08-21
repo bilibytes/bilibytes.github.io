@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>读博 on bilibytes.com</title>
-    <link>https://www.bilibytes.com/tags/%E8%AF%BB%E5%8D%9A/</link>
-    <description>Recent content in 读博 on bilibytes.com</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh</language>
-    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E8%AF%BB%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title> 人生第一篇第一作者论文被接收了</title>
-      <link>https://www.bilibytes.com/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</link>
-      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.bilibytes.com/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</guid>
-      <description>&lt;p&gt;2024年8月10日00:58分，我收到了BioCAS的邮件，我人生中第一篇第一作者文章被接收了！&lt;/p&gt;
+    <channel>
+        <title>读博 on BiliBytes</title>
+        <link>https://www.bilibytes.com/tags/%E8%AF%BB%E5%8D%9A/</link>
+        <description>Recent content in 读博 on BiliBytes</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>www.bilibytes.com</copyright>
+        <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E8%AF%BB%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title> 人生第一篇第一作者论文被接收了</title>
+        <link>https://www.bilibytes.com/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</link>
+        <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.bilibytes.com/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</guid>
+        <description>&lt;p&gt;2024年8月10日00:58分，我收到了BioCAS的邮件，我人生中第一篇第一作者文章被接收了！&lt;/p&gt;
 &lt;p&gt;这是我学术道路上一个值得纪念的时刻。&lt;/p&gt;
 &lt;p&gt;本科时，我就开始参与科研训练，期待能够发表论文、或者至少挂名论文——这样最大的好处是有助于我的博士申请。那个时候，“本科生科研”已经慢慢开始普及，身边也不乏厉害的同学发表论文、甚至是以第一作者发表论文。我虽然下过努力，但是最终还是没有成功发表论文。&lt;/p&gt;
 &lt;p&gt;本科申请博士的结果不算太好，我来到了欧洲读硕士。我还是喜欢做科研的感觉，希望自己能够发表论文，并且继续申请博士。于是自己趁着学期项目和毕业设计的机会进组，跟着实验室博士博后打工、参与实际科研。遗憾的是硕士的时候经历了一阵迷茫期，并且多次转换方向，最终也没有能发表一作论文。但幸运的是，我参与的一个项目最终被发表了，我实现了论文零的突破，尽管自己仅仅是第三作者。&lt;/p&gt;
@@ -21,7 +21,7 @@
 &lt;p&gt;果然，在前几个月经历过一段痛苦的论文投稿期之后，我的第一篇第一作者论文被接收了！从本科到读博第二年，从参与科研、到挂名论文、再到第一作者发表论文，自己也逐渐成熟。我想，这种一点点积累、一点点进步带来的满足感，也是我喜欢科研的一个原因吧。&lt;/p&gt;
 &lt;p&gt;（2024.08.16 苏黎世）&lt;/p&gt;
 </description>
-    </item>
-    
-  </channel>
+        </item>
+        
+    </channel>
 </rss>
