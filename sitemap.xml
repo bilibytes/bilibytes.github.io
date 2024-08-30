@@ -2,13 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bilibytes.com/tech/2024-08-30-hugo%E5%8D%9A%E5%AE%A2%E4%B8%80%E9%94%AE%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E4%BB%A5%E5%8F%8A%E6%9C%AC%E5%9C%B0%E5%A4%87%E4%BB%BD/</loc>
+    <lastmod>2024-08-30T20:37:54+02:00</lastmod>
+  </url><url>
+    <loc>https://www.bilibytes.com/tags/</loc>
+    <lastmod>2024-08-30T20:37:54+02:00</lastmod>
+  </url><url>
+    <loc>https://www.bilibytes.com/tech/</loc>
+    <lastmod>2024-08-30T20:37:54+02:00</lastmod>
+  </url><url>
+    <loc>https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2024-08-30T20:37:54+02:00</lastmod>
+  </url><url>
     <loc>https://www.bilibytes.com/blog/2024-08-26-%E5%8E%BB%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF%E8%BF%87%E5%91%A8%E6%9C%AB/</loc>
     <lastmod>2024-08-27T01:12:01+02:00</lastmod>
   </url><url>
     <loc>https://www.bilibytes.com/blog/</loc>
-    <lastmod>2024-08-27T01:12:01+02:00</lastmod>
-  </url><url>
-    <loc>https://www.bilibytes.com/tags/</loc>
     <lastmod>2024-08-27T01:12:01+02:00</lastmod>
   </url><url>
     <loc>https://www.bilibytes.com/tags/%E6%97%85%E8%A1%8C/</loc>
@@ -110,9 +119,6 @@
     <loc>https://www.bilibytes.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-07-19T18:35:06+02:00</lastmod>
   </url><url>
-    <loc>https://www.bilibytes.com/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2024-07-19T18:35:06+02:00</lastmod>
-  </url><url>
     <loc>https://www.bilibytes.com/blog/2023-06-01-%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BF%E7%85%A7%E7%89%87%E9%9B%86/</loc>
     <lastmod>2024-07-20T00:49:10+02:00</lastmod>
   </url><url>
@@ -202,9 +208,6 @@
   </url><url>
     <loc>https://www.bilibytes.com/blog/2022-04-27-%E8%B4%AD%E5%BE%97%E6%96%B0%E5%9F%9F%E5%90%8Dhaoink/</loc>
     <lastmod>2024-07-18T20:56:05+02:00</lastmod>
-  </url><url>
-    <loc>https://www.bilibytes.com/tech/</loc>
-    <lastmod>2024-07-20T01:09:19+02:00</lastmod>
   </url><url>
     <loc>https://www.bilibytes.com/tech/2022-04-15-wordpress%E6%8A%80%E5%B7%A7%E4%BD%BF%E7%94%A8github%E5%9B%BE%E5%BA%8Acdn%E5%8A%A0%E9%80%9F%E4%B8%AA%E6%80%A7%E5%8C%96%E5%AD%97%E4%BD%93/</loc>
     <lastmod>2024-05-19T00:42:40+02:00</lastmod>
