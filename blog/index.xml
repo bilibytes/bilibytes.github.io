@@ -6,7 +6,51 @@
     <description>Recent content in Blogs on bilibytes.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在学术上有了自己的想法 / 第一次做TA和讲课 / 健身三个月总结 / 能坚持睡前不玩手机吗</title>
+      <link>https://www.bilibytes.com/blog/2024-09-27/</link>
+      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bilibytes.com/blog/2024-09-27/</guid>
+      <description>&lt;h2 id=&#34;好像在学术上有了自己的想法&#34;&gt;好像在学术上有了自己的想法&lt;/h2&gt;
+&lt;p&gt;读博第三年开始了。最近有了一种新的感觉，就是自己好像渐渐在学术上“有了自己的想法”。&lt;/p&gt;
+&lt;p&gt;第一个例子就是之前偶然浏览到一个方向“In-memory sensing” [1]。我对这个方向的理解是，在传感器内部进行一些计算。这些计算不是用常见的数字处理器进行，而是使用一些新型的材料和器件（比如忆阻器）进行。&lt;/p&gt;
+&lt;p&gt;这其实是一个非常酷的想法和方向，比如这些“计算”可以集成到微机器人里来构建所谓的“微纳模组机器人” [2]。面对这么酷的一个方向，如果是刚博士入学时候的我看到，肯定会想“哇，这么酷，我也好想试试”。但现在博三开始的我，对于这种非常前沿的方向，有了更冷静的看法。首先我觉得这个方向属于“前沿的前沿”。之前看一个关于博士选题的视频，里面提到博士方向选择最好是“快半步”。就拿医疗机器人这个领域来说，如果现在的一些医疗手术机器人是相对成熟的研究领域，那么手术机器人的“微型化、精细化、人工智能化”可能是快半步，“微型机器人”的生物医学应用可能是快一步，至于这个“in-memory sensing”可能属于是快两步了。&lt;/p&gt;
+&lt;p&gt;除此之外，我也会基于自己的经验来评估这个课题。比如&amp;quot;in-memory sensing&amp;quot;有希望应用在很多生物应用中。确实如此，但在生物应用之前，肯定需要大量的体外生物验证，比如将器件应用在细胞培养之中。而通过两年的博士学习，我知道构建一个稳定的、能用于生物测试的器件是非常困难的。现在一些相对成熟的器件，比如各种电极阵列尚且难以稳定的使用，我们脱离现在的基础直接调到更新的领域、更新的器件是不是太有风险了？&lt;/p&gt;
+&lt;p&gt;基于以上两种看法，博三开始的我，可能并不会去尝试这个方向。&lt;/p&gt;
+&lt;p&gt;第二个例子就是我最近看到了一篇发表在Nature Material上的文章 [3]。做为影响因子接近40的“大子刊”，以前的我可能总是会用“崇拜”的眼光去欣赏。但现在的我看到这篇文章，却觉得有些“平平无奇”。首先，这篇文章核心器件以及表征已经在之前的多篇文章中发表过了，第一关于这种器件的文章可能已经是6年前。因为器件的“相对成熟”，做为读者更加期待这种器件的实际应用。但很可惜，6年之后的这篇文章依然没有给出很好的答案。我看到的更多是将一个“暂无明确应用的器件”排列组合堆叠成的“更加暂无明确应用的器件”。尽管这篇文章发表在了Nature Material，但我做为读者却并没有得到很大的启发，因此我不得不觉得这篇文章有些medicore。&lt;/p&gt;
+&lt;p&gt;通过这两个例子，我似乎也慢慢意识到了自己在学术上逐渐有了自己的想法，更加“成熟”起来。&lt;/p&gt;
+&lt;h2 id=&#34;第一次做ta第一次讲课&#34;&gt;第一次做TA，第一次“讲课”&lt;/h2&gt;
+&lt;p&gt;这个学期我成为了教授带的课“Electronic Circuit”的TA。这是我第一次做TA。我的职责就是在每周一次的习题课讲例题，并且答疑。而讲例题是要在讲台上讲，和“上课”一样。&lt;/p&gt;
+&lt;p&gt;这周一是开学第二周，也是第一次习题课。我提前自己做了要讲的题，也把课程的PPT仔细过了一遍。但是当我走进教室的时候，还是有些压力——教室竟然坐的满满当当、甚至还有学生没有座位站到了教室后面听！我完全没有想到会有这么多学生参加，因为根据往年的反馈，参加习题课的学生并不会很多。当然，随着学期的进行，参加习题课的学生可能会越来越少。&lt;/p&gt;
+&lt;p&gt;我简单介绍了自己，并且说自己是第一次做TA，如果有做的不到位的地方希望大家能提出意见。然后我就开始在黑板上讲题。事实证明，自己准备的还是不算充分。讲到其中的一道题时，我自己好像有点把自己“绕”进去了！当然，最后还是成功解出来了，但是过程并不是很流畅。看来自己下一次习题课准备要做的更充分一些。&lt;/p&gt;
+&lt;h2 id=&#34;健身三个月总结&#34;&gt;健身三个月总结&lt;/h2&gt;
+&lt;p&gt;今天已经9月结束了，所以可以总结一下近三个月来的健身。&lt;/p&gt;
+&lt;p&gt;健身时长&amp;amp;消耗热量&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;7月；837分钟；10487kcal&lt;/li&gt;
+&lt;li&gt;8月；537分钟；6888kcal&lt;/li&gt;
+&lt;li&gt;9月；914分钟；9384kcal&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我从上次回国以后开始减肥健身。第一个月（7月）坚持的很好，基本每天都锻炼半个小时。8月份没有7月勤快了。但是9月份，我开始把一次半个小时健身延长到了一次一个小时健身。所以尽管9月的健身频次少了，总的时常却增加了。而且因为一次健身一个小时，感觉似乎减脂效果更好了。&lt;/p&gt;
+&lt;p&gt;
+&lt;div class=&#34;post-img-view&#34;&gt;
+&lt;a data-fancybox=&#34;gallery&#34; href=&#34;https://cdn.jsdelivr.net/gh/bilibytes/blogimage@main/img/IMG_3703.heic&#34;&gt;
+&lt;img src=&#34;https://cdn.jsdelivr.net/gh/bilibytes/blogimage@main/img/IMG_3703.heic&#34; alt=&#34;&#34;  /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;能坚持睡前不玩手机吗&#34;&gt;能坚持睡前不玩手机吗&lt;/h2&gt;
+&lt;p&gt;感觉上周开始自己的生物钟有些被打乱了——晚上睡不着，起的很晚。一方面的原因可能是睡觉前总是忍不住刷视频、玩手机。其实有的时候已经明显感觉继续刷下去没什么意思了，但就是机械性的会继续刷下去&amp;hellip;&amp;hellip;因为作息的不正常，感觉自己上周的科研效率也很低——虽然总的睡眠时长是一样的，但是如果早上起来的很晚，感觉自己还是很疲倦、做科研没有一种很“清爽”的感觉。&lt;/p&gt;
+&lt;p&gt;仔细想想，生物种的混乱可能和自己的“科研不饱和”有关，简单的说，就是自己在科研上有些“偷懒”了。细细想想，现在拥有这么好的科研条件，而且进入了关键的博士第三年，自己不应该这样“偷懒”了！所以我打算从几天开始，挑战睡觉不玩手机。自己能坚持下去吗？&lt;/p&gt;
+&lt;p&gt;（2024.09.28 苏黎世）&lt;/p&gt;
+&lt;p&gt;[1] &lt;a href=&#34;https://www.nature.com/articles/s41928-018-0092-2&#34;&gt;https://www.nature.com/articles/s41928-018-0092-2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[2] &lt;a href=&#34;https://www.nature.com/articles/s41563-023-01589-y&#34;&gt;https://www.nature.com/articles/s41563-023-01589-y&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[3]https://www.nature.com/articles/s41563-024-02007-7&lt;/p&gt;
+</description>
+    </item>
+    
     <item>
       <title>批改试卷 / 脑切片测试 / 增加锻炼 / 科研中使用ChatGPT</title>
       <link>https://www.bilibytes.com/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</link>
