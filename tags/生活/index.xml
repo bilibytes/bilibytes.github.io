@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on bilibytes.com</title>
-    <link>https://www.bilibytes.com/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>https://www.dayday.plus/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on bilibytes.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dayday.plus/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> 第一次参加国际会议 —— BioCAS 2024</title>
-      <link>https://www.bilibytes.com/blog/2024-11-16/</link>
+      <link>https://www.dayday.plus/blog/2024-11-16/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-11-16/</guid>
+      <guid>https://www.dayday.plus/blog/2024-11-16/</guid>
       <description>&lt;p&gt;两个月前，我的第一篇第一作者论文被BioCAS2024接收了。这是一篇会议论文，而且被选为了“演讲汇报”。凑巧的是，这个会议刚好在我家附近 —— 西安——召开，因此我10月底“公费”坐上了回国的飞机。&lt;/p&gt;
 &lt;p&gt;回国的飞机大概在开会的前一周左右。因为我要在回国之前赶“Tape-out”的deadline，因此演讲的PPT一直都没有做。我本来想的是回家休息一天，然后再集中精力三天准备汇报PPT。&lt;/p&gt;
 &lt;p&gt;但凑巧，一个我们系的外国同学也要参加这次会议，因此我又花费了一天的事件给这个同学接了个尘。本来我想的是把同学从机场接到酒店，然后一起吃个饭就可以了。但是给同学办电话卡花了一些时间，之后又带同学去了回民街、在城墙上骑了一圈自行车，晚上看了钟楼夜景又一起吃了顿火锅。那天回到家已经晚上快11点了。&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>追随AI潮流</title>
-      <link>https://www.bilibytes.com/blog/2024-10-10/</link>
+      <link>https://www.dayday.plus/blog/2024-10-10/</link>
       <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-10-10/</guid>
+      <guid>https://www.dayday.plus/blog/2024-10-10/</guid>
       <description>&lt;p&gt;Artificial Intelligence，人工智能，我觉得确实是第四次工业革命的开端。前三次工业革命，机械、电力、信息，特征是人类利用工具大幅提高生产力，其进化依然来源于由人类主导的改进；而人工智能，因为拥有了“智能”，这个“工具”可能具备了自我进化的能力。&lt;/p&gt;
 &lt;p&gt;在机器学习领域，这种“自我进化”可以相对片面的理解为“强化学习”——前几年大火的AlphaGo就是一个“强化学习”的例子。这种“自我进化”的能力很恐怖，并且有着无限的前景。回顾以往人类文明的进步，很大程度来源于人类的合作。但是因为人们有限的寿命、记忆力等物理条件的限制，这种进步太慢了。但是基于现在拥有规模化优势的人工智能，可以说是拥有近乎无限的算力和存储。如果能被合理利用，科技、文明的进步无疑能被大大的加速。&lt;/p&gt;
 &lt;p&gt;今年的诺贝尔物理和化学奖都颁发给了与人工智能相关的领域，我感觉是将人工智能的社会关注度推向了第二次高峰——这一次高峰启于2022年的ChatGPT。和上一次机器学习高峰——AlphaGo不同，ChatGPT很多人都亲自使用过。对于我来说，其生成脚本、修改文章、以及和人类自然的对话程度足够令人惊叹。&lt;/p&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>在学术上有了自己的想法 / 第一次做TA和讲课 / 健身三个月总结 / 能坚持睡前不玩手机吗</title>
-      <link>https://www.bilibytes.com/blog/2024-09-27/</link>
+      <link>https://www.dayday.plus/blog/2024-09-27/</link>
       <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-09-27/</guid>
+      <guid>https://www.dayday.plus/blog/2024-09-27/</guid>
       <description>&lt;h2 id=&#34;好像在学术上有了自己的想法&#34;&gt;好像在学术上有了自己的想法&lt;/h2&gt;
 &lt;p&gt;读博第三年开始了。最近有了一种新的感觉，就是自己好像渐渐在学术上“有了自己的想法”。&lt;/p&gt;
 &lt;p&gt;第一个例子就是之前偶然浏览到一个方向“In-memory sensing” [1]。我对这个方向的理解是，在传感器内部进行一些计算。这些计算不是用常见的数字处理器进行，而是使用一些新型的材料和器件（比如忆阻器）进行。&lt;/p&gt;
@@ -90,10 +90,10 @@
     
     <item>
       <title>批改试卷 / 脑切片测试 / 增加锻炼 / 科研中使用ChatGPT</title>
-      <link>https://www.bilibytes.com/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</link>
+      <link>https://www.dayday.plus/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</guid>
+      <guid>https://www.dayday.plus/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</guid>
       <description>&lt;h2 id=&#34;批改试卷&#34;&gt;批改试卷&lt;/h2&gt;
 &lt;p&gt;导师在这个学期教电子系本科基础课Electronic Circuits (电路)，一共有将近160个学生注册。按照教务处规定，考完试两周内要出结果。刚好实验室大多数人都在赶ISSCC的deadline，而我比较空闲，于是就被“抓”去批改试卷了。&lt;/p&gt;
 &lt;p&gt;我之前改过一次试卷，也是Electronic Circuits这门课。但那次是补考的学生，只有可能最多20多人。这次160份卷子，让我体会到批改试卷的“枯燥乏味”。&lt;/p&gt;
@@ -156,10 +156,10 @@
     
     <item>
       <title> 巴黎一日游 &amp; 现场看奥运</title>
-      <link>https://www.bilibytes.com/blog/2024-08-12-%E5%B7%B4%E9%BB%8E%E4%B8%80%E6%97%A5%E6%B8%B8%E7%8E%B0%E5%9C%BA%E7%9C%8B%E5%A5%A5%E8%BF%90/</link>
+      <link>https://www.dayday.plus/blog/2024-08-12-%E5%B7%B4%E9%BB%8E%E4%B8%80%E6%97%A5%E6%B8%B8%E7%8E%B0%E5%9C%BA%E7%9C%8B%E5%A5%A5%E8%BF%90/</link>
       <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-08-12-%E5%B7%B4%E9%BB%8E%E4%B8%80%E6%97%A5%E6%B8%B8%E7%8E%B0%E5%9C%BA%E7%9C%8B%E5%A5%A5%E8%BF%90/</guid>
+      <guid>https://www.dayday.plus/blog/2024-08-12-%E5%B7%B4%E9%BB%8E%E4%B8%80%E6%97%A5%E6%B8%B8%E7%8E%B0%E5%9C%BA%E7%9C%8B%E5%A5%A5%E8%BF%90/</guid>
       <description>&lt;h2 id=&#34;前往巴黎&#34;&gt;前往巴黎&lt;/h2&gt;
 &lt;p&gt;巴黎离苏黎世说近不近，说远也不算远。这次巴黎奥运机会难得，于是就兴起买票现场体验一下奥运会的氛围，顺便也在巴黎来一个一日游的city walk。&lt;/p&gt;
 &lt;p&gt;看奥运当然希望看到中国队的比赛，于是就买了乒乓球决赛的门票，在比赛开始前我就预测到了大概是中国和日本的对决，最后果不其然也是这个结果。我即看到了中国的夺冠时刻，在现场升国旗、唱国歌，也看到了日本乒乓美女小苹果（早田希娜），还是很满意的！&lt;/p&gt;
@@ -221,10 +221,10 @@
     
     <item>
       <title>看奥运，果然还是要看美女</title>
-      <link>https://www.bilibytes.com/blog/2024-07-29-%E7%9C%8B%E5%A5%A5%E8%BF%90%E4%BC%9A%E6%9E%9C%E7%84%B6%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%BE%8E%E5%A5%B3/</link>
+      <link>https://www.dayday.plus/blog/2024-07-29-%E7%9C%8B%E5%A5%A5%E8%BF%90%E4%BC%9A%E6%9E%9C%E7%84%B6%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%BE%8E%E5%A5%B3/</link>
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-07-29-%E7%9C%8B%E5%A5%A5%E8%BF%90%E4%BC%9A%E6%9E%9C%E7%84%B6%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%BE%8E%E5%A5%B3/</guid>
+      <guid>https://www.dayday.plus/blog/2024-07-29-%E7%9C%8B%E5%A5%A5%E8%BF%90%E4%BC%9A%E6%9E%9C%E7%84%B6%E5%96%9C%E6%AC%A2%E7%9C%8B%E7%BE%8E%E5%A5%B3/</guid>
       <description>&lt;p&gt;奥运会果然是四年一度的体育盛会。要不是奥运会，我可能根本不会去看一些项目的比赛。就算是中国的国球乒乓球，我在平常也从来没有看过直播。&lt;/p&gt;
 &lt;p&gt;所以对于我这样很大程度上“凑个热闹”的观众。除了日常支持中国队外，我看比赛时，要“支持”谁呢？&lt;/p&gt;
 &lt;p&gt;果然，到这种时候，当然要支持“颜值美女”啦。&lt;/p&gt;
@@ -266,10 +266,10 @@
     
     <item>
       <title> 你好，27岁</title>
-      <link>https://www.bilibytes.com/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</link>
+      <link>https://www.dayday.plus/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</guid>
+      <guid>https://www.dayday.plus/blog/2024-07-23-%E4%BD%A0%E5%A5%BD27%E5%B2%81/</guid>
       <description>&lt;p&gt;我迎来了我的27岁生日！&lt;/p&gt;
 &lt;p&gt;没有张罗生日的习惯，这次也是如此。但是在生日这天收到的生日祝福依然让人无比开心。&lt;/p&gt;
 &lt;p&gt;22号一大早，爸爸妈妈就在微信里给我发了“生日快乐”的红包。我高兴的回复了“谢谢爸爸妈妈”！&lt;/p&gt;
@@ -284,10 +284,10 @@
     
     <item>
       <title>杜绝“完美陷阱”</title>
-      <link>https://www.bilibytes.com/blog/2024-07-20-%E6%9D%9C%E7%BB%9D%E5%AE%8C%E7%BE%8E%E9%99%B7%E9%98%B1/</link>
+      <link>https://www.dayday.plus/blog/2024-07-20-%E6%9D%9C%E7%BB%9D%E5%AE%8C%E7%BE%8E%E9%99%B7%E9%98%B1/</link>
       <pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-07-20-%E6%9D%9C%E7%BB%9D%E5%AE%8C%E7%BE%8E%E9%99%B7%E9%98%B1/</guid>
+      <guid>https://www.dayday.plus/blog/2024-07-20-%E6%9D%9C%E7%BB%9D%E5%AE%8C%E7%BE%8E%E9%99%B7%E9%98%B1/</guid>
       <description>&lt;p&gt;感觉自己在科研方面存在一个问题，就是容易想得太多。具体说来，我在结果不确定、应用方向不太确定的科研项目中，总是会想着怎么不断改进、从而把项目做的更”完美“。&lt;/p&gt;
 &lt;p&gt;这种做法大方向是正确的，但是弊端也很明显——这种”思考“有时候会让我缺乏有效推动项目的动力。我似乎给了自己一种心理暗示——“有更好的想法再全力推进比较好”。这种心理暗示，就像是一个“完美陷阱”，时不时的让自己找到把项目推一推的借口。&lt;/p&gt;
 &lt;p&gt;怎么杜绝这种“完美陷阱”呢？我想到了一个办法。就是把自己的手头项目按照“二八法则”进行划分。即百分之二十的“手头项目”，和百分之八十的“近期项目”。&lt;/p&gt;
@@ -301,10 +301,10 @@
     
     <item>
       <title>由AI带来的焦虑 </title>
-      <link>https://www.bilibytes.com/blog/2024-07-13-%E7%94%B1ai%E5%B8%A6%E6%9D%A5%E7%9A%84%E7%84%A6%E8%99%91/</link>
+      <link>https://www.dayday.plus/blog/2024-07-13-%E7%94%B1ai%E5%B8%A6%E6%9D%A5%E7%9A%84%E7%84%A6%E8%99%91/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-07-13-%E7%94%B1ai%E5%B8%A6%E6%9D%A5%E7%9A%84%E7%84%A6%E8%99%91/</guid>
+      <guid>https://www.dayday.plus/blog/2024-07-13-%E7%94%B1ai%E5%B8%A6%E6%9D%A5%E7%9A%84%E7%84%A6%E8%99%91/</guid>
       <description>&lt;p&gt;这周，百度的无人驾驶出租车“萝卜快跑”成了最大的热搜新闻。据新闻说，“萝卜快跑”单车的运营数据已经和普通出租车持平，但是成本却大大降低。&lt;/p&gt;
 &lt;p&gt;无人驾驶出租车和私家车如果能够成功，我预感会是下个10年最大的科技变革。比如大大降低的交通事故率，这个是毫无疑问的。因为机器不会走神、不会违反交规、也没有疲倦。除此之外，因为自动驾驶大大降低了打车成本，使用出租车的人次也会大大提升，这个时候车与车之间会形成智能“车联网”。也许未来的自动驾驶出租车会根据乘客的行程紧急情况、或者是付费订阅的等级选择“极速模式”、“普通模式”、或者是“避让模式”。这样对赶时间的乘客，比如赶飞机、有急事的乘客无疑是大大的效率提升。&lt;/p&gt;
 &lt;p&gt;自动驾驶的前景，无疑是非常吸引人的。但是，这也引发了我的思考，我当时开始读博选方向的时候，没有选择去做人工智能AI方向的研究，是一种错误的选择吗？&lt;/p&gt;
@@ -322,10 +322,10 @@
     
     <item>
       <title>慕尼黑一日游 </title>
-      <link>https://www.bilibytes.com/blog/2024-07-07-%E6%85%95%E5%B0%BC%E9%BB%91%E4%B8%80%E6%97%A5%E6%B8%B8/</link>
+      <link>https://www.dayday.plus/blog/2024-07-07-%E6%85%95%E5%B0%BC%E9%BB%91%E4%B8%80%E6%97%A5%E6%B8%B8/</link>
       <pubDate>Sun, 07 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-07-07-%E6%85%95%E5%B0%BC%E9%BB%91%E4%B8%80%E6%97%A5%E6%B8%B8/</guid>
+      <guid>https://www.dayday.plus/blog/2024-07-07-%E6%85%95%E5%B0%BC%E9%BB%91%E4%B8%80%E6%97%A5%E6%B8%B8/</guid>
       <description>&lt;h2 id=&#34;慕尼黑一日游&#34;&gt;慕尼黑一日游&lt;/h2&gt;
 &lt;p&gt;自己似乎还没有完全从回国休假的状态中走出来，一心想着再去“旅游打卡”一些地方。&lt;/p&gt;
 &lt;p&gt;苏黎世周边能去的大城市，而且在4小时车程的大城市好像只有米兰和慕尼黑。米兰我在硕士期间久去过，而慕尼黑一直没有去。于是，这周末就去了慕尼黑一日游。&lt;/p&gt;
@@ -340,10 +340,10 @@
     
     <item>
       <title>回国三亚之旅 / 去北京 / 老去的家人  </title>
-      <link>https://www.bilibytes.com/blog/2024-06-30-%E5%9B%9E%E5%9B%BD%E4%B8%89%E4%BA%9A%E4%B9%8B%E6%97%85/</link>
+      <link>https://www.dayday.plus/blog/2024-06-30-%E5%9B%9E%E5%9B%BD%E4%B8%89%E4%BA%9A%E4%B9%8B%E6%97%85/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-06-30-%E5%9B%9E%E5%9B%BD%E4%B8%89%E4%BA%9A%E4%B9%8B%E6%97%85/</guid>
+      <guid>https://www.dayday.plus/blog/2024-06-30-%E5%9B%9E%E5%9B%BD%E4%B8%89%E4%BA%9A%E4%B9%8B%E6%97%85/</guid>
       <description>&lt;h2 id=&#34;回国三亚之旅&#34;&gt;回国三亚之旅&lt;/h2&gt;
 &lt;p&gt;两周前结束了回国假期。这次回国玩的很开心。&lt;/p&gt;
 &lt;p&gt;第一周和爸爸妈妈去了三亚。这次是我们一家三口为数不多的家庭旅行。上一次可能还要追溯到至少10年以前的华山之旅。同时，这也是我自己拿工资之后第一次和家人出去旅行。&lt;/p&gt;
@@ -366,10 +366,10 @@
     
     <item>
       <title>搞好科研，想象力和资源缺一不可 </title>
-      <link>https://www.bilibytes.com/blog/2024-06-04-%E6%90%9E%E5%A5%BD%E7%A7%91%E7%A0%94-%E6%83%B3%E8%B1%A1%E5%8A%9B%E5%92%8C%E8%B5%84%E6%BA%90%E7%BC%BA%E4%B8%80%E4%B8%8D%E5%8F%AF/</link>
+      <link>https://www.dayday.plus/blog/2024-06-04-%E6%90%9E%E5%A5%BD%E7%A7%91%E7%A0%94-%E6%83%B3%E8%B1%A1%E5%8A%9B%E5%92%8C%E8%B5%84%E6%BA%90%E7%BC%BA%E4%B8%80%E4%B8%8D%E5%8F%AF/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-06-04-%E6%90%9E%E5%A5%BD%E7%A7%91%E7%A0%94-%E6%83%B3%E8%B1%A1%E5%8A%9B%E5%92%8C%E8%B5%84%E6%BA%90%E7%BC%BA%E4%B8%80%E4%B8%8D%E5%8F%AF/</guid>
+      <guid>https://www.dayday.plus/blog/2024-06-04-%E6%90%9E%E5%A5%BD%E7%A7%91%E7%A0%94-%E6%83%B3%E8%B1%A1%E5%8A%9B%E5%92%8C%E8%B5%84%E6%BA%90%E7%BC%BA%E4%B8%80%E4%B8%8D%E5%8F%AF/</guid>
       <description>&lt;p&gt;今天看到两篇刚刚投到biorxiv文章，都是关于神经细胞的芯片培养的，感觉对自己冲击比较大。&lt;/p&gt;
 &lt;p&gt;第一篇是哥伦比亚K. Shepard组的的CMOS-based 微电极阵列（MEA）[1]。要说MEA这东西被研究的已经很多了，于CMOS电路相关的也不少。但他们牛就就在直接把CMOS芯片磨到了不到50微米厚，在这么薄的情况下，原本是硬的芯片也变得柔软、可以承受一定的弯折了。因为有了这种柔性，这种CMOS MEA可以更好的和脑部实现贴合，更加有效的实现神经接触&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;这篇文章是YG推荐给我的，实验室博后FZ也是对其称赞有加。想一想，我们也在天天设计芯片做神经传感，但是好像想象力总是有些缺乏，大部分工作依然是跟随在别人的脚步之后。其实我之前也在想着把芯片打薄变轻之后看看能不能装在微型机器人的身上，YG经常在做的一步工艺也是对芯片表面进行剖光。但K. Shepard这个组竟然极端到把芯片打薄到那么薄，加之生物实验测试的数据也非常严谨，确实给我一种非常耳目一新的感觉。&lt;/p&gt;
@@ -385,10 +385,10 @@
     
     <item>
       <title>减肥 / 学费涨价 / 喜欢的女明星</title>
-      <link>https://www.bilibytes.com/blog/2024-05-31-%E5%87%8F%E8%82%A5/</link>
+      <link>https://www.dayday.plus/blog/2024-05-31-%E5%87%8F%E8%82%A5/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-05-31-%E5%87%8F%E8%82%A5/</guid>
+      <guid>https://www.dayday.plus/blog/2024-05-31-%E5%87%8F%E8%82%A5/</guid>
       <description>&lt;h2 id=&#34;体重和减肥&#34;&gt;体重和减肥&lt;/h2&gt;
 &lt;p&gt;距离回国假期不到一周了。&lt;/p&gt;
 &lt;p&gt;上次回国差不多也是去年这个时候，当时父母就让我注意减肥。和朋友聚会的时候，自己一个非常好的朋友也是叮嘱我注意锻炼。当时自己也下定决心要减肥，可惜没有坚持下来。&lt;/p&gt;
@@ -434,10 +434,10 @@
     
     <item>
       <title>偷懒的一周 / 买好回国机票了 / 同学陆续博士毕业</title>
-      <link>https://www.bilibytes.com/blog/2024-05-25-%E5%81%B7%E6%87%92%E7%9A%84%E4%B8%80%E5%91%A8/</link>
+      <link>https://www.dayday.plus/blog/2024-05-25-%E5%81%B7%E6%87%92%E7%9A%84%E4%B8%80%E5%91%A8/</link>
       <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-05-25-%E5%81%B7%E6%87%92%E7%9A%84%E4%B8%80%E5%91%A8/</guid>
+      <guid>https://www.dayday.plus/blog/2024-05-25-%E5%81%B7%E6%87%92%E7%9A%84%E4%B8%80%E5%91%A8/</guid>
       <description>&lt;h2 id=&#34;偷懒的一周&#34;&gt;偷懒的一周&lt;/h2&gt;
 &lt;p&gt;因为上周把论文提交了，这一周自己可以说有些划水，算是稍微休息了一下。&lt;/p&gt;
 &lt;p&gt;其实本来说趁着这段相对轻松的时间好好看看文献，也想一想未来的方向，但自己好像提前进入了回国放假的节奏，有点打不起精神。嘛，既然这样，还是安心理得的继续划水吧，反正不到两周就放长假了&amp;hellip;&amp;hellip;&lt;/p&gt;
@@ -456,10 +456,10 @@
     
     <item>
       <title>论文首投稿 / 准备放假 / 卖二手/ 换成Hugo了</title>
-      <link>https://www.bilibytes.com/blog/2024-05-18-%E8%AE%BA%E6%96%87%E9%A6%96%E6%8A%95%E7%A8%BF/</link>
+      <link>https://www.dayday.plus/blog/2024-05-18-%E8%AE%BA%E6%96%87%E9%A6%96%E6%8A%95%E7%A8%BF/</link>
       <pubDate>Sat, 18 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-05-18-%E8%AE%BA%E6%96%87%E9%A6%96%E6%8A%95%E7%A8%BF/</guid>
+      <guid>https://www.dayday.plus/blog/2024-05-18-%E8%AE%BA%E6%96%87%E9%A6%96%E6%8A%95%E7%A8%BF/</guid>
       <description>&lt;p&gt;2024.05.18&lt;/p&gt;
 &lt;h2 id=&#34;fruits&#34;&gt;Fruits&lt;/h2&gt;
 &lt;p&gt;这周买了西瓜，芒果，还有一个橙子。&lt;/p&gt;
@@ -485,10 +485,10 @@
     
     <item>
       <title>看《死亡笔记》/ Uetliberg Hike</title>
-      <link>https://www.bilibytes.com/blog/2024-04-27-%E7%9C%8B%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0-uetliberg-hike/</link>
+      <link>https://www.dayday.plus/blog/2024-04-27-%E7%9C%8B%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0-uetliberg-hike/</link>
       <pubDate>Sat, 27 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-04-27-%E7%9C%8B%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0-uetliberg-hike/</guid>
+      <guid>https://www.dayday.plus/blog/2024-04-27-%E7%9C%8B%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0-uetliberg-hike/</guid>
       <description>&lt;p&gt;2024.04.27&lt;/p&gt;
 &lt;h2 id=&#34;fruits-night&#34;&gt;Fruits Night&lt;/h2&gt;
 &lt;p&gt;菠萝、香蕉、哈密瓜&lt;/p&gt;
@@ -510,10 +510,10 @@
     
     <item>
       <title>有了方向，真的很重要 / 论文投稿没赶上 </title>
-      <link>https://www.bilibytes.com/blog/2024-04-20-%E6%9C%89%E4%BA%86%E6%96%B9%E5%90%91-%E7%9C%9F%E7%9A%84%E5%BE%88%E9%87%8D%E8%A6%81-%E8%AE%BA%E6%96%87%E6%8A%95%E7%A8%BF%E6%B2%A1%E8%B5%B6%E4%B8%8A/</link>
+      <link>https://www.dayday.plus/blog/2024-04-20-%E6%9C%89%E4%BA%86%E6%96%B9%E5%90%91-%E7%9C%9F%E7%9A%84%E5%BE%88%E9%87%8D%E8%A6%81-%E8%AE%BA%E6%96%87%E6%8A%95%E7%A8%BF%E6%B2%A1%E8%B5%B6%E4%B8%8A/</link>
       <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-04-20-%E6%9C%89%E4%BA%86%E6%96%B9%E5%90%91-%E7%9C%9F%E7%9A%84%E5%BE%88%E9%87%8D%E8%A6%81-%E8%AE%BA%E6%96%87%E6%8A%95%E7%A8%BF%E6%B2%A1%E8%B5%B6%E4%B8%8A/</guid>
+      <guid>https://www.dayday.plus/blog/2024-04-20-%E6%9C%89%E4%BA%86%E6%96%B9%E5%90%91-%E7%9C%9F%E7%9A%84%E5%BE%88%E9%87%8D%E8%A6%81-%E8%AE%BA%E6%96%87%E6%8A%95%E7%A8%BF%E6%B2%A1%E8%B5%B6%E4%B8%8A/</guid>
       <description>&lt;h2 id=&#34;有了方向真的很重要&#34;&gt;有了方向，真的很重要&lt;/h2&gt;
 &lt;p&gt;就在两周前，我感觉自己做的器件尽管性能越来越好了，但是不知道这样的器件有什么作用。自己时常会陷入一种迷茫、焦虑、失落的情绪当中。&lt;/p&gt;
 &lt;p&gt;但这两天，之前的那种阴郁似乎全然不存在了。过去的两周，我从繁忙的做实验中脱身，有机会系统性的阅读很多文献。同时也和身边的人多了很多科研方向的交流，教授也单独找我谈话了一次，给我说了一个他的科研想法。总之，我现在终于找到了一条自认为非常有前景的方向！&lt;/p&gt;
@@ -538,10 +538,10 @@
     
     <item>
       <title>做了一个在线照片集 </title>
-      <link>https://www.bilibytes.com/blog/2023-06-01-%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BF%E7%85%A7%E7%89%87%E9%9B%86/</link>
+      <link>https://www.dayday.plus/blog/2023-06-01-%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BF%E7%85%A7%E7%89%87%E9%9B%86/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2023-06-01-%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BF%E7%85%A7%E7%89%87%E9%9B%86/</guid>
+      <guid>https://www.dayday.plus/blog/2023-06-01-%E5%81%9A%E4%BA%86%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BF%E7%85%A7%E7%89%87%E9%9B%86/</guid>
       <description>&lt;p&gt;很久没更新了。没办法，读博其实也是一种工作。工作了，自然就忙了。&lt;/p&gt;
 &lt;p&gt;但是，忙里偷闲还是应该的，尤其是周末的时候。这不，前几天忍不住买了一台相机，型号松下S5，号称最便宜的全画幅水桶机。&lt;/p&gt;
 &lt;p&gt;其实我去年也买过一台相机，性能比较一般，而且对拍照还没什么兴趣，就一直放在角落吃灰了。现在买了一台性能更强大的新相机后，我就迫不及待的拿着新相机在周末四处走走了。&lt;/p&gt;
@@ -554,10 +554,10 @@
     
     <item>
       <title>事事精益求精有必要吗 </title>
-      <link>https://www.bilibytes.com/blog/2023-04-04-%E4%BA%8B%E4%BA%8B%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%89%E5%BF%85%E8%A6%81%E5%90%97/</link>
+      <link>https://www.dayday.plus/blog/2023-04-04-%E4%BA%8B%E4%BA%8B%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%89%E5%BF%85%E8%A6%81%E5%90%97/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2023-04-04-%E4%BA%8B%E4%BA%8B%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%89%E5%BF%85%E8%A6%81%E5%90%97/</guid>
+      <guid>https://www.dayday.plus/blog/2023-04-04-%E4%BA%8B%E4%BA%8B%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE%E6%9C%89%E5%BF%85%E8%A6%81%E5%90%97/</guid>
       <description>&lt;p&gt;不知道别人有没有遇到过，我自己偶尔会遇到一些非常“意料之外”的事情使得自己很失落。&lt;/p&gt;
 &lt;p&gt;事情是这样的，因为自己的博士项目涉及到一些器件的制备，要使用很多超净间里的仪器。这些仪器大多造价高昂，必须经过一些训练获得资格后才能使用。我其实已经进入超净间工作过一段时间了，相关仪器的训练也经历了不少。这些训练也都一次通过了。&lt;/p&gt;
 &lt;p&gt;但今天我训练一个新的仪器的时候，遇到了一个非常严格的负责人。一周前教过我两遍操作，今天让我独立使用的时候我依然犯了几个错误。我知道，归根结底还是我的错，因为我并没有太在意这样的“训练”——根据我的经验，最多自己摸索一两次就能够熟练操作了。何况今天在他的提醒下，我觉得自己已经完全学会了相关的使用技巧。可是这个负责人最后却告诉我这个训练“没有通过”！&lt;/p&gt;
@@ -573,10 +573,10 @@
     
     <item>
       <title>通过试用期 / 博士半年小结 </title>
-      <link>https://www.bilibytes.com/blog/2023-04-01-%E5%8D%9A%E5%A3%AB%E9%80%9A%E8%BF%87%E8%AF%95%E7%94%A8%E6%9C%9F-%E5%8D%9A%E5%A3%AB%E5%8D%8A%E5%B9%B4%E5%B0%8F%E7%BB%93/</link>
+      <link>https://www.dayday.plus/blog/2023-04-01-%E5%8D%9A%E5%A3%AB%E9%80%9A%E8%BF%87%E8%AF%95%E7%94%A8%E6%9C%9F-%E5%8D%9A%E5%A3%AB%E5%8D%8A%E5%B9%B4%E5%B0%8F%E7%BB%93/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2023-04-01-%E5%8D%9A%E5%A3%AB%E9%80%9A%E8%BF%87%E8%AF%95%E7%94%A8%E6%9C%9F-%E5%8D%9A%E5%A3%AB%E5%8D%8A%E5%B9%B4%E5%B0%8F%E7%BB%93/</guid>
+      <guid>https://www.dayday.plus/blog/2023-04-01-%E5%8D%9A%E5%A3%AB%E9%80%9A%E8%BF%87%E8%AF%95%E7%94%A8%E6%9C%9F-%E5%8D%9A%E5%A3%AB%E5%8D%8A%E5%B9%B4%E5%B0%8F%E7%BB%93/</guid>
       <description>&lt;h2 id=&#34;博士通过试用期以及博士半年的小结&#34;&gt;博士通过试用期，以及博士半年的小结&lt;/h2&gt;
 &lt;p&gt;在欧洲读博士一般既被认为是学生，同样也被认为是学校的雇员，我也不例外。作为雇员，在我们学校入职以后签订的是一年的合同，前六个月是试用期。就在最近，我收到了了一封来自学校“您的办公室钥匙即将过期”的邮件，我才意识到，自己的试用期就要结束了。&lt;/p&gt;
 &lt;p&gt;我发了封邮件给教学秘书，并且抄送了自己的教授。当天晚上就收到了教授的邮件回复“我会同意延续你的合同”！也就是说，我顺利通过了博士试用期！&lt;/p&gt;
@@ -600,10 +600,10 @@
     
     <item>
       <title>合作项目的不成功 </title>
-      <link>https://www.bilibytes.com/blog/2023-02-18-%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%8D%E6%88%90%E5%8A%9F/</link>
+      <link>https://www.dayday.plus/blog/2023-02-18-%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%8D%E6%88%90%E5%8A%9F/</link>
       <pubDate>Sat, 18 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2023-02-18-%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%8D%E6%88%90%E5%8A%9F/</guid>
+      <guid>https://www.dayday.plus/blog/2023-02-18-%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%8D%E6%88%90%E5%8A%9F/</guid>
       <description>&lt;p&gt;大概一个月之前，导师把我叫到办公室，要让我和另一个博士生合作一个项目。&lt;/p&gt;
 &lt;p&gt;结果如标题所见，合作并不算成功。主要是我没有及时完成我应该完成的那一部分。所幸最后时刻，另一个较有经验的博士生帮忙处理的我的那一部分，所以整个项目并没有收到延误。&lt;/p&gt;
 &lt;p&gt;说实在的，自己还是很失望。毕竟没有完成自己该完成的部分，无论怎么说都是自己的责任，也反映了自己的能力不足。毕竟如果让你去算1+1等于多少，你肯定不会延误吧？&lt;/p&gt;
@@ -615,10 +615,10 @@
     
     <item>
       <title>做好决定后的失落感</title>
-      <link>https://www.bilibytes.com/blog/2022-09-01-%E5%81%9A%E5%A5%BD%E5%86%B3%E5%AE%9A%E5%90%8E%E7%9A%84%E5%A4%B1%E8%90%BD%E6%84%9F/</link>
+      <link>https://www.dayday.plus/blog/2022-09-01-%E5%81%9A%E5%A5%BD%E5%86%B3%E5%AE%9A%E5%90%8E%E7%9A%84%E5%A4%B1%E8%90%BD%E6%84%9F/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-09-01-%E5%81%9A%E5%A5%BD%E5%86%B3%E5%AE%9A%E5%90%8E%E7%9A%84%E5%A4%B1%E8%90%BD%E6%84%9F/</guid>
+      <guid>https://www.dayday.plus/blog/2022-09-01-%E5%81%9A%E5%A5%BD%E5%86%B3%E5%AE%9A%E5%90%8E%E7%9A%84%E5%A4%B1%E8%90%BD%E6%84%9F/</guid>
       <description>&lt;p&gt;硕士毕业后面试了三个导师，EPFL一个，本校两个。EPFL的导师当即就给了口头offer，本校的硕士导师犹豫了一阵子拒绝了我，申请的另一个中国导师最终给了我offer。给offer的两个导师具体方向是：混合集成电路设计、集成器件与系统。&lt;/p&gt;
 &lt;p&gt;我纠结了一下到底选择哪一个方向。&lt;/p&gt;
 &lt;p&gt;混合集成电路就和我的毕业设计做的比较像，优化信号链上的电路模块，比如LNA、ADC等。在这个方向做到优秀，一般的标椎就是你设计出的电路是不是有更低的功耗、更低的噪声、更好的线性度等。这个方向类似“造锤子”。因为是“锤子”嘛，早已有之，工业界大公司比较多、相关研究也是底蕴深厚，直接导致了这个方向的竞争也比较激烈。这个方向的优势是就业前景不错，尤其是工业界的就业前景，博士深造后如果进入公司应该会有不菲的收入。&lt;/p&gt;
@@ -631,10 +631,10 @@
     
     <item>
       <title>我终于有博士offer了!</title>
-      <link>https://www.bilibytes.com/blog/2022-08-17-%E6%88%91%E7%BB%88%E4%BA%8E%E6%9C%89%E5%8D%9A%E5%A3%ABoffer%E4%BA%86/</link>
+      <link>https://www.dayday.plus/blog/2022-08-17-%E6%88%91%E7%BB%88%E4%BA%8E%E6%9C%89%E5%8D%9A%E5%A3%ABoffer%E4%BA%86/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-08-17-%E6%88%91%E7%BB%88%E4%BA%8E%E6%9C%89%E5%8D%9A%E5%A3%ABoffer%E4%BA%86/</guid>
+      <guid>https://www.dayday.plus/blog/2022-08-17-%E6%88%91%E7%BB%88%E4%BA%8E%E6%9C%89%E5%8D%9A%E5%A3%ABoffer%E4%BA%86/</guid>
       <description>&lt;p&gt;就在今天下午，我结束了EPFL的博士面试，导师已经给我口头Ｏffer了！&lt;/p&gt;
 &lt;p&gt;说一下面试的详细经历吧。&lt;/p&gt;
 &lt;p&gt;我大概中午11点半点从苏黎世到达洛桑。导师正在视频会议，我一直等到了大概12点半才见到教授。然后教授请我去吃了Pizza作为午饭。午饭期间和导师大概交流了一下具体情况，并且随意的聊了会天。比如说交流了一下在瑞士的生活感受呀，自己的学术经历呀，感想呀等等，毕业后的打算呀。都是一些非常随性的问题。&lt;/p&gt;
@@ -651,10 +651,10 @@
     
     <item>
       <title>感染新冠了</title>
-      <link>https://www.bilibytes.com/blog/2022-07-28-%E6%84%9F%E6%9F%93%E6%96%B0%E5%86%A0%E4%BA%86/</link>
+      <link>https://www.dayday.plus/blog/2022-07-28-%E6%84%9F%E6%9F%93%E6%96%B0%E5%86%A0%E4%BA%86/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-07-28-%E6%84%9F%E6%9F%93%E6%96%B0%E5%86%A0%E4%BA%86/</guid>
+      <guid>https://www.dayday.plus/blog/2022-07-28-%E6%84%9F%E6%9F%93%E6%96%B0%E5%86%A0%E4%BA%86/</guid>
       <description>&lt;p&gt;大概7月22日早上起来突然感觉浑身乏力，并且发低烧。起初没在意，吃了连花清瘟胶囊，寻思着好好休息一天睡上一觉就好了。可是第二天还是流鼻涕，咳嗽，低烧倒是退了。&lt;/p&gt;
 &lt;p&gt;后来的三天内我的症状逐渐减退，已经完全没有乏力的症状了，每天学习工作也可以正常进行，但是还是伴随着干咳和少量的流鼻涕。&lt;/p&gt;
 &lt;p&gt;四天后，和一个外国朋友提到了我的症状，他建议我去做核酸。他的女朋友在监测点工作，据他的女朋友所说最近新冠检测的阳性率很高！&lt;/p&gt;
@@ -665,10 +665,10 @@
     
     <item>
       <title>写给一年后的自己</title>
-      <link>https://www.bilibytes.com/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</link>
+      <link>https://www.dayday.plus/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</guid>
+      <guid>https://www.dayday.plus/blog/2022-07-18-%E5%86%99%E7%BB%99%E4%B8%80%E5%B9%B4%E5%90%8E%E7%9A%84%E8%87%AA%E5%B7%B1/</guid>
       <description>&lt;p&gt;之前学业忙碌，没怎么考虑回国的事情。昨天晚上，查了查回国的机票。很贵，最便宜的也要将近两万。我不由得又变得有些焦虑，一晚上都没睡好好——要不要回国、什么时候回国？&lt;/p&gt;
 &lt;p&gt;我在想，至少等到拿到博士Offer后再决定吧。虽然毕业设计拿了个好成绩，导师也回复正在考虑我的博士申请，但是现在仍没给我录取的准话。我不知道导师是对录取我仍有犹豫，还是最近太忙还没来得及考虑招生的事情。总之，我所做的只有等待。&lt;/p&gt;
 &lt;p&gt;我有没有考虑申请别的学校？也有。但是除了欧陆，别的地区基本都有固定的招生时间。比如美国，今年9月份入学的申请早已结束。所以，我的申请可选面其实不大。除此之外，一想到申请外校又是一套复杂的流程，我就觉得头大。而且外校的学校排名、工资水平都不如我们学校，我对外校导师也不如本校了解，申请外校不免增加了更多风险。总之，我有点疲惫。我现在最想做的事情就是能专心投入到下一段科研当中，可是申请的不确定性让我心烦意乱。&lt;/p&gt;
@@ -682,10 +682,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>推荐两本书</title>
-      <link>https://www.bilibytes.com/blog/2022-07-13-%E6%8E%A8%E8%8D%90%E4%B8%A4%E6%9C%AC%E4%B9%A6/</link>
+      <link>https://www.dayday.plus/blog/2022-07-13-%E6%8E%A8%E8%8D%90%E4%B8%A4%E6%9C%AC%E4%B9%A6/</link>
       <pubDate>Mon, 18 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-07-13-%E6%8E%A8%E8%8D%90%E4%B8%A4%E6%9C%AC%E4%B9%A6/</guid>
+      <guid>https://www.dayday.plus/blog/2022-07-13-%E6%8E%A8%E8%8D%90%E4%B8%A4%E6%9C%AC%E4%B9%A6/</guid>
       <description>&lt;h2 id=&#34;喂出来-日-新星一&#34;&gt;《喂——出来》 [日] 新星一&lt;/h2&gt;
 &lt;p&gt;完读时间：2022-07-13&lt;/p&gt;
 &lt;p&gt;评分：19+15+19+18+10=81&lt;/p&gt;
@@ -706,10 +706,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>2022年第27周总结</title>
-      <link>https://www.bilibytes.com/blog/2022-07-10-2022%E5%B9%B4%E7%AC%AC27%E5%91%A8%E6%80%BB%E7%BB%93/</link>
+      <link>https://www.dayday.plus/blog/2022-07-10-2022%E5%B9%B4%E7%AC%AC27%E5%91%A8%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-07-10-2022%E5%B9%B4%E7%AC%AC27%E5%91%A8%E6%80%BB%E7%BB%93/</guid>
+      <guid>https://www.dayday.plus/blog/2022-07-10-2022%E5%B9%B4%E7%AC%AC27%E5%91%A8%E6%80%BB%E7%BB%93/</guid>
       <description>&lt;p&gt;这一周距离毕业设计答辩刚刚过去一个月了，论文成绩也出来了，我已经可以申请毕业证了。&lt;/p&gt;
 &lt;p&gt;我在科研过程中意识到自己的专业知识还不够牢固，所以我这一周开始学习并且复习一些基础课程，比如数字信号处理、半导体物理等。有了更加坚实的课程基础，希望自己能够在博士阶段的学习更加的游刃有余。&lt;/p&gt;
 &lt;p&gt;除此之外就是在担心博士申请的事。不过担心也没什么用。我给毕设导师表达了读博意愿，导师让我等待结果。如果导师能够录取我，那就非常完美。但如果不能录取我，我还要套磁其他导师。想一想挺累的&amp;hellip;&amp;hellip;&lt;/p&gt;
@@ -725,10 +725,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>硕士论文出分了</title>
-      <link>https://www.bilibytes.com/blog/2022-06-29-%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%87%BA%E5%88%86%E4%BA%86/</link>
+      <link>https://www.dayday.plus/blog/2022-06-29-%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%87%BA%E5%88%86%E4%BA%86/</link>
       <pubDate>Wed, 29 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-06-29-%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%87%BA%E5%88%86%E4%BA%86/</guid>
+      <guid>https://www.dayday.plus/blog/2022-06-29-%E7%A1%95%E5%A3%AB%E8%AE%BA%E6%96%87%E5%87%BA%E5%88%86%E4%BA%86/</guid>
       <description>&lt;p&gt;就在刚刚，我的硕士论文出成绩了！&lt;/p&gt;
 &lt;p&gt;收到成绩已出的通知邮件，我的心情忐忑，甚至有点不太敢登录系统查成绩。说实话，硕士期间我修过远大于培养方案要求的学分数的课程，有时候我感觉考得很好的时候成绩意外的低，而有时后又恰恰相反。但是，低于预期总是更加常见，也许与我性格偏向乐观自信有关吧。而硕士论文，作为学分占比最大的一部分，成绩的重要性可见一斑。&lt;/p&gt;
 &lt;p&gt;就在忐忑之间，我还是点开了系统。有些意外，又不太有意外的，我得了5.75/6分，这个是仅次于满分的第二档成绩，可以说是非常令人满意的结果！至此，我的所有毕业学分要求都已经满足，硕士论文的优秀成绩也为我的硕士生涯画上了一个圆满的句号。&lt;/p&gt;
@@ -739,10 +739,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>在学校做心里咨询的经历</title>
-      <link>https://www.bilibytes.com/blog/2022-06-20-%E5%9C%A8%E5%AD%A6%E6%A0%A1%E5%81%9A%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E7%9A%84%E7%BB%8F%E5%8E%86/</link>
+      <link>https://www.dayday.plus/blog/2022-06-20-%E5%9C%A8%E5%AD%A6%E6%A0%A1%E5%81%9A%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E7%9A%84%E7%BB%8F%E5%8E%86/</link>
       <pubDate>Mon, 20 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-06-20-%E5%9C%A8%E5%AD%A6%E6%A0%A1%E5%81%9A%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E7%9A%84%E7%BB%8F%E5%8E%86/</guid>
+      <guid>https://www.dayday.plus/blog/2022-06-20-%E5%9C%A8%E5%AD%A6%E6%A0%A1%E5%81%9A%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2%E7%9A%84%E7%BB%8F%E5%8E%86/</guid>
       <description>&lt;p&gt;大概一年之前，我经历了一段心理最低落的时期。主要原因就是对未来感觉前所未有的迷茫、非常严重的年龄焦虑和同伴竞争压力。为了缓解自己的压力，我选择学校的相关机构求助。&lt;/p&gt;
 &lt;p&gt;我们学校至少提供了三个心理咨询的选项。一个是Nightline（深夜热线），这个是一个自发的学生组织，学生可以匿名向他们拨打电话，倾诉自己的烦恼。另一个是项目的心理咨询中心，学生可以向他们发邮件，然后一个类似于辅导员的导师会和你面谈或者在线视频。最后一个是在我们学校旁边的一个心理咨询中心，作为学生我们也是可以免费使用的。&lt;/p&gt;
 &lt;p&gt;Nightline只有晚上可用，而且经常饱满（看来有心理压力的学生真的不少）。第二种的话因为我不太想让我的导师知道（虽然大概率心理导师不会说，但依然有所担心）。因此我选择了第三种方式。&lt;/p&gt;
@@ -761,10 +761,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>毕业设计答辩结束</title>
-      <link>https://www.bilibytes.com/blog/2022-06-03-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9D%9F/</link>
+      <link>https://www.dayday.plus/blog/2022-06-03-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9D%9F/</link>
       <pubDate>Fri, 03 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-06-03-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9D%9F/</guid>
+      <guid>https://www.dayday.plus/blog/2022-06-03-%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1%E7%AD%94%E8%BE%A9%E7%BB%93%E6%9D%9F/</guid>
       <description>&lt;p&gt;就在这周二，我成功完成了毕业设计的答辩。说实话，答辩还挺轻松。主要是毕业设计和之前的学期项目不同，完全是自己提出的方案、创新点，实现也是自己几乎100%完成的。所以答辩的时候就只需要如实报告自己的实验结果，因此还是比较言之有物的。&lt;/p&gt;
 &lt;p&gt;在提问环节教授提了几个建设性问题，不得不佩服教授还是非常有经验，一下就看出来了项目的弱点。不过我也尽可能的回答了，而且最近补做的实验也是为了填补上这些漏洞。&lt;/p&gt;
 &lt;p&gt;现在论文初稿已经完成，就等待导师给些意见应该就可以投稿了。我的硕士生涯也马上结束了。在WhatApp上和几个同学约了这周末开一个一个小的party，以作为顺利毕业的小小庆祝吧！&lt;/p&gt;
@@ -775,10 +775,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>很累、很重要但还是时常偷懒</title>
-      <link>https://www.bilibytes.com/blog/2022-05-13-%E5%BE%88%E7%B4%AF%E5%BE%88%E9%87%8D%E8%A6%81%E4%BD%86%E8%BF%98%E6%98%AF%E6%97%B6%E5%B8%B8%E5%81%B7%E6%87%92/</link>
+      <link>https://www.dayday.plus/blog/2022-05-13-%E5%BE%88%E7%B4%AF%E5%BE%88%E9%87%8D%E8%A6%81%E4%BD%86%E8%BF%98%E6%98%AF%E6%97%B6%E5%B8%B8%E5%81%B7%E6%87%92/</link>
       <pubDate>Fri, 13 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-05-13-%E5%BE%88%E7%B4%AF%E5%BE%88%E9%87%8D%E8%A6%81%E4%BD%86%E8%BF%98%E6%98%AF%E6%97%B6%E5%B8%B8%E5%81%B7%E6%87%92/</guid>
+      <guid>https://www.dayday.plus/blog/2022-05-13-%E5%BE%88%E7%B4%AF%E5%BE%88%E9%87%8D%E8%A6%81%E4%BD%86%E8%BF%98%E6%98%AF%E6%97%B6%E5%B8%B8%E5%81%B7%E6%87%92/</guid>
       <description>&lt;p&gt;连续三周的周工作时长在50小时以上了。&lt;/p&gt;
 &lt;p&gt;这么忙其实是为了把毕业设计做的项目论文发出来。根据原先确定的方案已经有实验结果了，但最近出了一点问题，要补做不少的实验。为了尽快发论文，只能加班加点赶时间。我知道这篇论文对我很重要，如果能成功发表将是我人生第一篇第一作者论文，并且因为这篇论文我在博士申请中会更有竞争力。我的认知里依然充满干劲，但是身体上真的很疲惫，同时也会时不时控制不住自己偷点懒——就是会在工作间歇中刷视频之类的。&lt;/p&gt;
 &lt;p&gt;现在我只希望这个项目能快点圆满结束，然后我会到时候给自己放个假，好好休养生息一下。最近几天书法练字也暂停了，自己在赶deadline的时候着实没有静下来练字的那个心境，但后面我也会补上的。&lt;/p&gt;
@@ -789,10 +789,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>我终于也有Google学术主页了</title>
-      <link>https://www.bilibytes.com/blog/2022-04-30-%E6%88%91%E7%BB%88%E4%BA%8E%E4%B9%9F%E6%9C%89google%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5%E4%BA%86/</link>
+      <link>https://www.dayday.plus/blog/2022-04-30-%E6%88%91%E7%BB%88%E4%BA%8E%E4%B9%9F%E6%9C%89google%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5%E4%BA%86/</link>
       <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-04-30-%E6%88%91%E7%BB%88%E4%BA%8E%E4%B9%9F%E6%9C%89google%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5%E4%BA%86/</guid>
+      <guid>https://www.dayday.plus/blog/2022-04-30-%E6%88%91%E7%BB%88%E4%BA%8E%E4%B9%9F%E6%9C%89google%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5%E4%BA%86/</guid>
       <description>&lt;p&gt;昨天下午我收到了ResearchGate发来的一封邮件，询问某篇文章的作者是不是我。我其实并没太在意，因为我总是收到ResearchGate的邮件提醒，而提醒的无一例外都不是我本人的文章。但这次我打开邮件，发现竟然是自己为第三作者的那篇文章！看来那篇文章终于上线了。&lt;/p&gt;
 &lt;p&gt;这也意味着我可以注册自己的Google学术主页了。在我看来拥有Google学术主页就好像有了一个“非官方”的学者认证，但苦于必须要求有一篇文章发表才能注册所以只能作罢。特别是当我曾经的本科舍友也都有了 Google学术主页之后——一个舍友在大三暑假去美国交流后发了一篇第三作者，一个舍友毕业后RA发了一篇第三作者——而现在终于轮到我了。&lt;/p&gt;
 &lt;p&gt;虽然相比室友晚了很多，但我依然非常兴奋。其实发论文和人生中大多其他事情差不多，想要一步登天很难。就拿发表论文来讲，我认识的几个同学都是先以非一作发表文章，之后才有第一作者发表的。自己曾经不太看得起非一作论文，但其实现在自己才明白，每次进步一点已经是值得骄傲的事情了。希望自己能再接再厉吧！&lt;/p&gt;
@@ -802,10 +802,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>科研项目推进中“由粗到细”的文档记录</title>
-      <link>https://www.bilibytes.com/blog/2022-04-01-%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%BF%9B%E4%B8%AD%E7%94%B1%E7%B2%97%E5%88%B0%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</link>
+      <link>https://www.dayday.plus/blog/2022-04-01-%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%BF%9B%E4%B8%AD%E7%94%B1%E7%B2%97%E5%88%B0%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-04-01-%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%BF%9B%E4%B8%AD%E7%94%B1%E7%B2%97%E5%88%B0%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</guid>
+      <guid>https://www.dayday.plus/blog/2022-04-01-%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E6%8E%A8%E8%BF%9B%E4%B8%AD%E7%94%B1%E7%B2%97%E5%88%B0%E7%BB%86%E7%9A%84%E6%96%87%E6%A1%A3%E8%AE%B0%E5%BD%95/</guid>
       <description>&lt;p&gt;当科研构思和计划书已经初步确定，项目进行到实际推进过程中的时候，我们该如何合理的使用文档记录项目进展呢?这里我初步介绍一下我在硕士毕业论文期间采用的策略，希望能和大家交流分享。&lt;/p&gt;
 &lt;p&gt;首先需要明确的是，科研项目的最终目的是什么?对于大部分的科研新手来说，这个目的无疑是发表论文。因此我们的文档要求一定要根据“发表论文”这个目标进行优化。在硕士论文过程中，我利用了两款常用软件，依据粗、中、细三种“颗粒度”的大小来记录科研进展。&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
@@ -829,10 +829,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>读博的动机</title>
-      <link>https://www.bilibytes.com/blog/2022-03-14-%E8%AF%BB%E5%8D%9A%E7%9A%84%E5%8A%A8%E6%9C%BA/</link>
+      <link>https://www.dayday.plus/blog/2022-03-14-%E8%AF%BB%E5%8D%9A%E7%9A%84%E5%8A%A8%E6%9C%BA/</link>
       <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-03-14-%E8%AF%BB%E5%8D%9A%E7%9A%84%E5%8A%A8%E6%9C%BA/</guid>
+      <guid>https://www.dayday.plus/blog/2022-03-14-%E8%AF%BB%E5%8D%9A%E7%9A%84%E5%8A%A8%E6%9C%BA/</guid>
       <description>&lt;p&gt;硕士留学接近尾声，博士位置仍旧没有定下来。原因就是研一的时候换了研究方向，选择了遵循内心的兴趣。所以现在的积累仍旧偏少，无法获得最想去的实验室offer。在我看来，好的方向、好的导师屈指可数，所以自己仍然在等待一个时机进入到自己理想的实验室。&lt;/p&gt;
 &lt;p&gt;不得不承认，自己有过一段时间的焦虑。最黑暗的时间段大概是研二下学期，我甚至有寻求过学校心里咨询的援助。但现在反而心如止水了，一方面感谢自己还算强大的心理调节能力，但更重要的是感谢来自家庭的鼓励和物质基础，能支持我Gap几个月继续寻找博士位置。&lt;/p&gt;
 &lt;p&gt;有的时候我在问自己：自己想要读博到底是热爱科研还是一种执念，亦或是其他原因？&lt;/p&gt;
@@ -851,10 +851,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>人生第一次挂科</title>
-      <link>https://www.bilibytes.com/blog/2022-02-28-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8C%82%E7%A7%91/</link>
+      <link>https://www.dayday.plus/blog/2022-02-28-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8C%82%E7%A7%91/</link>
       <pubDate>Mon, 28 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2022-02-28-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8C%82%E7%A7%91/</guid>
+      <guid>https://www.dayday.plus/blog/2022-02-28-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%8C%82%E7%A7%91/</guid>
       <description>&lt;p&gt;周一早上，我收到了ASF课程已经出分的邮件。&lt;/p&gt;
 &lt;p&gt;怀着忐忑的心情，我登录成绩管理系统查询成绩，令人意外地是，竟然只有3.75/6分！这意味着我挂科了！&lt;/p&gt;
 &lt;p&gt;我的心情有些沉重但更多的是疑惑。这门课的期末考试是口试，也就是教授直接问问题我回答。我已经预感到自己考的非常差。因为疫情关系，口试转成了线上进行。在口试过程中，我的设备出现了一点问题，导致仅仅30分钟的口试时间浪费了好几分钟。另外也许是因为我考前熬夜复习的缘故，感觉口试的过程中自己的脑子有些反应不过来，本来很简单的问题也没有回答上来。最后，我的复习策略也出现了些问题，考前花费大量时间复习的内容都没有考，而真正考到的知识点我反而不太熟练&amp;hellip;&amp;hellip;&lt;/p&gt;
@@ -867,10 +867,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>和我做过课程项目的同学去MIT了</title>
-      <link>https://www.bilibytes.com/blog/2021-12-01-%E5%92%8C%E6%88%91%E5%81%9A%E8%BF%87%E8%AF%BE%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%8C%E5%AD%A6%E5%8E%BBmit%E4%BA%86/</link>
+      <link>https://www.dayday.plus/blog/2021-12-01-%E5%92%8C%E6%88%91%E5%81%9A%E8%BF%87%E8%AF%BE%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%8C%E5%AD%A6%E5%8E%BBmit%E4%BA%86/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-12-01-%E5%92%8C%E6%88%91%E5%81%9A%E8%BF%87%E8%AF%BE%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%8C%E5%AD%A6%E5%8E%BBmit%E4%BA%86/</guid>
+      <guid>https://www.dayday.plus/blog/2021-12-01-%E5%92%8C%E6%88%91%E5%81%9A%E8%BF%87%E8%AF%BE%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%90%8C%E5%AD%A6%E5%8E%BBmit%E4%BA%86/</guid>
       <description>&lt;p&gt;上个学期EEAIC的课程中需要同学之间组队完成一个大的课程设计。我和其他三名同学组队，其中有一个本科来自EPFL的瑞士当地人。今天我偶然在LinkedIn上看到了他的动态,他已经作为Fulbrigh学者前往了MIT交换，并且加入了MIT Media Lab的一个课题组。巧合的是，这个课题组我从曾经到现在都非常钟意，但对我来说可能没有加入的机会了。&lt;/p&gt;
 &lt;p&gt;当时和他做项目的时候能感受到他的优秀。其实我们学校“当地学霸”，就是来自瑞士德国等欧洲国家的“学霸”，挺多的。和他们交流与和我在国内读本科接触的“学霸”有些不太一样的感受。不知是不是圈子的原因，我在国内认识的大多学霸比较爱相互“吹捧”，左一口右一口“X神”、“X总”什么的，但反而对自己的实力有所隐藏。而我认识的大多当地“学霸”则更喜欢彰显自己的能力，相互之间比较喜欢单纯的“Congrats”。&lt;/p&gt;
 &lt;p&gt;总之，能认识这些优秀的同学是我的荣幸。希望自己能和他们一样不断的进步。&lt;/p&gt;
@@ -880,10 +880,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>人生第一篇论文问世，尽管是第三作者</title>
-      <link>https://www.bilibytes.com/blog/2021-11-01-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E9%97%AE%E4%B8%96%E5%B0%BD%E7%AE%A1%E6%98%AF%E7%AC%AC%E4%B8%89%E4%BD%9C%E8%80%85/</link>
+      <link>https://www.dayday.plus/blog/2021-11-01-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E9%97%AE%E4%B8%96%E5%B0%BD%E7%AE%A1%E6%98%AF%E7%AC%AC%E4%B8%89%E4%BD%9C%E8%80%85/</link>
       <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-11-01-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E9%97%AE%E4%B8%96%E5%B0%BD%E7%AE%A1%E6%98%AF%E7%AC%AC%E4%B8%89%E4%BD%9C%E8%80%85/</guid>
+      <guid>https://www.dayday.plus/blog/2021-11-01-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E8%AE%BA%E6%96%87%E9%97%AE%E4%B8%96%E5%B0%BD%E7%AE%A1%E6%98%AF%E7%AC%AC%E4%B8%89%E4%BD%9C%E8%80%85/</guid>
       <description>&lt;p&gt;今天是双十一，原本只是一个平平无奇的一天。我还按往常一样来到实验室，测一测看起来没有什么希望的数据。其实最近的几周我是比较忧郁的，因为实验的进展并不算顺利&amp;hellip;&amp;hellip;&lt;/p&gt;
 &lt;p&gt;突然，邮箱提醒有一封新的邮件。我看到“XXX(会议名称) 2022 Your Submission”主题后，有些奇怪，自己最近并没有投论文呀。&lt;/p&gt;
 &lt;p&gt;打开邮件才知道，是原先一个辅导我的PhD学生投出的论文，其中一部分用到了我之前学期项目的成果。&lt;/p&gt;
@@ -896,10 +896,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>第二个学期项目完成答辩</title>
-      <link>https://www.bilibytes.com/blog/2021-10-24-%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E7%AD%94%E8%BE%A9/</link>
+      <link>https://www.dayday.plus/blog/2021-10-24-%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E7%AD%94%E8%BE%A9/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-10-24-%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E7%AD%94%E8%BE%A9/</guid>
+      <guid>https://www.dayday.plus/blog/2021-10-24-%E7%AC%AC%E4%BA%8C%E4%B8%AA%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE%E5%AE%8C%E6%88%90%E7%AD%94%E8%BE%A9/</guid>
       <description>&lt;p&gt;我的硕士项目课程方案其实挺灵活的，课程、实习、实验项目可以自由组合，全部学分达到要求即可毕业。我的大多数同学都会选择“课程+1个实习+2个学期项目+毕业设计”的组合，而我也不例外。今天我就完成了第二个学期项目的答辩。&lt;/p&gt;
 &lt;p&gt;按理说学期项目应该是小的研究项目，但其实并没有什么创新点，更多的依然是工程训练。其实可以理解，毕业设计之前的所有课程和项目都是在为毕业设计做准备吧。指导我这个项目的博士生看来是一个新手，对指导学生不算很熟悉，这次答辩也是“临时安排”。整个答辩过程比较顺利，这可能是因为我一贯比较擅长演讲，也可能是因为这个项目的“工程”性质比较浓——一切按部就班，不会有什么波澜。&lt;/p&gt;
 &lt;p&gt;我其实蛮想做出一些创新的。在第一个学期项目中我也有过一些创新，但最终没有投稿成果。这次的研究项目我换了方向，短时间内在新方向里做出创新也不现实。&lt;/p&gt;
@@ -911,10 +911,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>老师说我抄袭</title>
-      <link>https://www.bilibytes.com/blog/2021-07-10-%E8%80%81%E5%B8%88%E8%AF%B4%E6%88%91%E6%8A%84%E8%A2%AD/</link>
+      <link>https://www.dayday.plus/blog/2021-07-10-%E8%80%81%E5%B8%88%E8%AF%B4%E6%88%91%E6%8A%84%E8%A2%AD/</link>
       <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-07-10-%E8%80%81%E5%B8%88%E8%AF%B4%E6%88%91%E6%8A%84%E8%A2%AD/</guid>
+      <guid>https://www.dayday.plus/blog/2021-07-10-%E8%80%81%E5%B8%88%E8%AF%B4%E6%88%91%E6%8A%84%E8%A2%AD/</guid>
       <description>&lt;p&gt;上周五早上收到一门课程老师通知最后成绩的邮件。其中有一段话：&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Reports: Your second report was detected by XXX plagiarism software. And not just once, 6 parts of the text are considered as paraphrasing or direct plagiarism.  Among these, a paragraph on page 3, first paragraph in Fabrication Challenges, paragraphs after Figure 10 and others. This is so unfortunate, but I must grade this report 0.0. It is also in striking contrast to your other reports, the presentation, and generally high performance in the class.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;大意就是我提交的一份报告中包含剽窃的段落，因此该报告被判了0分。因为这门课一共要提交三分报告和进行最终演讲，这一份0分的报告意味着我要丢掉25%的课程分数。&lt;/p&gt;
@@ -934,10 +934,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>压迫感</title>
-      <link>https://www.bilibytes.com/blog/2021-04-10-%E5%8E%8B%E8%BF%AB%E6%84%9F/</link>
+      <link>https://www.dayday.plus/blog/2021-04-10-%E5%8E%8B%E8%BF%AB%E6%84%9F/</link>
       <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-04-10-%E5%8E%8B%E8%BF%AB%E6%84%9F/</guid>
+      <guid>https://www.dayday.plus/blog/2021-04-10-%E5%8E%8B%E8%BF%AB%E6%84%9F/</guid>
       <description>&lt;p&gt;这学期修的EEAIC课程需要学生之间组队完成一个大作业。我和另外3名外国同学组了队，他们分别来自瑞士、墨西哥和土耳其。&lt;/p&gt;
 &lt;p&gt;其中来自瑞士和墨西哥的两个同学给我留下了比较深的印象。今天和他们讨论问题，我体会到了一种久违的“压迫感”。&lt;/p&gt;
 &lt;p&gt;什么是“压迫感”，具体来说就是一种你无论如何努力可能都没法追上的感觉，起因就是一种来自内心的感叹——“他们太优秀了”。其实这个感觉我曾经在高中就有所体会——因为我在“重点中学重点班”。仍记得那是一节数学课，老师在讲一道对我来说难到没有思路的题，而那个其貌不扬的男生则随口说出了答案。我现在依然记得数学老师对着全班说：“看，这就是天赋&amp;hellip;&amp;hellip;”。&lt;/p&gt;
@@ -951,10 +951,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>搬出 Student Village</title>
-      <link>https://www.bilibytes.com/blog/2021-03-22-%E6%90%AC%E5%87%BAstudentvillage/</link>
+      <link>https://www.dayday.plus/blog/2021-03-22-%E6%90%AC%E5%87%BAstudentvillage/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-03-22-%E6%90%AC%E5%87%BAstudentvillage/</guid>
+      <guid>https://www.dayday.plus/blog/2021-03-22-%E6%90%AC%E5%87%BAstudentvillage/</guid>
       <description>&lt;p&gt;自从我来苏黎世一直住的都是颇为抢手的学生宿舍 Student Village。这个宿舍是从一个原先的学生手里租的，也就是说我是“二手房客”。租金则沿用之前房客和房产公司定下的金额。&lt;/p&gt;
 &lt;p&gt;今年年初原房客和房产公司的合约到期，他可以把房子转手给我，而我要和房产公司签新的合同。可是每年的租金都会上涨，我要签的新合同里的月租金每个月要比原租金多50瑞法。&lt;/p&gt;
 &lt;p&gt;其实50瑞法真不算多，大概就是一周超市购物的钱。但我原先就觉得这个房子处在“不太值”的临界点了。首先就是 Student Village 除了校车，到主校并不方便，必须经过一次倒车。而我因为平时经常坐校车的缘故，并没有办公交月卡，去其他地方也不方便。其次就是 Student Village 的房间很小，而且是和其他9个学生合租，共用卫生间和厨房，感觉生活质量并不高。&lt;/p&gt;
@@ -970,10 +970,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>留学一年半的反思</title>
-      <link>https://www.bilibytes.com/blog/2021-02-19-%E7%95%99%E5%AD%A6%E4%B8%80%E5%B9%B4%E5%8D%8A%E7%9A%84%E5%8F%8D%E6%80%9D/</link>
+      <link>https://www.dayday.plus/blog/2021-02-19-%E7%95%99%E5%AD%A6%E4%B8%80%E5%B9%B4%E5%8D%8A%E7%9A%84%E5%8F%8D%E6%80%9D/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2021-02-19-%E7%95%99%E5%AD%A6%E4%B8%80%E5%B9%B4%E5%8D%8A%E7%9A%84%E5%8F%8D%E6%80%9D/</guid>
+      <guid>https://www.dayday.plus/blog/2021-02-19-%E7%95%99%E5%AD%A6%E4%B8%80%E5%B9%B4%E5%8D%8A%E7%9A%84%E5%8F%8D%E6%80%9D/</guid>
       <description>&lt;p&gt;&lt;strong&gt;自己的问题&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;学习，就是一段不断了解自己，发现自己的过程。留学当中，暴露了自己很多的缺点，导致自己现在的成果处境很不好。自己的缺点大概有以下几点：&lt;/p&gt;
 &lt;p&gt;​     1. 不会抓大放小&lt;/p&gt;
@@ -1008,10 +1008,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>苏村宅记 - 初到苏黎世</title>
-      <link>https://www.bilibytes.com/blog/2019-09-30-%E8%8B%8F%E6%9D%91%E5%AE%85%E8%AE%B0%E5%88%9D%E5%88%B0%E8%8B%8F%E9%BB%8E%E4%B8%96/</link>
+      <link>https://www.dayday.plus/blog/2019-09-30-%E8%8B%8F%E6%9D%91%E5%AE%85%E8%AE%B0%E5%88%9D%E5%88%B0%E8%8B%8F%E9%BB%8E%E4%B8%96/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2019-09-30-%E8%8B%8F%E6%9D%91%E5%AE%85%E8%AE%B0%E5%88%9D%E5%88%B0%E8%8B%8F%E9%BB%8E%E4%B8%96/</guid>
+      <guid>https://www.dayday.plus/blog/2019-09-30-%E8%8B%8F%E6%9D%91%E5%AE%85%E8%AE%B0%E5%88%9D%E5%88%B0%E8%8B%8F%E9%BB%8E%E4%B8%96/</guid>
       <description>&lt;p&gt;淅淅沥沥的雨中，我们的飞机降落在了苏黎世国际机场。那一天是2019年9月8日，我的苏黎世留学生活正式开始了。&lt;/p&gt;
 &lt;p&gt;苏黎世机场不算大，加上飞机抵达时刚刚过8点，因此不到小时就拿完行李，过完了海关。给手机换上了在国内买的流量卡，和接机的学姐取得联系。在她的指导下一起办了公交卡，便急匆匆拿着行李赶向住处。
 雨中的苏黎世天色阴沉，但我依然被宿舍窗外的环境吸引了。低矮红顶的房屋，葱绿的树木，远处可见的山峦，好像一处僻静的山村农场——后来我真的在这里见到了牛和放牧的人。但这里并不是山村，这里离老城区（也就是市中心）并不远，乘坐校车到达苏黎世主校区也只要17分钟左右。&lt;/p&gt;
@@ -1029,10 +1029,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>选择焦虑</title>
-      <link>https://www.bilibytes.com/blog/2019-12-11-%E9%80%89%E6%8B%A9%E7%84%A6%E8%99%91/</link>
+      <link>https://www.dayday.plus/blog/2019-12-11-%E9%80%89%E6%8B%A9%E7%84%A6%E8%99%91/</link>
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2019-12-11-%E9%80%89%E6%8B%A9%E7%84%A6%E8%99%91/</guid>
+      <guid>https://www.dayday.plus/blog/2019-12-11-%E9%80%89%E6%8B%A9%E7%84%A6%E8%99%91/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;For options it’s the other way around. As we have just seen, options written on volatile assets are worth more than options written on safe assets. If you can understand and remember that one fact about options, you’ve come a long way.&lt;/p&gt;
@@ -1053,10 +1053,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>科目三考试流程和注意事项</title>
-      <link>https://www.bilibytes.com/blog/2019-08-17-%E7%A7%91%E7%9B%AE%E4%B8%89%E8%80%83%E8%AF%95%E8%A6%81%E7%82%B9/</link>
+      <link>https://www.dayday.plus/blog/2019-08-17-%E7%A7%91%E7%9B%AE%E4%B8%89%E8%80%83%E8%AF%95%E8%A6%81%E7%82%B9/</link>
       <pubDate>Sat, 17 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2019-08-17-%E7%A7%91%E7%9B%AE%E4%B8%89%E8%80%83%E8%AF%95%E8%A6%81%E7%82%B9/</guid>
+      <guid>https://www.dayday.plus/blog/2019-08-17-%E7%A7%91%E7%9B%AE%E4%B8%89%E8%80%83%E8%AF%95%E8%A6%81%E7%82%B9/</guid>
       <description>&lt;p&gt;科目三考试流程和注意事项&lt;/p&gt;
 &lt;p&gt;一、五检查：&lt;strong&gt;“座机拉灯绕”&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -1126,10 +1126,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>大二的小事</title>
-      <link>https://www.bilibytes.com/blog/2019-05-21-%E5%A4%A7%E4%BA%8C%E7%9A%84%E5%B0%8F%E4%BA%8B/</link>
+      <link>https://www.dayday.plus/blog/2019-05-21-%E5%A4%A7%E4%BA%8C%E7%9A%84%E5%B0%8F%E4%BA%8B/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2019-05-21-%E5%A4%A7%E4%BA%8C%E7%9A%84%E5%B0%8F%E4%BA%8B/</guid>
+      <guid>https://www.dayday.plus/blog/2019-05-21-%E5%A4%A7%E4%BA%8C%E7%9A%84%E5%B0%8F%E4%BA%8B/</guid>
       <description>&lt;p&gt;大二某天。&lt;/p&gt;
 &lt;p&gt;也许大多数同学还在温暖的宿舍睡着懒觉，我却摸着黑早早起来，匆忙地洗漱、吃早餐，然后顶着早冬的寒风奔向东一楼。在路上，我的心里不断念叨着“以后要更仔细一些、要更仔细一些……&lt;/p&gt;
 &lt;p&gt;我要赶去的这节课，全班只有我一个人需要上。&lt;/p&gt;
@@ -1149,10 +1149,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>偶遇 · 兰州</title>
-      <link>https://www.bilibytes.com/blog/2018-10-30-%E5%81%B6%E9%81%87%E5%85%B0%E5%B7%9E/</link>
+      <link>https://www.dayday.plus/blog/2018-10-30-%E5%81%B6%E9%81%87%E5%85%B0%E5%B7%9E/</link>
       <pubDate>Tue, 30 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2018-10-30-%E5%81%B6%E9%81%87%E5%85%B0%E5%B7%9E/</guid>
+      <guid>https://www.dayday.plus/blog/2018-10-30-%E5%81%B6%E9%81%87%E5%85%B0%E5%B7%9E/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;和兰州偶遇算得上一种缘分吧。各种阴差阳错让我来到了这座城市，主要目的却只有一个——再考一次GRE和TOEFL。&lt;/p&gt;
 &lt;p&gt;早在一个月前我就有再考一次GRE和TOEFL的打算了。那时我还在加拿大，并且提前订好了渥太华的考位。可谁知，当我风尘仆仆地从蒙特利尔感到渥太华后，在凌晨收到了ETS的邮件——GRE因为台风原因被取消了！而TOEFL则是快回国前考了一次，离心里预期又是一步之遥，只能重考。&lt;/p&gt;
@@ -1178,10 +1178,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>你与成功或许只差一个早起</title>
-      <link>https://www.bilibytes.com/blog/2018-06-12--%E4%BD%A0%E4%B8%8E%E6%88%90%E5%8A%9F%E6%88%96%E8%AE%B8%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E6%97%A9%E8%B5%B7/</link>
+      <link>https://www.dayday.plus/blog/2018-06-12--%E4%BD%A0%E4%B8%8E%E6%88%90%E5%8A%9F%E6%88%96%E8%AE%B8%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E6%97%A9%E8%B5%B7/</link>
       <pubDate>Tue, 12 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2018-06-12--%E4%BD%A0%E4%B8%8E%E6%88%90%E5%8A%9F%E6%88%96%E8%AE%B8%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E6%97%A9%E8%B5%B7/</guid>
+      <guid>https://www.dayday.plus/blog/2018-06-12--%E4%BD%A0%E4%B8%8E%E6%88%90%E5%8A%9F%E6%88%96%E8%AE%B8%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E6%97%A9%E8%B5%B7/</guid>
       <description>&lt;p&gt;　　有的人以为早起和晚睡没有什么分别，尤其是对那些自以为是的家伙——反正每天的工作时间总是恒定的，那么早起和晚睡起到的效果是一样的啊？可他们不知道，早起已经超越了它本身的含义，而更多的是一种象征了。&lt;/p&gt;
 &lt;p&gt;　　这是我坚持早起的第十天了。这几天我总是会在早上6:30的时候起床，简单洗漱之后开始10分钟左右的晨跑，然后吃早饭正式投身学习状态。为了使自己能够在6:30的时候从舒适的被窝中爬起来，我还坚持了以下几点：&lt;/p&gt;
 &lt;ul&gt;
@@ -1201,10 +1201,10 @@ Zurich&lt;/p&gt;
     
     <item>
       <title>变形中的快乐观</title>
-      <link>https://www.bilibytes.com/blog/2017-07-24-%E5%8F%98%E5%BD%A2%E4%B8%AD%E7%9A%84%E5%BF%AB%E4%B9%90%E8%A7%82/</link>
+      <link>https://www.dayday.plus/blog/2017-07-24-%E5%8F%98%E5%BD%A2%E4%B8%AD%E7%9A%84%E5%BF%AB%E4%B9%90%E8%A7%82/</link>
       <pubDate>Mon, 24 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2017-07-24-%E5%8F%98%E5%BD%A2%E4%B8%AD%E7%9A%84%E5%BF%AB%E4%B9%90%E8%A7%82/</guid>
+      <guid>https://www.dayday.plus/blog/2017-07-24-%E5%8F%98%E5%BD%A2%E4%B8%AD%E7%9A%84%E5%BF%AB%E4%B9%90%E8%A7%82/</guid>
       <description>&lt;p&gt;最近在B站上看了两部番，着实令我“畅快”了一次。&lt;/p&gt;
 &lt;p&gt;　　在晚上，抱着Pad，一口气看完12集的番剧。因为剧情，因为弹幕，因为自身产生的共鸣，我频频“大呼过瘾”。这种感觉仿佛让我回到了高中迷山楂树、大一迷旋风少女那个时期。&lt;/p&gt;
 &lt;p&gt;　　但我也骤然意识到，这种行为在不知不觉中改变着我的生活。&lt;/p&gt;

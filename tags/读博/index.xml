@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>读博 on bilibytes.com</title>
-    <link>https://www.bilibytes.com/tags/%E8%AF%BB%E5%8D%9A/</link>
+    <link>https://www.dayday.plus/tags/%E8%AF%BB%E5%8D%9A/</link>
     <description>Recent content in 读博 on bilibytes.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/tags/%E8%AF%BB%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dayday.plus/tags/%E8%AF%BB%E5%8D%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> 第一次参加国际会议 —— BioCAS 2024</title>
-      <link>https://www.bilibytes.com/blog/2024-11-16/</link>
+      <link>https://www.dayday.plus/blog/2024-11-16/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-11-16/</guid>
+      <guid>https://www.dayday.plus/blog/2024-11-16/</guid>
       <description>&lt;p&gt;两个月前，我的第一篇第一作者论文被BioCAS2024接收了。这是一篇会议论文，而且被选为了“演讲汇报”。凑巧的是，这个会议刚好在我家附近 —— 西安——召开，因此我10月底“公费”坐上了回国的飞机。&lt;/p&gt;
 &lt;p&gt;回国的飞机大概在开会的前一周左右。因为我要在回国之前赶“Tape-out”的deadline，因此演讲的PPT一直都没有做。我本来想的是回家休息一天，然后再集中精力三天准备汇报PPT。&lt;/p&gt;
 &lt;p&gt;但凑巧，一个我们系的外国同学也要参加这次会议，因此我又花费了一天的事件给这个同学接了个尘。本来我想的是把同学从机场接到酒店，然后一起吃个饭就可以了。但是给同学办电话卡花了一些时间，之后又带同学去了回民街、在城墙上骑了一圈自行车，晚上看了钟楼夜景又一起吃了顿火锅。那天回到家已经晚上快11点了。&lt;/p&gt;
@@ -29,10 +29,10 @@
     
     <item>
       <title>追随AI潮流</title>
-      <link>https://www.bilibytes.com/blog/2024-10-10/</link>
+      <link>https://www.dayday.plus/blog/2024-10-10/</link>
       <pubDate>Sat, 12 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-10-10/</guid>
+      <guid>https://www.dayday.plus/blog/2024-10-10/</guid>
       <description>&lt;p&gt;Artificial Intelligence，人工智能，我觉得确实是第四次工业革命的开端。前三次工业革命，机械、电力、信息，特征是人类利用工具大幅提高生产力，其进化依然来源于由人类主导的改进；而人工智能，因为拥有了“智能”，这个“工具”可能具备了自我进化的能力。&lt;/p&gt;
 &lt;p&gt;在机器学习领域，这种“自我进化”可以相对片面的理解为“强化学习”——前几年大火的AlphaGo就是一个“强化学习”的例子。这种“自我进化”的能力很恐怖，并且有着无限的前景。回顾以往人类文明的进步，很大程度来源于人类的合作。但是因为人们有限的寿命、记忆力等物理条件的限制，这种进步太慢了。但是基于现在拥有规模化优势的人工智能，可以说是拥有近乎无限的算力和存储。如果能被合理利用，科技、文明的进步无疑能被大大的加速。&lt;/p&gt;
 &lt;p&gt;今年的诺贝尔物理和化学奖都颁发给了与人工智能相关的领域，我感觉是将人工智能的社会关注度推向了第二次高峰——这一次高峰启于2022年的ChatGPT。和上一次机器学习高峰——AlphaGo不同，ChatGPT很多人都亲自使用过。对于我来说，其生成脚本、修改文章、以及和人类自然的对话程度足够令人惊叹。&lt;/p&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>在学术上有了自己的想法 / 第一次做TA和讲课 / 健身三个月总结 / 能坚持睡前不玩手机吗</title>
-      <link>https://www.bilibytes.com/blog/2024-09-27/</link>
+      <link>https://www.dayday.plus/blog/2024-09-27/</link>
       <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-09-27/</guid>
+      <guid>https://www.dayday.plus/blog/2024-09-27/</guid>
       <description>&lt;h2 id=&#34;好像在学术上有了自己的想法&#34;&gt;好像在学术上有了自己的想法&lt;/h2&gt;
 &lt;p&gt;读博第三年开始了。最近有了一种新的感觉，就是自己好像渐渐在学术上“有了自己的想法”。&lt;/p&gt;
 &lt;p&gt;第一个例子就是之前偶然浏览到一个方向“In-memory sensing” [1]。我对这个方向的理解是，在传感器内部进行一些计算。这些计算不是用常见的数字处理器进行，而是使用一些新型的材料和器件（比如忆阻器）进行。&lt;/p&gt;
@@ -90,10 +90,10 @@
     
     <item>
       <title>批改试卷 / 脑切片测试 / 增加锻炼 / 科研中使用ChatGPT</title>
-      <link>https://www.bilibytes.com/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</link>
+      <link>https://www.dayday.plus/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</link>
       <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</guid>
+      <guid>https://www.dayday.plus/blog/2024-09-14-%E6%89%B9%E6%94%B9%E8%AF%95%E5%8D%B7-%E8%84%91%E5%88%87%E7%89%87%E6%B5%8B%E8%AF%95-%E5%A2%9E%E5%8A%A0%E9%94%BB%E7%82%BC-%E7%A7%91%E7%A0%94%E4%B8%AD%E4%BD%BF%E7%94%A8chatgpt/</guid>
       <description>&lt;h2 id=&#34;批改试卷&#34;&gt;批改试卷&lt;/h2&gt;
 &lt;p&gt;导师在这个学期教电子系本科基础课Electronic Circuits (电路)，一共有将近160个学生注册。按照教务处规定，考完试两周内要出结果。刚好实验室大多数人都在赶ISSCC的deadline，而我比较空闲，于是就被“抓”去批改试卷了。&lt;/p&gt;
 &lt;p&gt;我之前改过一次试卷，也是Electronic Circuits这门课。但那次是补考的学生，只有可能最多20多人。这次160份卷子，让我体会到批改试卷的“枯燥乏味”。&lt;/p&gt;
@@ -156,10 +156,10 @@
     
     <item>
       <title> 人生第一篇第一作者论文被接收了</title>
-      <link>https://www.bilibytes.com/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</link>
+      <link>https://www.dayday.plus/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</link>
       <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.bilibytes.com/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</guid>
+      <guid>https://www.dayday.plus/blog/2024-08-16-%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%AC%E4%B8%80%E4%BD%9C%E8%80%85%E8%AE%BA%E6%96%87%E8%A2%AB%E6%8E%A5%E6%94%B6%E4%BA%86/</guid>
       <description>&lt;p&gt;2024年8月10日00:58分，我收到了BioCAS的邮件，我人生中第一篇第一作者文章被接收了！&lt;/p&gt;
 &lt;p&gt;这是我学术道路上一个值得纪念的时刻。&lt;/p&gt;
 &lt;p&gt;本科时，我就开始参与科研训练，期待能够发表论文、或者至少挂名论文——这样最大的好处是有助于我的博士申请。那个时候，“本科生科研”已经慢慢开始普及，身边也不乏厉害的同学发表论文、甚至是以第一作者发表论文。我虽然下过努力，但是最终还是没有成功发表论文。&lt;/p&gt;

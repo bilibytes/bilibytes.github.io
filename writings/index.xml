@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writings on bilibytes.com</title>
-    <link>https://www.bilibytes.com/writings/</link>
+    <link>https://www.dayday.plus/writings/</link>
     <description>Recent content in Writings on bilibytes.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.bilibytes.com/writings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.dayday.plus/writings/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
