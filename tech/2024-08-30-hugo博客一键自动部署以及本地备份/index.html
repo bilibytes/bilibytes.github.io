@@ -4,7 +4,7 @@
     <title> Hugo博客一建自动部署以及本地备份</title>
     <meta charset="utf-8">
     <meta name="description" content="Ladder@find ./bilibytes.github.io -mindepth 1 ! -name &#34;.git&#34; ! -name &#34;CNAME&#34; ! -path &#34;./bilibytes.github.io .git/*&#34; -exec rm -rf {} &#43; python3 backup_website_in_html.py hugo cd bilibytes.github.io git init git remote add origin https://github.com/bilibytes/bilibytes.github.io.git git add . git commit -m &#34;$(date)&#34; git pull --rebase origin main git push --set-upstream origin main import os import re import markdown import requests from pathlib import Path import shutil import yaml from urllib.parse import urlparse def extract_metadata_and_content(markdown_content):">
-    <meta name="author" content="Anonymous">
+    <meta name="author" content="DayDay.Plus">
     <link rel="canonical" href="https://www.dayday.plus/tech/2024-08-30-hugo%E5%8D%9A%E5%AE%A2%E4%B8%80%E9%94%AE%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E4%BB%A5%E5%8F%8A%E6%9C%AC%E5%9C%B0%E5%A4%87%E4%BB%BD/">
 
     <link rel="alternate" type="application/rss+xml" href="https://www.dayday.plus//index.xml" title="DayDay.Plus">
@@ -69,7 +69,7 @@
   "dateModified": "2024-08-30T20:37:54.961809396+02:00",
   "author":{
     "@type": "Person",
-    "name": "Anonymous"
+    "name": "DayDay.Plus"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
@@ -114,7 +114,7 @@
 <nav class="navigation">
     <section class="container">
         <a class="navigation-brand" href="/">
-            &gt;&gt; DayDay.Plus  
+            &gt;&gt; 主页  
         </a>
         <input type="checkbox" id="menu-toggle" />
         <label class="menu-button float-right" for="menu-toggle">
