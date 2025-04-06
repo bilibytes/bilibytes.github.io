@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用HTTrack和Github进行网站“硬核备份”</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Ladder@网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。">
+    <meta name="author" content="DayDay.Plus">
+    <link rel="canonical" href="https://www.dayday.plus/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/">
+
+    <link rel="alternate" type="application/rss+xml" href="https://www.dayday.plus//index.xml" title="DayDay.Plus">
+
+    
+  
+
+
+
+
+    <meta property="og:url" content="https://www.dayday.plus/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/">
+  <meta property="og:site_name" content="DayDay.Plus">
+  <meta property="og:title" content="使用HTTrack和Github进行网站“硬核备份”">
+  <meta property="og:description" content="网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。">
+  <meta property="og:locale" content="zh">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="tech">
+    <meta property="article:published_time" content="2019-12-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-08T13:45:00+01:00">
+    <meta property="article:tag" content="网站">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="使用HTTrack和Github进行网站“硬核备份”">
+  <meta name="twitter:description" content="网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teches",
+      "item": "https://www.dayday.plus/tech/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "使用HTTrack和Github进行网站“硬核备份”",
+      "item": "https://www.dayday.plus/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "使用HTTrack和Github进行网站“硬核备份”",
+  "name": "使用HTTrack和Github进行网站“硬核备份”",
+  "description": "网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。",
+  "keywords": [
+    "网站"
+  ],
+  "articleBody": "使用HTTrack和Github进行网站“硬核备份” 网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。\n首先，这是我的网站原始地址：原网页 ，这是我的网站备份地址：备份地址 。可见这种网站备份方式完整保留了网站的外观、评论、插件、外部链接等。\n1 下载并安装HTTrack (下载地址)\n3 上传至Github。使用Github Desktop软件将HTTrack下载的网站文件夹完整的上传至一个新的repository，并将这个repository命名为your-github-username.github.io的形式。\n4 开启Github Pages。进入repository的设置页面，确认该仓库为\"Public\"，然后打开Github Pages，这样就可以在网站上浏览自己的备份网站了。 我为什么喜欢这种备份方式呢？最重要的原因是可以完整的保留网站的原貌。我的网站所有图片都是免费托放在外部的图床上的，主机也没有使用的可靠的大企业的主机（如阿里云、微软github等），这让我一直很没有安全感。通过这种方式将网站完整的保存在本地，并上传到Github上，即便未来某天图床或者主机商挂掉，我依然可以将自己的网站完美的展示出来。\n",
+  "wordCount" : "647",
+  "inLanguage": "en",
+  "datePublished": "2019-12-25T00:00:00Z",
+  "dateModified": "2025-03-08T13:45:00+01:00",
+  "author":{
+    "@type": "Person",
+    "name": "DayDay.Plus"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.dayday.plus/tech/2019-12-25-%E4%BD%BF%E7%94%A8httrack%E5%92%8Cgithub%E8%BF%9B%E8%A1%8C%E7%BD%91%E7%AB%99%E7%A1%AC%E6%A0%B8%E5%A4%87%E4%BB%BD/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "DayDay.Plus",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.dayday.plus/favicon.ico"
+    }
+  }
+}
+</script>
+    <link rel="icon" href="/images/avatar.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/avatar.png">
+
+<link rel="manifest" href="/images/avatar.png">
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/main.min.ec28f09e946fc0df77c187fcd0d0ebde58fca6de8efb8e1620f3d45c32d4da88.css" integrity="sha256-7CjwnpRvwN93wYf80NDr3lj8pt6O&#43;44WIPPUXDLU2og=" crossorigin="anonymous" media="screen" />
+    
+
+
+    
+    <link rel="stylesheet" href="/scss/highlight/github-dark.min.min.66034289ee9a113219a2c4aae0a8bd2095ab255c832a42efcf5863f10814e7a1.css" />
+
+    
+    <script src="/js/highlight.min.min.c607d6febd16934a82eb61d3a896ed9d869f54373cc63ce95864ed5488fe3128.js"></script>
+    <script>hljs.highlightAll();</script>
+
+    </head>
+<body>
+      <main class="wrapper">
+<nav class="navigation">
+    <section class="container">
+        <a class="navigation-brand" href="/">
+            &gt;&gt; 主页  
+        </a>
+        <input type="checkbox" id="menu-toggle" />
+        <label class="menu-button float-right" for="menu-toggle">
+            <span></span><span></span><span></span>
+        </label>
+        
+        <ul class="navigation-list" id="navigation-list">
+            
+            
+            <li class="navigation-item navigation-menu">
+                <a class="navigation-link" href="/writings/">写作</a>
+            </li>
+            
+            <li class="navigation-item navigation-menu">
+                <a class="navigation-link" href="/blog/">博客</a>
+            </li>
+            
+            <li class="navigation-item navigation-menu">
+                <a class="navigation-link" href="/tech/">技术</a>
+            </li>
+            
+            <li class="navigation-item navigation-menu">
+                <a class="navigation-link" href="/archives/">归档</a>
+            </li>
+            
+            <li class="navigation-item navigation-menu">
+                <a class="navigation-link" href="/pages/">页面</a>
+            </li>
+            
+            
+
+            <li class="navigation-item menu-separator">
+                <span>|</span>
+            </li>
+    
+            
+    
+            
+        </ul>
+        
+
+  <style>
+img {
+    width: 72%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 20px;
+}
+
+
+
+	</style>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+       
+        
+        
+        
+        
+        
+        
+    </section>
+</nav>
+<div id="content">
+<article class="blog-single">
+  <header class="blog-title">
+    <h1>使用HTTrack和Github进行网站“硬核备份”</h1>
+  </header>
+
+  <p>
+  <small>
+    December 25, 2019&nbsp;· 647 words&nbsp;· 2 min</small>
+
+  
+<p>
+
+  <div class="blog-toc">
+    <nav id="TableOfContents"></nav>
+  </div>
+
+  <section class="blog-content"><h1 id="使用httrack和github进行网站硬核备份">使用HTTrack和Github进行网站“硬核备份”</h1>
+<p>网站备份有多种方式，常见的如使用WordPress插件备份[1]或者在主机中自行打包数据库备份[2]等。但有没有一种能够快速、又能保持原貌的网站备份方式呢？答案是肯定的。最近我发现了一种“硬核”的备份方式：配合使用网站下载工具HTTrack和Github，可以将网站完整的下载至本地硬盘或者上传到安全的网络空间上。<!-- raw HTML omitted --></p>
+<p>首先，这是我的网站原始地址：<!-- raw HTML omitted --><!-- raw HTML omitted -->原网页<!-- raw HTML omitted --><!-- raw HTML omitted --> ，这是我的网站备份地址：<!-- raw HTML omitted --><!-- raw HTML omitted -->备份地址<!-- raw HTML omitted --><!-- raw HTML omitted --> 。可见这种网站备份方式完整保留了网站的外观、评论、插件、外部链接等。<!-- raw HTML omitted --></p>
+<p>1  <!-- raw HTML omitted -->下载并安装HTTrack<!-- raw HTML omitted --> (<!-- raw HTML omitted -->下载地址<!-- raw HTML omitted -->)<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>3 <!-- raw HTML omitted -->上传至Github。<!-- raw HTML omitted -->使用Github Desktop软件将HTTrack下载的网站文件夹完整的上传至一个新的repository，并将这个repository命名为your-github-username.github.io的形式。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>4 <!-- raw HTML omitted -->开启Github Pages。<!-- raw HTML omitted -->进入repository的设置页面，确认该仓库为&quot;Public&quot;，然后打开Github Pages，这样就可以在网站上浏览自己的备份网站了。<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p>我为什么喜欢这种备份方式呢？最重要的原因是可以完整的保留网站的原貌。我的网站所有图片都是免费托放在外部的图床上的，主机也没有使用的可靠的大企业的主机（如阿里云、微软github等），这让我一直很没有安全感。通过这种方式将网站完整的保存在本地，并上传到Github上，即便未来某天图床或者主机商挂掉，我依然可以将自己的网站完美的展示出来。<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</section>
+
+  
+  
+
+  
+
+
+</article>
+
+        </div><footer class="footer">
+  <p>&copy; 2025 <a href="https://www.dayday.plus/">DayDay.Plus</a>
+    Powered by
+    <a href="https://gohugo.io/" rel="noopener" target="_blank">Hugo️️</a>
+    <a href="https://github.com/guangzhengli/hugo-theme-ladder" rel="noopener" target="_blank">Ladder</a>
+️  </p>
+</footer>
+
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10.5376 22.7916C11.0152 22.7207 22.5795 21.1781 22.0978 10.4211C22.0536 9.43274 21.9303 8.53367 21.7387 7.71865M10.5376 22.7916C16.876 22.3728 20.0969 19.8899 21.5383 16.9142M10.5376 22.7916C9.7707 22.9055 8.97982 22.8964 8.19743 22.7725M21.7387 7.71865C21.4988 6.69828 21.1518 5.80967 20.7188 5.04257M21.7387 7.71865C22.6022 10.1105 23.0542 13.7848 21.5383 16.9142M20.7188 5.04257C17.1684 -1.24629 7.83127 0.632493 4.27577 5.04257C2.88063 6.77451 -0.0433281 11.1668 1.38159 16.6571C2.27481 20.0988 5.17269 22.2936 8.19743 22.7725M20.7188 5.04257C22.0697 6.9404 24.0299 11.3848 22.3541 15.4153M21.5383 16.9142C21.8737 16.4251 22.1428 15.9235 22.3541 15.4153M8.19743 22.7725C12.1971 23.4683 20.6281 22.971 22.3541 15.4153M14 10.945C13.3836 10.289 12.003 8.63215 11.2034 7.04814C11.1703 6.98257 11.0247 6.98456 10.9937 7.05061C10.5221 8.05496 9.07362 9.92941 8 10.945M11.0333 7.44444C10.9392 9.86549 11 15 12 17" stroke="currentColor" stroke-linecap="round"/>
+    </svg>
+</a>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'Copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'Copied';
+            setTimeout(() => {
+                copybutton.innerHTML = 'Copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+        codeblock.parentNode.appendChild(copybutton);
+    });
+</script></main>
+    </body><script src="/main.min.cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e.js" integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP&#43;DGNKHfuwvY7kxvUdBeoGlODJ6&#43;SfaPg==" crossorigin="anonymous" defer></script></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用HTTrack和Github进行网站“硬核备份”</title>
+    
+</head>
+<body>
+    
+</body>
+</html>
